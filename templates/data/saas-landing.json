@@ -1,0 +1,3365 @@
+{
+  "id": "tmpl_saas_landing",
+  "slug": "saas-landing",
+  "name": "Apex SaaS",
+  "category": "SaaS",
+  "description": "High-converting modern landing page for software products, developer tools, and cloud services with feature showcase and pricing tiers.",
+  "tags": [
+    "saas",
+    "software",
+    "startup",
+    "dark-mode",
+    "pricing"
+  ],
+  "preview": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+  "pageCount": 2,
+  "style": "modern-tech",
+  "document": {
+    "schemaVersion": 1,
+    "site": {
+      "name": "Apex Cloud",
+      "defaultLocale": "en",
+      "locales": [
+        "en"
+      ]
+    },
+    "breakpoints": [
+      {
+        "id": "desktop",
+        "name": "Desktop",
+        "minWidth": 1024,
+        "isBase": true
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "maxWidth": 1023,
+        "minWidth": 768
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "maxWidth": 767
+      }
+    ],
+    "tokens": {
+      "colors": {
+        "color.primary": "#2563eb",
+        "color.primaryForeground": "#ffffff",
+        "color.secondary": "#1e293b",
+        "color.secondaryForeground": "#f8fafc",
+        "color.accent": "#38bdf8",
+        "color.accentForeground": "#0f172a",
+        "color.background": "#0b0f19",
+        "color.surface": "#111827",
+        "color.text": "#f9fafb",
+        "color.textMuted": "#9ca3af",
+        "color.border": "#1f2937"
+      },
+      "fonts": {
+        "heading": "Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, sans-serif",
+        "mono": "ui-monospace, monospace"
+      },
+      "spacing": {
+        "space.0": "0px",
+        "space.1": "4px",
+        "space.2": "8px",
+        "space.3": "12px",
+        "space.4": "16px",
+        "space.6": "24px",
+        "space.8": "32px",
+        "space.12": "48px",
+        "space.16": "64px",
+        "space.24": "96px"
+      },
+      "radius": {
+        "radius.none": "0px",
+        "radius.sm": "4px",
+        "radius.md": "8px",
+        "radius.lg": "16px",
+        "radius.full": "9999px"
+      },
+      "shadows": {
+        "shadow.sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "shadow.md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "shadow.lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      }
+    },
+    "pages": {
+      "saas_pg_GAKKixPD": {
+        "id": "saas_pg_GAKKixPD",
+        "name": "Home",
+        "slug": "/",
+        "rootId": "saas_body_zCOMisG1",
+        "seo": {
+          "title": "Apex Cloud — High-Performance Cloud Infrastructure",
+          "description": "Scale distributed microservices and databases worldwide with zero friction."
+        },
+        "status": "published"
+      },
+      "saas_pg_Hw8vxTbC": {
+        "id": "saas_pg_Hw8vxTbC",
+        "name": "Pricing",
+        "slug": "/pricing",
+        "rootId": "saas_body_PNFkyXEJ",
+        "seo": {
+          "title": "Pricing Plans — Apex Cloud",
+          "description": "Transparent pricing designed to scale from early-stage prototype to global enterprise."
+        },
+        "status": "published"
+      }
+    },
+    "elements": {
+      "saas_body_zCOMisG1": {
+        "id": "saas_body_zCOMisG1",
+        "type": "Body",
+        "name": "Home Page Body",
+        "parentId": null,
+        "children": [
+          "saas_navbar_wfJdraT6",
+          "saas_section_b-OlEE0M",
+          "saas_section_085cFBYc",
+          "saas_section_9jcEFNlh"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_g7SZdSFD"
+        ],
+        "origin": "template"
+      },
+      "saas_navbar_wfJdraT6": {
+        "id": "saas_navbar_wfJdraT6",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "saas_body_zCOMisG1",
+        "children": [
+          "saas_box_6fxqlI0_",
+          "saas_box_5zml6_Ke",
+          "saas_button_CguC5iIC"
+        ],
+        "props": {
+          "brandText": "Apex Cloud"
+        },
+        "styleIds": [
+          "saas_st_utgtn5Fp"
+        ],
+        "origin": "template"
+      },
+      "saas_box_6fxqlI0_": {
+        "id": "saas_box_6fxqlI0_",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "saas_navbar_wfJdraT6",
+        "children": [
+          "saas_heading_iqzENk1m"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_B2AN3G9q"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_iqzENk1m": {
+        "id": "saas_heading_iqzENk1m",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "saas_box_6fxqlI0_",
+        "children": [],
+        "props": {
+          "text": "Apex Cloud",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_pcMO468z"
+        ],
+        "origin": "template"
+      },
+      "saas_box_5zml6_Ke": {
+        "id": "saas_box_5zml6_Ke",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "saas_navbar_wfJdraT6",
+        "children": [
+          "saas_link_quH-3HpI",
+          "saas_link_11rIEHm4",
+          "saas_link_puI4zYRL"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st__HRMbs8f"
+        ],
+        "origin": "template"
+      },
+      "saas_link_quH-3HpI": {
+        "id": "saas_link_quH-3HpI",
+        "type": "Link",
+        "name": "Features",
+        "parentId": "saas_box_5zml6_Ke",
+        "children": [],
+        "props": {
+          "text": "Features",
+          "href": "/#features"
+        },
+        "styleIds": [
+          "saas_st_rps_uKp9"
+        ],
+        "origin": "template"
+      },
+      "saas_link_11rIEHm4": {
+        "id": "saas_link_11rIEHm4",
+        "type": "Link",
+        "name": "Pricing",
+        "parentId": "saas_box_5zml6_Ke",
+        "children": [],
+        "props": {
+          "text": "Pricing",
+          "href": "/pricing"
+        },
+        "styleIds": [
+          "saas_st_CCpd16_z"
+        ],
+        "origin": "template"
+      },
+      "saas_link_puI4zYRL": {
+        "id": "saas_link_puI4zYRL",
+        "type": "Link",
+        "name": "About",
+        "parentId": "saas_box_5zml6_Ke",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/#about"
+        },
+        "styleIds": [
+          "saas_st_UzS3cI6E"
+        ],
+        "origin": "template"
+      },
+      "saas_button_CguC5iIC": {
+        "id": "saas_button_CguC5iIC",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "saas_navbar_wfJdraT6",
+        "children": [],
+        "props": {
+          "text": "Start Free",
+          "href": "/pricing",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "saas_st_vKCfZx5s"
+        ],
+        "origin": "template"
+      },
+      "saas_section_b-OlEE0M": {
+        "id": "saas_section_b-OlEE0M",
+        "type": "Section",
+        "name": "Hero Section",
+        "parentId": "saas_body_zCOMisG1",
+        "children": [
+          "saas_container_yXaeYXru"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_cw6SUECK"
+        ],
+        "origin": "template"
+      },
+      "saas_container_yXaeYXru": {
+        "id": "saas_container_yXaeYXru",
+        "type": "Container",
+        "name": "Hero Container",
+        "parentId": "saas_section_b-OlEE0M",
+        "children": [
+          "saas_text_RkQE6GKv",
+          "saas_heading_vD7Wxokv",
+          "saas_text_TtIPy6_C",
+          "saas_box_bPmRZ10t",
+          "saas_image_EU3x5JgW"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_SbeJygIC"
+        ],
+        "origin": "template"
+      },
+      "saas_text_RkQE6GKv": {
+        "id": "saas_text_RkQE6GKv",
+        "type": "Text",
+        "name": "Release Badge",
+        "parentId": "saas_container_yXaeYXru",
+        "children": [],
+        "props": {
+          "text": "⚡ Next-Gen Cloud Platform — Version 2.4 Released"
+        },
+        "styleIds": [
+          "saas_st_VZK56y0m"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_vD7Wxokv": {
+        "id": "saas_heading_vD7Wxokv",
+        "type": "Heading",
+        "name": "Hero Headline",
+        "parentId": "saas_container_yXaeYXru",
+        "children": [],
+        "props": {
+          "text": "Scale your cloud infrastructure with zero friction",
+          "level": 1
+        },
+        "styleIds": [
+          "saas_st_R-e-9ZsP"
+        ],
+        "origin": "template"
+      },
+      "saas_text_TtIPy6_C": {
+        "id": "saas_text_TtIPy6_C",
+        "type": "Text",
+        "name": "Hero Subhead",
+        "parentId": "saas_container_yXaeYXru",
+        "children": [],
+        "props": {
+          "text": "Deploy globally distributed microservices, serverless databases, and background workers in seconds. Built for modern engineering teams who demand extreme speed and uptime."
+        },
+        "styleIds": [
+          "saas_st_moO_xdOT"
+        ],
+        "origin": "template"
+      },
+      "saas_box_bPmRZ10t": {
+        "id": "saas_box_bPmRZ10t",
+        "type": "Box",
+        "name": "Hero Buttons",
+        "parentId": "saas_container_yXaeYXru",
+        "children": [
+          "saas_button_B0J7KS1t",
+          "saas_button_hVREncHm"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_nQ62vwBT"
+        ],
+        "origin": "template"
+      },
+      "saas_button_B0J7KS1t": {
+        "id": "saas_button_B0J7KS1t",
+        "type": "Button",
+        "name": "Primary CTA",
+        "parentId": "saas_box_bPmRZ10t",
+        "children": [],
+        "props": {
+          "text": "Start 14-Day Free Trial",
+          "href": "/pricing",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "saas_st_VPjKINoD"
+        ],
+        "origin": "template"
+      },
+      "saas_button_hVREncHm": {
+        "id": "saas_button_hVREncHm",
+        "type": "Button",
+        "name": "Secondary CTA",
+        "parentId": "saas_box_bPmRZ10t",
+        "children": [],
+        "props": {
+          "text": "Explore Architecture",
+          "href": "/#features",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "saas_st_ZpHUxXpW"
+        ],
+        "origin": "template"
+      },
+      "saas_image_EU3x5JgW": {
+        "id": "saas_image_EU3x5JgW",
+        "type": "Image",
+        "name": "Dashboard Preview",
+        "parentId": "saas_container_yXaeYXru",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Apex Cloud analytics dashboard showing real-time latency and resource distribution"
+        },
+        "styleIds": [
+          "saas_st_SrHcF-aR"
+        ],
+        "origin": "template"
+      },
+      "saas_section_085cFBYc": {
+        "id": "saas_section_085cFBYc",
+        "type": "Section",
+        "name": "Features Section",
+        "parentId": "saas_body_zCOMisG1",
+        "children": [
+          "saas_container_u-WcLf3T"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_aj11TZu0"
+        ],
+        "origin": "template"
+      },
+      "saas_container_u-WcLf3T": {
+        "id": "saas_container_u-WcLf3T",
+        "type": "Container",
+        "name": "Features Container",
+        "parentId": "saas_section_085cFBYc",
+        "children": [
+          "saas_heading_1qsSYEJy",
+          "saas_box_ex1pWgOV"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_GPOeENvA"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_1qsSYEJy": {
+        "id": "saas_heading_1qsSYEJy",
+        "type": "Heading",
+        "name": "Features Title",
+        "parentId": "saas_container_u-WcLf3T",
+        "children": [],
+        "props": {
+          "text": "Engineered for speed, built for reliability",
+          "level": 2
+        },
+        "styleIds": [
+          "saas_st_B_6FI5op"
+        ],
+        "origin": "template"
+      },
+      "saas_box_ex1pWgOV": {
+        "id": "saas_box_ex1pWgOV",
+        "type": "Box",
+        "name": "Feature Cards Grid",
+        "parentId": "saas_container_u-WcLf3T",
+        "children": [
+          "saas_box_IDDwzAL1",
+          "saas_box_GRnCtmCx",
+          "saas_box_miTfg8tw"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_YLY3NG_4"
+        ],
+        "origin": "template"
+      },
+      "saas_box_IDDwzAL1": {
+        "id": "saas_box_IDDwzAL1",
+        "type": "Box",
+        "name": "Feature Card",
+        "parentId": "saas_box_ex1pWgOV",
+        "children": [
+          "saas_heading_ouppk88N",
+          "saas_text_M92-c2jF"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_jfBaEEqD"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_ouppk88N": {
+        "id": "saas_heading_ouppk88N",
+        "type": "Heading",
+        "name": "Card Title",
+        "parentId": "saas_box_IDDwzAL1",
+        "children": [],
+        "props": {
+          "text": "Sub-millisecond Latency",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_swsDseK7"
+        ],
+        "origin": "template"
+      },
+      "saas_text_M92-c2jF": {
+        "id": "saas_text_M92-c2jF",
+        "type": "Text",
+        "name": "Card Description",
+        "parentId": "saas_box_IDDwzAL1",
+        "children": [],
+        "props": {
+          "text": "Our worldwide edge network routes traffic through 300+ PoPs, caching data directly next to your active end users."
+        },
+        "styleIds": [
+          "saas_st_Uc0WdZF-"
+        ],
+        "origin": "template"
+      },
+      "saas_box_GRnCtmCx": {
+        "id": "saas_box_GRnCtmCx",
+        "type": "Box",
+        "name": "Feature Card",
+        "parentId": "saas_box_ex1pWgOV",
+        "children": [
+          "saas_heading_WuIxd4yS",
+          "saas_text_yPYKCrOz"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_HMjiIqbR"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_WuIxd4yS": {
+        "id": "saas_heading_WuIxd4yS",
+        "type": "Heading",
+        "name": "Card Title",
+        "parentId": "saas_box_GRnCtmCx",
+        "children": [],
+        "props": {
+          "text": "Autonomous Auto-scaling",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_eFBTskfJ"
+        ],
+        "origin": "template"
+      },
+      "saas_text_yPYKCrOz": {
+        "id": "saas_text_yPYKCrOz",
+        "type": "Text",
+        "name": "Card Description",
+        "parentId": "saas_box_GRnCtmCx",
+        "children": [],
+        "props": {
+          "text": "Instant scale from zero to one million concurrent connections without cold starts, manual cluster tuning, or overprovisioning."
+        },
+        "styleIds": [
+          "saas_st_ZAbN3oiX"
+        ],
+        "origin": "template"
+      },
+      "saas_box_miTfg8tw": {
+        "id": "saas_box_miTfg8tw",
+        "type": "Box",
+        "name": "Feature Card",
+        "parentId": "saas_box_ex1pWgOV",
+        "children": [
+          "saas_heading_dMF67Y0d",
+          "saas_text_XW5kjObu"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_CFxiS_kM"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_dMF67Y0d": {
+        "id": "saas_heading_dMF67Y0d",
+        "type": "Heading",
+        "name": "Card Title",
+        "parentId": "saas_box_miTfg8tw",
+        "children": [],
+        "props": {
+          "text": "Zero-Trust Security",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_e9Y8qi0U"
+        ],
+        "origin": "template"
+      },
+      "saas_text_XW5kjObu": {
+        "id": "saas_text_XW5kjObu",
+        "type": "Text",
+        "name": "Card Description",
+        "parentId": "saas_box_miTfg8tw",
+        "children": [],
+        "props": {
+          "text": "End-to-end TLS 1.3 encryption, automatic SSL certificate rotation, granular RBAC, and SOC2 compliant audit logging built in."
+        },
+        "styleIds": [
+          "saas_st_zi_FNQ7B"
+        ],
+        "origin": "template"
+      },
+      "saas_section_9jcEFNlh": {
+        "id": "saas_section_9jcEFNlh",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "saas_body_zCOMisG1",
+        "children": [
+          "saas_container_IpY7v2sX"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_wm2DhqgG"
+        ],
+        "origin": "template"
+      },
+      "saas_container_IpY7v2sX": {
+        "id": "saas_container_IpY7v2sX",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "saas_section_9jcEFNlh",
+        "children": [
+          "saas_box_c124lCEt",
+          "saas_box_YempYl0c"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_qsPHIP-3"
+        ],
+        "origin": "template"
+      },
+      "saas_box_c124lCEt": {
+        "id": "saas_box_c124lCEt",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "saas_container_IpY7v2sX",
+        "children": [
+          "saas_heading_5Tt0_5Sq",
+          "saas_text_B2QMoUQa",
+          "saas_text_kW5d6Wbw"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_JtVJAeHn"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_5Tt0_5Sq": {
+        "id": "saas_heading_5Tt0_5Sq",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "saas_box_c124lCEt",
+        "children": [],
+        "props": {
+          "text": "Apex Cloud",
+          "level": 4
+        },
+        "styleIds": [
+          "saas_st_DpEVmCNG"
+        ],
+        "origin": "template"
+      },
+      "saas_text_B2QMoUQa": {
+        "id": "saas_text_B2QMoUQa",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "saas_box_c124lCEt",
+        "children": [],
+        "props": {
+          "text": "The next-generation developer cloud."
+        },
+        "styleIds": [
+          "saas_st__wBcE1YI"
+        ],
+        "origin": "template"
+      },
+      "saas_text_kW5d6Wbw": {
+        "id": "saas_text_kW5d6Wbw",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "saas_box_c124lCEt",
+        "children": [],
+        "props": {
+          "text": "© 2026 Apex Cloud. All rights reserved."
+        },
+        "styleIds": [
+          "saas_st_3hBDPmCl"
+        ],
+        "origin": "template"
+      },
+      "saas_box_YempYl0c": {
+        "id": "saas_box_YempYl0c",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "saas_container_IpY7v2sX",
+        "children": [
+          "saas_link_OdXC16kW",
+          "saas_link_yOQ8JIeE"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_Hc0EKeXQ"
+        ],
+        "origin": "template"
+      },
+      "saas_link_OdXC16kW": {
+        "id": "saas_link_OdXC16kW",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "saas_box_YempYl0c",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "saas_st_kHm1jljC"
+        ],
+        "origin": "template"
+      },
+      "saas_link_yOQ8JIeE": {
+        "id": "saas_link_yOQ8JIeE",
+        "type": "Link",
+        "name": "Pricing",
+        "parentId": "saas_box_YempYl0c",
+        "children": [],
+        "props": {
+          "text": "Pricing",
+          "href": "/pricing"
+        },
+        "styleIds": [
+          "saas_st_SvAEQ6X3"
+        ],
+        "origin": "template"
+      },
+      "saas_body_PNFkyXEJ": {
+        "id": "saas_body_PNFkyXEJ",
+        "type": "Body",
+        "name": "Pricing Page Body",
+        "parentId": null,
+        "children": [
+          "saas_navbar_P6gNwq7V",
+          "saas_section_deINWFR2",
+          "saas_section_wThuhFzm"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_PZ_N5-qj"
+        ],
+        "origin": "template"
+      },
+      "saas_navbar_P6gNwq7V": {
+        "id": "saas_navbar_P6gNwq7V",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "saas_body_PNFkyXEJ",
+        "children": [
+          "saas_box_0IuoDTLQ",
+          "saas_box_ebjya4VF",
+          "saas_button_CyuxHL3M"
+        ],
+        "props": {
+          "brandText": "Apex Cloud"
+        },
+        "styleIds": [
+          "saas_st_pSJbGNJi"
+        ],
+        "origin": "template"
+      },
+      "saas_box_0IuoDTLQ": {
+        "id": "saas_box_0IuoDTLQ",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "saas_navbar_P6gNwq7V",
+        "children": [
+          "saas_heading_7nUXq_ty"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_atwZ1Zss"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_7nUXq_ty": {
+        "id": "saas_heading_7nUXq_ty",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "saas_box_0IuoDTLQ",
+        "children": [],
+        "props": {
+          "text": "Apex Cloud",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_E1_EMMyr"
+        ],
+        "origin": "template"
+      },
+      "saas_box_ebjya4VF": {
+        "id": "saas_box_ebjya4VF",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "saas_navbar_P6gNwq7V",
+        "children": [
+          "saas_link_2vsZv-1N",
+          "saas_link_35jV3HKV",
+          "saas_link_EiZev4O0"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_eDX84LYQ"
+        ],
+        "origin": "template"
+      },
+      "saas_link_2vsZv-1N": {
+        "id": "saas_link_2vsZv-1N",
+        "type": "Link",
+        "name": "Features",
+        "parentId": "saas_box_ebjya4VF",
+        "children": [],
+        "props": {
+          "text": "Features",
+          "href": "/#features"
+        },
+        "styleIds": [
+          "saas_st_IuCgZ2-G"
+        ],
+        "origin": "template"
+      },
+      "saas_link_35jV3HKV": {
+        "id": "saas_link_35jV3HKV",
+        "type": "Link",
+        "name": "Pricing",
+        "parentId": "saas_box_ebjya4VF",
+        "children": [],
+        "props": {
+          "text": "Pricing",
+          "href": "/pricing"
+        },
+        "styleIds": [
+          "saas_st_dBI8XpFX"
+        ],
+        "origin": "template"
+      },
+      "saas_link_EiZev4O0": {
+        "id": "saas_link_EiZev4O0",
+        "type": "Link",
+        "name": "About",
+        "parentId": "saas_box_ebjya4VF",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/#about"
+        },
+        "styleIds": [
+          "saas_st_UFWS1VW2"
+        ],
+        "origin": "template"
+      },
+      "saas_button_CyuxHL3M": {
+        "id": "saas_button_CyuxHL3M",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "saas_navbar_P6gNwq7V",
+        "children": [],
+        "props": {
+          "text": "Start Free",
+          "href": "/pricing",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "saas_st_Px2g_Rjw"
+        ],
+        "origin": "template"
+      },
+      "saas_section_deINWFR2": {
+        "id": "saas_section_deINWFR2",
+        "type": "Section",
+        "name": "Pricing Section",
+        "parentId": "saas_body_PNFkyXEJ",
+        "children": [
+          "saas_container_VdGiVhy_"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_cBDtoc-G"
+        ],
+        "origin": "template"
+      },
+      "saas_container_VdGiVhy_": {
+        "id": "saas_container_VdGiVhy_",
+        "type": "Container",
+        "name": "Pricing Container",
+        "parentId": "saas_section_deINWFR2",
+        "children": [
+          "saas_heading_V76VTt6A",
+          "saas_text_ntBxqkV0",
+          "saas_box_ngYEmPyH"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_W2U21HON"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_V76VTt6A": {
+        "id": "saas_heading_V76VTt6A",
+        "type": "Heading",
+        "name": "Pricing Header",
+        "parentId": "saas_container_VdGiVhy_",
+        "children": [],
+        "props": {
+          "text": "Simple, predictable pricing",
+          "level": 1
+        },
+        "styleIds": [
+          "saas_st_zep_Ko2A"
+        ],
+        "origin": "template"
+      },
+      "saas_text_ntBxqkV0": {
+        "id": "saas_text_ntBxqkV0",
+        "type": "Text",
+        "name": "Pricing Subhead",
+        "parentId": "saas_container_VdGiVhy_",
+        "children": [],
+        "props": {
+          "text": "No hidden charges or unexpected overages. Upgrade or downgrade at any time."
+        },
+        "styleIds": [
+          "saas_st_WjoXmz5E"
+        ],
+        "origin": "template"
+      },
+      "saas_box_ngYEmPyH": {
+        "id": "saas_box_ngYEmPyH",
+        "type": "Box",
+        "name": "Pricing Tiers Grid",
+        "parentId": "saas_container_VdGiVhy_",
+        "children": [
+          "saas_box_iu9JoWjN",
+          "saas_box_gwJhOEGq",
+          "saas_box_Qny9qJLx"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_SZc1DQUx"
+        ],
+        "origin": "template"
+      },
+      "saas_box_iu9JoWjN": {
+        "id": "saas_box_iu9JoWjN",
+        "type": "Box",
+        "name": "Starter Tier Card",
+        "parentId": "saas_box_ngYEmPyH",
+        "children": [
+          "saas_heading_PsDh4-D9",
+          "saas_heading_Ze6Q-Ivl",
+          "saas_text_ueGJ1Tjj",
+          "saas_button_6OC134HJ"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_p2gCvHbs"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_PsDh4-D9": {
+        "id": "saas_heading_PsDh4-D9",
+        "type": "Heading",
+        "name": "Tier Name",
+        "parentId": "saas_box_iu9JoWjN",
+        "children": [],
+        "props": {
+          "text": "Starter",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st__bBKgbJC"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_Ze6Q-Ivl": {
+        "id": "saas_heading_Ze6Q-Ivl",
+        "type": "Heading",
+        "name": "Tier Price",
+        "parentId": "saas_box_iu9JoWjN",
+        "children": [],
+        "props": {
+          "text": "$29/month",
+          "level": 2
+        },
+        "styleIds": [
+          "saas_st_TQVwnzX4"
+        ],
+        "origin": "template"
+      },
+      "saas_text_ueGJ1Tjj": {
+        "id": "saas_text_ueGJ1Tjj",
+        "type": "Text",
+        "name": "Tier Description",
+        "parentId": "saas_box_iu9JoWjN",
+        "children": [],
+        "props": {
+          "text": "Perfect for indie hackers and side projects launching to their first users."
+        },
+        "styleIds": [
+          "saas_st_VkHsqe_2"
+        ],
+        "origin": "template"
+      },
+      "saas_button_6OC134HJ": {
+        "id": "saas_button_6OC134HJ",
+        "type": "Button",
+        "name": "Tier CTA",
+        "parentId": "saas_box_iu9JoWjN",
+        "children": [],
+        "props": {
+          "text": "Get Started",
+          "href": "/#",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "saas_st_jBxpy_P7"
+        ],
+        "origin": "template"
+      },
+      "saas_box_gwJhOEGq": {
+        "id": "saas_box_gwJhOEGq",
+        "type": "Box",
+        "name": "Pro Tier Card",
+        "parentId": "saas_box_ngYEmPyH",
+        "children": [
+          "saas_heading_WPdBeBZI",
+          "saas_heading_DSv8Pby3",
+          "saas_text_vOdkNBzq",
+          "saas_button_QgNOqv6c"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st__P1N3b8I"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_WPdBeBZI": {
+        "id": "saas_heading_WPdBeBZI",
+        "type": "Heading",
+        "name": "Tier Name",
+        "parentId": "saas_box_gwJhOEGq",
+        "children": [],
+        "props": {
+          "text": "Pro",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_Or5kgXT4"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_DSv8Pby3": {
+        "id": "saas_heading_DSv8Pby3",
+        "type": "Heading",
+        "name": "Tier Price",
+        "parentId": "saas_box_gwJhOEGq",
+        "children": [],
+        "props": {
+          "text": "$99/month",
+          "level": 2
+        },
+        "styleIds": [
+          "saas_st_r92RljEm"
+        ],
+        "origin": "template"
+      },
+      "saas_text_vOdkNBzq": {
+        "id": "saas_text_vOdkNBzq",
+        "type": "Text",
+        "name": "Tier Description",
+        "parentId": "saas_box_gwJhOEGq",
+        "children": [],
+        "props": {
+          "text": "For fast-scaling engineering teams needing high limits and 99.99% uptime."
+        },
+        "styleIds": [
+          "saas_st_8cSVhx1H"
+        ],
+        "origin": "template"
+      },
+      "saas_button_QgNOqv6c": {
+        "id": "saas_button_QgNOqv6c",
+        "type": "Button",
+        "name": "Tier CTA",
+        "parentId": "saas_box_gwJhOEGq",
+        "children": [],
+        "props": {
+          "text": "Start 14-Day Pro Trial",
+          "href": "/#",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "saas_st_UIjU18tf"
+        ],
+        "origin": "template"
+      },
+      "saas_box_Qny9qJLx": {
+        "id": "saas_box_Qny9qJLx",
+        "type": "Box",
+        "name": "Enterprise Tier Card",
+        "parentId": "saas_box_ngYEmPyH",
+        "children": [
+          "saas_heading_-KUKOS8I",
+          "saas_heading_nZwFZeh2",
+          "saas_text_RhfBc9I7",
+          "saas_button_iCGjVqdi"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_-SsgF89t"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_-KUKOS8I": {
+        "id": "saas_heading_-KUKOS8I",
+        "type": "Heading",
+        "name": "Tier Name",
+        "parentId": "saas_box_Qny9qJLx",
+        "children": [],
+        "props": {
+          "text": "Enterprise",
+          "level": 3
+        },
+        "styleIds": [
+          "saas_st_Lci-WfqP"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_nZwFZeh2": {
+        "id": "saas_heading_nZwFZeh2",
+        "type": "Heading",
+        "name": "Tier Price",
+        "parentId": "saas_box_Qny9qJLx",
+        "children": [],
+        "props": {
+          "text": "Custom/month",
+          "level": 2
+        },
+        "styleIds": [
+          "saas_st_YHU0-aEM"
+        ],
+        "origin": "template"
+      },
+      "saas_text_RhfBc9I7": {
+        "id": "saas_text_RhfBc9I7",
+        "type": "Text",
+        "name": "Tier Description",
+        "parentId": "saas_box_Qny9qJLx",
+        "children": [],
+        "props": {
+          "text": "Dedicated isolation, custom SLAs, VPC peering, and 24/7 priority support."
+        },
+        "styleIds": [
+          "saas_st_tXsVkWt6"
+        ],
+        "origin": "template"
+      },
+      "saas_button_iCGjVqdi": {
+        "id": "saas_button_iCGjVqdi",
+        "type": "Button",
+        "name": "Tier CTA",
+        "parentId": "saas_box_Qny9qJLx",
+        "children": [],
+        "props": {
+          "text": "Contact Sales",
+          "href": "/#",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "saas_st_rMbMnz0u"
+        ],
+        "origin": "template"
+      },
+      "saas_section_wThuhFzm": {
+        "id": "saas_section_wThuhFzm",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "saas_body_PNFkyXEJ",
+        "children": [
+          "saas_container_P9Bcf1nM"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_hypFUcvP"
+        ],
+        "origin": "template"
+      },
+      "saas_container_P9Bcf1nM": {
+        "id": "saas_container_P9Bcf1nM",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "saas_section_wThuhFzm",
+        "children": [
+          "saas_box_xOkbKghv",
+          "saas_box_xyF3BLu1"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_F87xODKn"
+        ],
+        "origin": "template"
+      },
+      "saas_box_xOkbKghv": {
+        "id": "saas_box_xOkbKghv",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "saas_container_P9Bcf1nM",
+        "children": [
+          "saas_heading_QR8Ih_Rt",
+          "saas_text_9zGYwxPC",
+          "saas_text_FEUP3xF8"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_loweQfOd"
+        ],
+        "origin": "template"
+      },
+      "saas_heading_QR8Ih_Rt": {
+        "id": "saas_heading_QR8Ih_Rt",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "saas_box_xOkbKghv",
+        "children": [],
+        "props": {
+          "text": "Apex Cloud",
+          "level": 4
+        },
+        "styleIds": [
+          "saas_st_ZkyNOIQD"
+        ],
+        "origin": "template"
+      },
+      "saas_text_9zGYwxPC": {
+        "id": "saas_text_9zGYwxPC",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "saas_box_xOkbKghv",
+        "children": [],
+        "props": {
+          "text": "The next-generation developer cloud."
+        },
+        "styleIds": [
+          "saas_st_5DpsJ0Q1"
+        ],
+        "origin": "template"
+      },
+      "saas_text_FEUP3xF8": {
+        "id": "saas_text_FEUP3xF8",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "saas_box_xOkbKghv",
+        "children": [],
+        "props": {
+          "text": "© 2026 Apex Cloud. All rights reserved."
+        },
+        "styleIds": [
+          "saas_st_XMCoa38L"
+        ],
+        "origin": "template"
+      },
+      "saas_box_xyF3BLu1": {
+        "id": "saas_box_xyF3BLu1",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "saas_container_P9Bcf1nM",
+        "children": [
+          "saas_link_2A-RxtjU",
+          "saas_link_C0I_8-ei"
+        ],
+        "props": {},
+        "styleIds": [
+          "saas_st_ezITs02Y"
+        ],
+        "origin": "template"
+      },
+      "saas_link_2A-RxtjU": {
+        "id": "saas_link_2A-RxtjU",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "saas_box_xyF3BLu1",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "saas_st_sjgaHLY8"
+        ],
+        "origin": "template"
+      },
+      "saas_link_C0I_8-ei": {
+        "id": "saas_link_C0I_8-ei",
+        "type": "Link",
+        "name": "Pricing",
+        "parentId": "saas_box_xyF3BLu1",
+        "children": [],
+        "props": {
+          "text": "Pricing",
+          "href": "/pricing"
+        },
+        "styleIds": [
+          "saas_st_4eNq-Gri"
+        ],
+        "origin": "template"
+      }
+    },
+    "styles": {
+      "saas_st_g7SZdSFD": {
+        "id": "saas_st_g7SZdSFD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_utgtn5Fp": {
+        "id": "saas_st_utgtn5Fp",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_B2AN3G9q": {
+        "id": "saas_st_B2AN3G9q",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "saas_st_pcMO468z": {
+        "id": "saas_st_pcMO468z",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st__HRMbs8f": {
+        "id": "saas_st__HRMbs8f",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_rps_uKp9": {
+        "id": "saas_st_rps_uKp9",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_CCpd16_z": {
+        "id": "saas_st_CCpd16_z",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_UzS3cI6E": {
+        "id": "saas_st_UzS3cI6E",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_vKCfZx5s": {
+        "id": "saas_st_vKCfZx5s",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_cw6SUECK": {
+        "id": "saas_st_cw6SUECK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 96
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "textAlign": {
+                "keyword": "center"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_SbeJygIC": {
+        "id": "saas_st_SbeJygIC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 896
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_VZK56y0m": {
+        "id": "saas_st_VZK56y0m",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 13
+              },
+              "color": {
+                "token": "color.accent"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderRadius": {
+                "token": "radius.full"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 6
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 6
+              }
+            }
+          }
+        }
+      },
+      "saas_st_R-e-9ZsP": {
+        "id": "saas_st_R-e-9ZsP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 56
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "lineHeight": {
+                "keyword": "tight"
+              },
+              "color": {
+                "token": "color.text"
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              }
+            }
+          }
+        }
+      },
+      "saas_st_moO_xdOT": {
+        "id": "saas_st_moO_xdOT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "maxWidth": {
+                "unit": "px",
+                "value": 680
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_nQ62vwBT": {
+        "id": "saas_st_nQ62vwBT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              },
+              "justifyContent": {
+                "keyword": "center"
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "saas_st_VPjKINoD": {
+        "id": "saas_st_VPjKINoD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st_ZpHUxXpW": {
+        "id": "saas_st_ZpHUxXpW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st_SrHcF-aR": {
+        "id": "saas_st_SrHcF-aR",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1000
+              },
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          }
+        }
+      },
+      "saas_st_aj11TZu0": {
+        "id": "saas_st_aj11TZu0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_GPOeENvA": {
+        "id": "saas_st_GPOeENvA",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_B_6FI5op": {
+        "id": "saas_st_B_6FI5op",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "saas_st_YLY3NG_4": {
+        "id": "saas_st_YLY3NG_4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(3, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_jfBaEEqD": {
+        "id": "saas_st_jfBaEEqD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 32
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_swsDseK7": {
+        "id": "saas_st_swsDseK7",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "saas_st_Uc0WdZF-": {
+        "id": "saas_st_Uc0WdZF-",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 15
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_HMjiIqbR": {
+        "id": "saas_st_HMjiIqbR",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 32
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_eFBTskfJ": {
+        "id": "saas_st_eFBTskfJ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "saas_st_ZAbN3oiX": {
+        "id": "saas_st_ZAbN3oiX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 15
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_CFxiS_kM": {
+        "id": "saas_st_CFxiS_kM",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 32
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_e9Y8qi0U": {
+        "id": "saas_st_e9Y8qi0U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "saas_st_zi_FNQ7B": {
+        "id": "saas_st_zi_FNQ7B",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 15
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_wm2DhqgG": {
+        "id": "saas_st_wm2DhqgG",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_qsPHIP-3": {
+        "id": "saas_st_qsPHIP-3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_JtVJAeHn": {
+        "id": "saas_st_JtVJAeHn",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "saas_st_DpEVmCNG": {
+        "id": "saas_st_DpEVmCNG",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st__wBcE1YI": {
+        "id": "saas_st__wBcE1YI",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_3hBDPmCl": {
+        "id": "saas_st_3hBDPmCl",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_Hc0EKeXQ": {
+        "id": "saas_st_Hc0EKeXQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_kHm1jljC": {
+        "id": "saas_st_kHm1jljC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_SvAEQ6X3": {
+        "id": "saas_st_SvAEQ6X3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_PZ_N5-qj": {
+        "id": "saas_st_PZ_N5-qj",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_pSJbGNJi": {
+        "id": "saas_st_pSJbGNJi",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_atwZ1Zss": {
+        "id": "saas_st_atwZ1Zss",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "saas_st_E1_EMMyr": {
+        "id": "saas_st_E1_EMMyr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_eDX84LYQ": {
+        "id": "saas_st_eDX84LYQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_IuCgZ2-G": {
+        "id": "saas_st_IuCgZ2-G",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_dBI8XpFX": {
+        "id": "saas_st_dBI8XpFX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_UFWS1VW2": {
+        "id": "saas_st_UFWS1VW2",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_Px2g_Rjw": {
+        "id": "saas_st_Px2g_Rjw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_cBDtoc-G": {
+        "id": "saas_st_cBDtoc-G",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_W2U21HON": {
+        "id": "saas_st_W2U21HON",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1100
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "textAlign": {
+                "keyword": "center"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_zep_Ko2A": {
+        "id": "saas_st_zep_Ko2A",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 48
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st_WjoXmz5E": {
+        "id": "saas_st_WjoXmz5E",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 56
+              }
+            }
+          }
+        }
+      },
+      "saas_st_SZc1DQUx": {
+        "id": "saas_st_SZc1DQUx",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(3, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 32
+              },
+              "textAlign": {
+                "keyword": "left"
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_p2gCvHbs": {
+        "id": "saas_st_p2gCvHbs",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 36
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st__bBKgbJC": {
+        "id": "saas_st__bBKgbJC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 22
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_TQVwnzX4": {
+        "id": "saas_st_TQVwnzX4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 32
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_VkHsqe_2": {
+        "id": "saas_st_VkHsqe_2",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_jBxpy_P7": {
+        "id": "saas_st_jBxpy_P7",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginTop": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "saas_st__P1N3b8I": {
+        "id": "saas_st__P1N3b8I",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 36
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 2
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.primary"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st_Or5kgXT4": {
+        "id": "saas_st_Or5kgXT4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 22
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_r92RljEm": {
+        "id": "saas_st_r92RljEm",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 32
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_8cSVhx1H": {
+        "id": "saas_st_8cSVhx1H",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_UIjU18tf": {
+        "id": "saas_st_UIjU18tf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginTop": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_-SsgF89t": {
+        "id": "saas_st_-SsgF89t",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 36
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "saas_st_Lci-WfqP": {
+        "id": "saas_st_Lci-WfqP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 22
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_YHU0-aEM": {
+        "id": "saas_st_YHU0-aEM",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 32
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_tXsVkWt6": {
+        "id": "saas_st_tXsVkWt6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_rMbMnz0u": {
+        "id": "saas_st_rMbMnz0u",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginTop": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_hypFUcvP": {
+        "id": "saas_st_hypFUcvP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_F87xODKn": {
+        "id": "saas_st_F87xODKn",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_loweQfOd": {
+        "id": "saas_st_loweQfOd",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "saas_st_ZkyNOIQD": {
+        "id": "saas_st_ZkyNOIQD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_5DpsJ0Q1": {
+        "id": "saas_st_5DpsJ0Q1",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_XMCoa38L": {
+        "id": "saas_st_XMCoa38L",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_ezITs02Y": {
+        "id": "saas_st_ezITs02Y",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "saas_st_sjgaHLY8": {
+        "id": "saas_st_sjgaHLY8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "saas_st_4eNq-Gri": {
+        "id": "saas_st_4eNq-Gri",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {},
+    "assets": {}
+  }
+}

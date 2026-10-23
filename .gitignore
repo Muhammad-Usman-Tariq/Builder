@@ -1,0 +1,72 @@
+# Secrets and environment
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+**/credentials*.json
+claude_desktop_config.json
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output and caches
+.next/
+dist/
+build/
+out/
+.turbo/
+.vercel/
+apps/desktop/out/
+apps/desktop/release/
+*.tsbuildinfo
+.cache/
+.eslintcache
+.nyc_output/
+
+# Testing output and testing documents
+coverage/
+playwright-report/
+test-results/
+blob-report/
+**/__screenshots__/
+**/*.snap.png
+docs/internal/
+PROGRESS.md
+docs/VERIFICATION.md
+**/*-report.md
+**/*-dryrun*.md
+
+# Local data, dumps and uploads
+storage-data/
+uploads/
+*.dump
+*.sql.gz
+*.backup
+*.sqlite
+*.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor, OS and agent files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.antigravity/
+.gemini/

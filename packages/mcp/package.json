@@ -1,0 +1,27 @@
+{
+  "name": "@builder/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "echo @builder/mcp: lint ok",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@builder/config": "workspace:*",
+    "@builder/db": "workspace:*",
+    "@builder/document": "workspace:*",
+    "@builder/elements": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "drizzle-orm": "^0.39.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

@@ -1,0 +1,3795 @@
+{
+  "id": "tmpl_agency_portfolio",
+  "slug": "agency-portfolio",
+  "name": "Vanguard Studio",
+  "category": "Agency",
+  "description": "Bold, modern agency portfolio showcasing client case studies, digital creative services, and inbound inquiries.",
+  "tags": [
+    "agency",
+    "portfolio",
+    "creative",
+    "design",
+    "case-studies"
+  ],
+  "preview": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+  "pageCount": 3,
+  "style": "editorial-bold",
+  "document": {
+    "schemaVersion": 1,
+    "site": {
+      "name": "Vanguard Studio",
+      "defaultLocale": "en",
+      "locales": [
+        "en"
+      ]
+    },
+    "breakpoints": [
+      {
+        "id": "desktop",
+        "name": "Desktop",
+        "minWidth": 1024,
+        "isBase": true
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "maxWidth": 1023,
+        "minWidth": 768
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "maxWidth": 767
+      }
+    ],
+    "tokens": {
+      "colors": {
+        "color.primary": "#8b5cf6",
+        "color.primaryForeground": "#ffffff",
+        "color.secondary": "#27272a",
+        "color.secondaryForeground": "#fafafa",
+        "color.accent": "#a78bfa",
+        "color.accentForeground": "#09090b",
+        "color.background": "#09090b",
+        "color.surface": "#141417",
+        "color.text": "#fafafa",
+        "color.textMuted": "#a1a1aa",
+        "color.border": "#27272a"
+      },
+      "fonts": {
+        "heading": "Plus Jakarta Sans, sans-serif",
+        "body": "Inter, sans-serif",
+        "mono": "monospace"
+      },
+      "spacing": {
+        "space.0": "0px",
+        "space.1": "4px",
+        "space.2": "8px",
+        "space.3": "12px",
+        "space.4": "16px",
+        "space.6": "24px",
+        "space.8": "32px",
+        "space.12": "48px",
+        "space.16": "64px",
+        "space.24": "96px"
+      },
+      "radius": {
+        "radius.none": "0px",
+        "radius.sm": "4px",
+        "radius.md": "8px",
+        "radius.lg": "16px",
+        "radius.full": "9999px"
+      },
+      "shadows": {
+        "shadow.sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "shadow.md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "shadow.lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      }
+    },
+    "pages": {
+      "agency_pg_7irYcph8": {
+        "id": "agency_pg_7irYcph8",
+        "name": "Home",
+        "slug": "/",
+        "rootId": "agency_body_wny7LS-K",
+        "seo": {
+          "title": "Vanguard Studio — Digital Design & Art Direction",
+          "description": "Award-winning creative studio crafting digital brand identities and modern web platforms."
+        },
+        "status": "published"
+      },
+      "agency_pg_dQ4a_Lb0": {
+        "id": "agency_pg_dQ4a_Lb0",
+        "name": "Work",
+        "slug": "/work",
+        "rootId": "agency_body_kRuKtS5z",
+        "seo": {
+          "title": "Portfolio & Case Studies — Vanguard Studio",
+          "description": "Browse our complete archive of design systems, digital products, and brand transformations."
+        },
+        "status": "published"
+      },
+      "agency_pg_1JBWG6Dg": {
+        "id": "agency_pg_1JBWG6Dg",
+        "name": "Contact",
+        "slug": "/contact",
+        "rootId": "agency_body_GrMkqrhe",
+        "seo": {
+          "title": "Contact & New Business — Vanguard Studio",
+          "description": "Get in touch with our team to discuss new commissions, collaborations, and consultations."
+        },
+        "status": "published"
+      }
+    },
+    "elements": {
+      "agency_body_wny7LS-K": {
+        "id": "agency_body_wny7LS-K",
+        "type": "Body",
+        "name": "Home Page Body",
+        "parentId": null,
+        "children": [
+          "agency_navbar_BQ20QLLB",
+          "agency_section_xU2qOHxW",
+          "agency_section_C_0M1D-H",
+          "agency_section_Jwyyc1QM"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_raLdthOj"
+        ],
+        "origin": "template"
+      },
+      "agency_navbar_BQ20QLLB": {
+        "id": "agency_navbar_BQ20QLLB",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "agency_body_wny7LS-K",
+        "children": [
+          "agency_box_TqLKhWwG",
+          "agency_box_AGwNKWGf",
+          "agency_button_l4j1S4Qy"
+        ],
+        "props": {
+          "brandText": "Vanguard Studio"
+        },
+        "styleIds": [
+          "agency_st_1TLytsw4"
+        ],
+        "origin": "template"
+      },
+      "agency_box_TqLKhWwG": {
+        "id": "agency_box_TqLKhWwG",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "agency_navbar_BQ20QLLB",
+        "children": [
+          "agency_heading_Sbj4iiMZ"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_mSF0E2L6"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_Sbj4iiMZ": {
+        "id": "agency_heading_Sbj4iiMZ",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "agency_box_TqLKhWwG",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_3dNRnsh6"
+        ],
+        "origin": "template"
+      },
+      "agency_box_AGwNKWGf": {
+        "id": "agency_box_AGwNKWGf",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "agency_navbar_BQ20QLLB",
+        "children": [
+          "agency_link_J_mG9A8T",
+          "agency_link_s0nSey8v"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_6_OkxL73"
+        ],
+        "origin": "template"
+      },
+      "agency_link_J_mG9A8T": {
+        "id": "agency_link_J_mG9A8T",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_AGwNKWGf",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_8Z2qRDvE"
+        ],
+        "origin": "template"
+      },
+      "agency_link_s0nSey8v": {
+        "id": "agency_link_s0nSey8v",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_AGwNKWGf",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_9Yh8UA5E"
+        ],
+        "origin": "template"
+      },
+      "agency_button_l4j1S4Qy": {
+        "id": "agency_button_l4j1S4Qy",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "agency_navbar_BQ20QLLB",
+        "children": [],
+        "props": {
+          "text": "Start a Project",
+          "href": "/contact",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "agency_st_c2HQlDwZ"
+        ],
+        "origin": "template"
+      },
+      "agency_section_xU2qOHxW": {
+        "id": "agency_section_xU2qOHxW",
+        "type": "Section",
+        "name": "Hero Section",
+        "parentId": "agency_body_wny7LS-K",
+        "children": [
+          "agency_container_1vdVpTvi"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_bC49Lh6K"
+        ],
+        "origin": "template"
+      },
+      "agency_container_1vdVpTvi": {
+        "id": "agency_container_1vdVpTvi",
+        "type": "Container",
+        "name": "Hero Container",
+        "parentId": "agency_section_xU2qOHxW",
+        "children": [
+          "agency_heading_dNT6L_kE",
+          "agency_text_Gz7P7zl8",
+          "agency_box_ZAqQ9cam"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_ZOX-vLwk"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_dNT6L_kE": {
+        "id": "agency_heading_dNT6L_kE",
+        "type": "Heading",
+        "name": "Agency Statement",
+        "parentId": "agency_container_1vdVpTvi",
+        "children": [],
+        "props": {
+          "text": "We craft digital experiences that redefine global brands.",
+          "level": 1
+        },
+        "styleIds": [
+          "agency_st_ny1llCwk"
+        ],
+        "origin": "template"
+      },
+      "agency_text_Gz7P7zl8": {
+        "id": "agency_text_Gz7P7zl8",
+        "type": "Text",
+        "name": "Hero Ethos",
+        "parentId": "agency_container_1vdVpTvi",
+        "children": [],
+        "props": {
+          "text": "Vanguard is an independent design and technology consultancy based in Zurich & New York. We partner with visionaries to create iconic products, websites, and identities that stand out."
+        },
+        "styleIds": [
+          "agency_st_BRPPQtRD"
+        ],
+        "origin": "template"
+      },
+      "agency_box_ZAqQ9cam": {
+        "id": "agency_box_ZAqQ9cam",
+        "type": "Box",
+        "name": "Hero CTA Row",
+        "parentId": "agency_container_1vdVpTvi",
+        "children": [
+          "agency_button_Xc-TQld4"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_UTQZRTW8"
+        ],
+        "origin": "template"
+      },
+      "agency_button_Xc-TQld4": {
+        "id": "agency_button_Xc-TQld4",
+        "type": "Button",
+        "name": "View Work Button",
+        "parentId": "agency_box_ZAqQ9cam",
+        "children": [],
+        "props": {
+          "text": "Explore Selected Work",
+          "href": "/work",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "agency_st_rWVxHlKl"
+        ],
+        "origin": "template"
+      },
+      "agency_section_C_0M1D-H": {
+        "id": "agency_section_C_0M1D-H",
+        "type": "Section",
+        "name": "Works Showcase Section",
+        "parentId": "agency_body_wny7LS-K",
+        "children": [
+          "agency_container_PUKCjJx8"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_rRBOy70z"
+        ],
+        "origin": "template"
+      },
+      "agency_container_PUKCjJx8": {
+        "id": "agency_container_PUKCjJx8",
+        "type": "Container",
+        "name": "Work Container",
+        "parentId": "agency_section_C_0M1D-H",
+        "children": [
+          "agency_heading_LZqp6HlP",
+          "agency_box_h-7SSogs"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_dtxRuf0n"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_LZqp6HlP": {
+        "id": "agency_heading_LZqp6HlP",
+        "type": "Heading",
+        "name": "Works Heading",
+        "parentId": "agency_container_PUKCjJx8",
+        "children": [],
+        "props": {
+          "text": "Selected Case Studies",
+          "level": 2
+        },
+        "styleIds": [
+          "agency_st_hQOxlpIB"
+        ],
+        "origin": "template"
+      },
+      "agency_box_h-7SSogs": {
+        "id": "agency_box_h-7SSogs",
+        "type": "Box",
+        "name": "Projects Grid",
+        "parentId": "agency_container_PUKCjJx8",
+        "children": [
+          "agency_box_qkudZXsu",
+          "agency_box_5Wll_3OG"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_O9Q97DBK"
+        ],
+        "origin": "template"
+      },
+      "agency_box_qkudZXsu": {
+        "id": "agency_box_qkudZXsu",
+        "type": "Box",
+        "name": "Project Card",
+        "parentId": "agency_box_h-7SSogs",
+        "children": [
+          "agency_image_NTjKM3XB",
+          "agency_text_UykJwNaV",
+          "agency_heading_JYDHAV2T"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_lpMHYgK-"
+        ],
+        "origin": "template"
+      },
+      "agency_image_NTjKM3XB": {
+        "id": "agency_image_NTjKM3XB",
+        "type": "Image",
+        "name": "Project Image",
+        "parentId": "agency_box_qkudZXsu",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+          "alt": "Solstice AI — Autonomous Creative Suite case study screenshot"
+        },
+        "styleIds": [
+          "agency_st_NwnRbsD9"
+        ],
+        "origin": "template"
+      },
+      "agency_text_UykJwNaV": {
+        "id": "agency_text_UykJwNaV",
+        "type": "Text",
+        "name": "Category Tag",
+        "parentId": "agency_box_qkudZXsu",
+        "children": [],
+        "props": {
+          "text": "Brand Identity & Product Design"
+        },
+        "styleIds": [
+          "agency_st_8MKzT6B-"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_JYDHAV2T": {
+        "id": "agency_heading_JYDHAV2T",
+        "type": "Heading",
+        "name": "Project Title",
+        "parentId": "agency_box_qkudZXsu",
+        "children": [],
+        "props": {
+          "text": "Solstice AI — Autonomous Creative Suite",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_6fhbvj0x"
+        ],
+        "origin": "template"
+      },
+      "agency_box_5Wll_3OG": {
+        "id": "agency_box_5Wll_3OG",
+        "type": "Box",
+        "name": "Project Card",
+        "parentId": "agency_box_h-7SSogs",
+        "children": [
+          "agency_image_O2z8A66N",
+          "agency_text_NBbKZSnj",
+          "agency_heading_8YO9Xwun"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_s2fzESqA"
+        ],
+        "origin": "template"
+      },
+      "agency_image_O2z8A66N": {
+        "id": "agency_image_O2z8A66N",
+        "type": "Image",
+        "name": "Project Image",
+        "parentId": "agency_box_5Wll_3OG",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
+          "alt": "Aura Audio — Spatial Sound Experience case study screenshot"
+        },
+        "styleIds": [
+          "agency_st_jn4jrjjj"
+        ],
+        "origin": "template"
+      },
+      "agency_text_NBbKZSnj": {
+        "id": "agency_text_NBbKZSnj",
+        "type": "Text",
+        "name": "Category Tag",
+        "parentId": "agency_box_5Wll_3OG",
+        "children": [],
+        "props": {
+          "text": "E-Commerce & 3D Interactive Web"
+        },
+        "styleIds": [
+          "agency_st_yBe0dpeX"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_8YO9Xwun": {
+        "id": "agency_heading_8YO9Xwun",
+        "type": "Heading",
+        "name": "Project Title",
+        "parentId": "agency_box_5Wll_3OG",
+        "children": [],
+        "props": {
+          "text": "Aura Audio — Spatial Sound Experience",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_CW7Q6h_A"
+        ],
+        "origin": "template"
+      },
+      "agency_section_Jwyyc1QM": {
+        "id": "agency_section_Jwyyc1QM",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "agency_body_wny7LS-K",
+        "children": [
+          "agency_container_xjHd9Iql"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_opc-8R75"
+        ],
+        "origin": "template"
+      },
+      "agency_container_xjHd9Iql": {
+        "id": "agency_container_xjHd9Iql",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "agency_section_Jwyyc1QM",
+        "children": [
+          "agency_box_7DQS7wYj",
+          "agency_box_io0Qv3H0"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_wEr1gb-f"
+        ],
+        "origin": "template"
+      },
+      "agency_box_7DQS7wYj": {
+        "id": "agency_box_7DQS7wYj",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "agency_container_xjHd9Iql",
+        "children": [
+          "agency_heading_GE1907aU",
+          "agency_text_I7GXqCxp",
+          "agency_text_txMU1Vlm"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_pLzPmQXv"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_GE1907aU": {
+        "id": "agency_heading_GE1907aU",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "agency_box_7DQS7wYj",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 4
+        },
+        "styleIds": [
+          "agency_st_C1VXfX2F"
+        ],
+        "origin": "template"
+      },
+      "agency_text_I7GXqCxp": {
+        "id": "agency_text_I7GXqCxp",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "agency_box_7DQS7wYj",
+        "children": [],
+        "props": {
+          "text": "Independent design and technology consultancy."
+        },
+        "styleIds": [
+          "agency_st_30Lr0I5a"
+        ],
+        "origin": "template"
+      },
+      "agency_text_txMU1Vlm": {
+        "id": "agency_text_txMU1Vlm",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "agency_box_7DQS7wYj",
+        "children": [],
+        "props": {
+          "text": "© 2026 Vanguard Studio. All rights reserved."
+        },
+        "styleIds": [
+          "agency_st_44fWD9RW"
+        ],
+        "origin": "template"
+      },
+      "agency_box_io0Qv3H0": {
+        "id": "agency_box_io0Qv3H0",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "agency_container_xjHd9Iql",
+        "children": [
+          "agency_link_T6A48ksa",
+          "agency_link_uY0O06rP",
+          "agency_link_GtAybezM"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_SFqKSncH"
+        ],
+        "origin": "template"
+      },
+      "agency_link_T6A48ksa": {
+        "id": "agency_link_T6A48ksa",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "agency_box_io0Qv3H0",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "agency_st_bHGnaJs6"
+        ],
+        "origin": "template"
+      },
+      "agency_link_uY0O06rP": {
+        "id": "agency_link_uY0O06rP",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_io0Qv3H0",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_i1ZixdSH"
+        ],
+        "origin": "template"
+      },
+      "agency_link_GtAybezM": {
+        "id": "agency_link_GtAybezM",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_io0Qv3H0",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_TMlHBIpy"
+        ],
+        "origin": "template"
+      },
+      "agency_body_kRuKtS5z": {
+        "id": "agency_body_kRuKtS5z",
+        "type": "Body",
+        "name": "Work Page Body",
+        "parentId": null,
+        "children": [
+          "agency_navbar_k6aCZSdO",
+          "agency_section__tIpr6o0",
+          "agency_section_jzn2WRoA"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_kJx5xhfg"
+        ],
+        "origin": "template"
+      },
+      "agency_navbar_k6aCZSdO": {
+        "id": "agency_navbar_k6aCZSdO",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "agency_body_kRuKtS5z",
+        "children": [
+          "agency_box_5MDMNNUt",
+          "agency_box_OHR77njz",
+          "agency_button_YB7ygwKG"
+        ],
+        "props": {
+          "brandText": "Vanguard Studio"
+        },
+        "styleIds": [
+          "agency_st_OitfeStY"
+        ],
+        "origin": "template"
+      },
+      "agency_box_5MDMNNUt": {
+        "id": "agency_box_5MDMNNUt",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "agency_navbar_k6aCZSdO",
+        "children": [
+          "agency_heading_lHLTB9M0"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_k6HKDUqX"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_lHLTB9M0": {
+        "id": "agency_heading_lHLTB9M0",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "agency_box_5MDMNNUt",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_4398JmMu"
+        ],
+        "origin": "template"
+      },
+      "agency_box_OHR77njz": {
+        "id": "agency_box_OHR77njz",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "agency_navbar_k6aCZSdO",
+        "children": [
+          "agency_link_UVlS2gtU",
+          "agency_link_G22IEaJj"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_FuU34ZIv"
+        ],
+        "origin": "template"
+      },
+      "agency_link_UVlS2gtU": {
+        "id": "agency_link_UVlS2gtU",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_OHR77njz",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_JEGkc8HJ"
+        ],
+        "origin": "template"
+      },
+      "agency_link_G22IEaJj": {
+        "id": "agency_link_G22IEaJj",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_OHR77njz",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_NBJB24qr"
+        ],
+        "origin": "template"
+      },
+      "agency_button_YB7ygwKG": {
+        "id": "agency_button_YB7ygwKG",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "agency_navbar_k6aCZSdO",
+        "children": [],
+        "props": {
+          "text": "Start a Project",
+          "href": "/contact",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "agency_st_5NJFemrP"
+        ],
+        "origin": "template"
+      },
+      "agency_section__tIpr6o0": {
+        "id": "agency_section__tIpr6o0",
+        "type": "Section",
+        "name": "Work Archive Section",
+        "parentId": "agency_body_kRuKtS5z",
+        "children": [
+          "agency_container_cYD1YBrk"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_o3ivjP6_"
+        ],
+        "origin": "template"
+      },
+      "agency_container_cYD1YBrk": {
+        "id": "agency_container_cYD1YBrk",
+        "type": "Container",
+        "name": "Archive Container",
+        "parentId": "agency_section__tIpr6o0",
+        "children": [
+          "agency_heading_EQ6gLWiE",
+          "agency_text_lwFZCf8q",
+          "agency_box_AMofvPcF"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_Jsd4MSSl"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_EQ6gLWiE": {
+        "id": "agency_heading_EQ6gLWiE",
+        "type": "Heading",
+        "name": "Archive Title",
+        "parentId": "agency_container_cYD1YBrk",
+        "children": [],
+        "props": {
+          "text": "Our Work",
+          "level": 1
+        },
+        "styleIds": [
+          "agency_st_3jVlZD1G"
+        ],
+        "origin": "template"
+      },
+      "agency_text_lwFZCf8q": {
+        "id": "agency_text_lwFZCf8q",
+        "type": "Text",
+        "name": "Archive Subtitle",
+        "parentId": "agency_container_cYD1YBrk",
+        "children": [],
+        "props": {
+          "text": "Explore how we solve complex challenges with daring design and world-class engineering."
+        },
+        "styleIds": [
+          "agency_st_X-dnhoEt"
+        ],
+        "origin": "template"
+      },
+      "agency_box_AMofvPcF": {
+        "id": "agency_box_AMofvPcF",
+        "type": "Box",
+        "name": "Archive Grid",
+        "parentId": "agency_container_cYD1YBrk",
+        "children": [
+          "agency_box_d_zOQ1w_",
+          "agency_box_ipDXwFM9"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_BAhd8oFO"
+        ],
+        "origin": "template"
+      },
+      "agency_box_d_zOQ1w_": {
+        "id": "agency_box_d_zOQ1w_",
+        "type": "Box",
+        "name": "Archive Card",
+        "parentId": "agency_box_AMofvPcF",
+        "children": [
+          "agency_image_dcOUuFnP",
+          "agency_heading_eCKdd757"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_xULV7YGC"
+        ],
+        "origin": "template"
+      },
+      "agency_image_dcOUuFnP": {
+        "id": "agency_image_dcOUuFnP",
+        "type": "Image",
+        "name": "Archive Item Image",
+        "parentId": "agency_box_d_zOQ1w_",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+          "alt": "Solstice AI — Autonomous Creative Suite visual archive preview"
+        },
+        "styleIds": [
+          "agency_st_a57CUn_H"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_eCKdd757": {
+        "id": "agency_heading_eCKdd757",
+        "type": "Heading",
+        "name": "Archive Item Title",
+        "parentId": "agency_box_d_zOQ1w_",
+        "children": [],
+        "props": {
+          "text": "Solstice AI — Autonomous Creative Suite",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_5UVcZnNR"
+        ],
+        "origin": "template"
+      },
+      "agency_box_ipDXwFM9": {
+        "id": "agency_box_ipDXwFM9",
+        "type": "Box",
+        "name": "Archive Card",
+        "parentId": "agency_box_AMofvPcF",
+        "children": [
+          "agency_image_rmoyUry7",
+          "agency_heading__vrfP0di"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_6Fbqyx3r"
+        ],
+        "origin": "template"
+      },
+      "agency_image_rmoyUry7": {
+        "id": "agency_image_rmoyUry7",
+        "type": "Image",
+        "name": "Archive Item Image",
+        "parentId": "agency_box_ipDXwFM9",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=800&q=80",
+          "alt": "Aura Audio — Spatial Sound Experience visual archive preview"
+        },
+        "styleIds": [
+          "agency_st_MUnK1T2U"
+        ],
+        "origin": "template"
+      },
+      "agency_heading__vrfP0di": {
+        "id": "agency_heading__vrfP0di",
+        "type": "Heading",
+        "name": "Archive Item Title",
+        "parentId": "agency_box_ipDXwFM9",
+        "children": [],
+        "props": {
+          "text": "Aura Audio — Spatial Sound Experience",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_njjNuYz8"
+        ],
+        "origin": "template"
+      },
+      "agency_section_jzn2WRoA": {
+        "id": "agency_section_jzn2WRoA",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "agency_body_kRuKtS5z",
+        "children": [
+          "agency_container_QKncrl9w"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_C813gmM6"
+        ],
+        "origin": "template"
+      },
+      "agency_container_QKncrl9w": {
+        "id": "agency_container_QKncrl9w",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "agency_section_jzn2WRoA",
+        "children": [
+          "agency_box_GlsttKVS",
+          "agency_box_h53e2LTq"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_Ol2tGD60"
+        ],
+        "origin": "template"
+      },
+      "agency_box_GlsttKVS": {
+        "id": "agency_box_GlsttKVS",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "agency_container_QKncrl9w",
+        "children": [
+          "agency_heading_I7LSwdxd",
+          "agency_text_lrOb3-YD",
+          "agency_text_WrZtN5XZ"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_XYXtqJZw"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_I7LSwdxd": {
+        "id": "agency_heading_I7LSwdxd",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "agency_box_GlsttKVS",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 4
+        },
+        "styleIds": [
+          "agency_st_mF29KyXC"
+        ],
+        "origin": "template"
+      },
+      "agency_text_lrOb3-YD": {
+        "id": "agency_text_lrOb3-YD",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "agency_box_GlsttKVS",
+        "children": [],
+        "props": {
+          "text": "Independent design and technology consultancy."
+        },
+        "styleIds": [
+          "agency_st_UUIrPy8W"
+        ],
+        "origin": "template"
+      },
+      "agency_text_WrZtN5XZ": {
+        "id": "agency_text_WrZtN5XZ",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "agency_box_GlsttKVS",
+        "children": [],
+        "props": {
+          "text": "© 2026 Vanguard Studio. All rights reserved."
+        },
+        "styleIds": [
+          "agency_st_cxyuoR47"
+        ],
+        "origin": "template"
+      },
+      "agency_box_h53e2LTq": {
+        "id": "agency_box_h53e2LTq",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "agency_container_QKncrl9w",
+        "children": [
+          "agency_link_UMb4SCS3",
+          "agency_link_Mr8zQtet",
+          "agency_link_SDhh6xFc"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_6h4MEvRp"
+        ],
+        "origin": "template"
+      },
+      "agency_link_UMb4SCS3": {
+        "id": "agency_link_UMb4SCS3",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "agency_box_h53e2LTq",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "agency_st_xpl3GsW4"
+        ],
+        "origin": "template"
+      },
+      "agency_link_Mr8zQtet": {
+        "id": "agency_link_Mr8zQtet",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_h53e2LTq",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_IQ8Pisv_"
+        ],
+        "origin": "template"
+      },
+      "agency_link_SDhh6xFc": {
+        "id": "agency_link_SDhh6xFc",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_h53e2LTq",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_JXhkhGu-"
+        ],
+        "origin": "template"
+      },
+      "agency_body_GrMkqrhe": {
+        "id": "agency_body_GrMkqrhe",
+        "type": "Body",
+        "name": "Contact Page Body",
+        "parentId": null,
+        "children": [
+          "agency_navbar_sUdit33W",
+          "agency_section_0sqLoNRv",
+          "agency_section_foR0yE7n"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_aME2zFp0"
+        ],
+        "origin": "template"
+      },
+      "agency_navbar_sUdit33W": {
+        "id": "agency_navbar_sUdit33W",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "agency_body_GrMkqrhe",
+        "children": [
+          "agency_box_ex6mUwwH",
+          "agency_box_fRy5vD8A",
+          "agency_button__FcGK0Mc"
+        ],
+        "props": {
+          "brandText": "Vanguard Studio"
+        },
+        "styleIds": [
+          "agency_st_WaIjMKtb"
+        ],
+        "origin": "template"
+      },
+      "agency_box_ex6mUwwH": {
+        "id": "agency_box_ex6mUwwH",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "agency_navbar_sUdit33W",
+        "children": [
+          "agency_heading_m9Of4PPq"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_Piu0ngLL"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_m9Of4PPq": {
+        "id": "agency_heading_m9Of4PPq",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "agency_box_ex6mUwwH",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 3
+        },
+        "styleIds": [
+          "agency_st_Nhev6DvK"
+        ],
+        "origin": "template"
+      },
+      "agency_box_fRy5vD8A": {
+        "id": "agency_box_fRy5vD8A",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "agency_navbar_sUdit33W",
+        "children": [
+          "agency_link_krZL06_n",
+          "agency_link_taV0-ZSb"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_bySK_MzO"
+        ],
+        "origin": "template"
+      },
+      "agency_link_krZL06_n": {
+        "id": "agency_link_krZL06_n",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_fRy5vD8A",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_VBIhEQvh"
+        ],
+        "origin": "template"
+      },
+      "agency_link_taV0-ZSb": {
+        "id": "agency_link_taV0-ZSb",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_fRy5vD8A",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_J9xFDvvr"
+        ],
+        "origin": "template"
+      },
+      "agency_button__FcGK0Mc": {
+        "id": "agency_button__FcGK0Mc",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "agency_navbar_sUdit33W",
+        "children": [],
+        "props": {
+          "text": "Start a Project",
+          "href": "/contact",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "agency_st_NQaw5kx2"
+        ],
+        "origin": "template"
+      },
+      "agency_section_0sqLoNRv": {
+        "id": "agency_section_0sqLoNRv",
+        "type": "Section",
+        "name": "Contact Section",
+        "parentId": "agency_body_GrMkqrhe",
+        "children": [
+          "agency_container_JeFDnvyb"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_L632rtwC"
+        ],
+        "origin": "template"
+      },
+      "agency_container_JeFDnvyb": {
+        "id": "agency_container_JeFDnvyb",
+        "type": "Container",
+        "name": "Contact Container",
+        "parentId": "agency_section_0sqLoNRv",
+        "children": [
+          "agency_heading_g0prnjU8",
+          "agency_text_n-fQhD2w",
+          "agency_form_iuvns8nI"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_IXmztNlE"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_g0prnjU8": {
+        "id": "agency_heading_g0prnjU8",
+        "type": "Heading",
+        "name": "Contact Title",
+        "parentId": "agency_container_JeFDnvyb",
+        "children": [],
+        "props": {
+          "text": "Let's create something extraordinary",
+          "level": 1
+        },
+        "styleIds": [
+          "agency_st_M05CA66U"
+        ],
+        "origin": "template"
+      },
+      "agency_text_n-fQhD2w": {
+        "id": "agency_text_n-fQhD2w",
+        "type": "Text",
+        "name": "Contact Description",
+        "parentId": "agency_container_JeFDnvyb",
+        "children": [],
+        "props": {
+          "text": "We accept a limited number of high-impact commissions each quarter. Fill out the brief below and we will respond within 24 hours."
+        },
+        "styleIds": [
+          "agency_st_tMXxyYU5"
+        ],
+        "origin": "template"
+      },
+      "agency_form_iuvns8nI": {
+        "id": "agency_form_iuvns8nI",
+        "type": "Form",
+        "name": "Agency Inquiry Form",
+        "parentId": "agency_container_JeFDnvyb",
+        "children": [
+          "agency_input_Av9P8tJw",
+          "agency_input_u9maofb7",
+          "agency_textarea_ZDofj5J-",
+          "agency_submit_O6f7VlpC"
+        ],
+        "props": {
+          "name": "Project Inquiry",
+          "method": "POST"
+        },
+        "styleIds": [
+          "agency_st_VyTX1sL6"
+        ],
+        "origin": "template"
+      },
+      "agency_input_Av9P8tJw": {
+        "id": "agency_input_Av9P8tJw",
+        "type": "Input",
+        "name": "Name Input",
+        "parentId": "agency_form_iuvns8nI",
+        "children": [],
+        "props": {
+          "name": "name",
+          "placeholder": "Your Name",
+          "type": "text",
+          "required": true
+        },
+        "styleIds": [
+          "agency_st_ofnRKSUY"
+        ],
+        "origin": "template"
+      },
+      "agency_input_u9maofb7": {
+        "id": "agency_input_u9maofb7",
+        "type": "Input",
+        "name": "Email Input",
+        "parentId": "agency_form_iuvns8nI",
+        "children": [],
+        "props": {
+          "name": "email",
+          "placeholder": "Work Email Address",
+          "type": "email",
+          "required": true
+        },
+        "styleIds": [
+          "agency_st_3t-u3eYy"
+        ],
+        "origin": "template"
+      },
+      "agency_textarea_ZDofj5J-": {
+        "id": "agency_textarea_ZDofj5J-",
+        "type": "Textarea",
+        "name": "Message Input",
+        "parentId": "agency_form_iuvns8nI",
+        "children": [],
+        "props": {
+          "name": "message",
+          "placeholder": "Tell us about your project, timeline, and estimated budget...",
+          "rows": 5
+        },
+        "styleIds": [
+          "agency_st_IF4XLqGw"
+        ],
+        "origin": "template"
+      },
+      "agency_submit_O6f7VlpC": {
+        "id": "agency_submit_O6f7VlpC",
+        "type": "Submit",
+        "name": "Submit Button",
+        "parentId": "agency_form_iuvns8nI",
+        "children": [],
+        "props": {
+          "text": "Send Project Inquiry"
+        },
+        "styleIds": [
+          "agency_st_wh9frv8f"
+        ],
+        "origin": "template"
+      },
+      "agency_section_foR0yE7n": {
+        "id": "agency_section_foR0yE7n",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "agency_body_GrMkqrhe",
+        "children": [
+          "agency_container_G5Wzr9rr"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_WzVbX8oC"
+        ],
+        "origin": "template"
+      },
+      "agency_container_G5Wzr9rr": {
+        "id": "agency_container_G5Wzr9rr",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "agency_section_foR0yE7n",
+        "children": [
+          "agency_box_WKOEU2QT",
+          "agency_box_usp5MfRn"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_wzVqmaZ1"
+        ],
+        "origin": "template"
+      },
+      "agency_box_WKOEU2QT": {
+        "id": "agency_box_WKOEU2QT",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "agency_container_G5Wzr9rr",
+        "children": [
+          "agency_heading_hdwN5gmj",
+          "agency_text_8F-NU1dJ",
+          "agency_text_VDAJeQii"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_ZdL4qriU"
+        ],
+        "origin": "template"
+      },
+      "agency_heading_hdwN5gmj": {
+        "id": "agency_heading_hdwN5gmj",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "agency_box_WKOEU2QT",
+        "children": [],
+        "props": {
+          "text": "Vanguard Studio",
+          "level": 4
+        },
+        "styleIds": [
+          "agency_st_ieNNrRWZ"
+        ],
+        "origin": "template"
+      },
+      "agency_text_8F-NU1dJ": {
+        "id": "agency_text_8F-NU1dJ",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "agency_box_WKOEU2QT",
+        "children": [],
+        "props": {
+          "text": "Independent design and technology consultancy."
+        },
+        "styleIds": [
+          "agency_st_qI9HjdY5"
+        ],
+        "origin": "template"
+      },
+      "agency_text_VDAJeQii": {
+        "id": "agency_text_VDAJeQii",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "agency_box_WKOEU2QT",
+        "children": [],
+        "props": {
+          "text": "© 2026 Vanguard Studio. All rights reserved."
+        },
+        "styleIds": [
+          "agency_st_vX7J1z70"
+        ],
+        "origin": "template"
+      },
+      "agency_box_usp5MfRn": {
+        "id": "agency_box_usp5MfRn",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "agency_container_G5Wzr9rr",
+        "children": [
+          "agency_link_bVQYMM1_",
+          "agency_link_Bt-ij3A2",
+          "agency_link_qde0Grys"
+        ],
+        "props": {},
+        "styleIds": [
+          "agency_st_Xvf7_UoI"
+        ],
+        "origin": "template"
+      },
+      "agency_link_bVQYMM1_": {
+        "id": "agency_link_bVQYMM1_",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "agency_box_usp5MfRn",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "agency_st_YKwS6HYp"
+        ],
+        "origin": "template"
+      },
+      "agency_link_Bt-ij3A2": {
+        "id": "agency_link_Bt-ij3A2",
+        "type": "Link",
+        "name": "Work",
+        "parentId": "agency_box_usp5MfRn",
+        "children": [],
+        "props": {
+          "text": "Work",
+          "href": "/work"
+        },
+        "styleIds": [
+          "agency_st_5jdM5lnI"
+        ],
+        "origin": "template"
+      },
+      "agency_link_qde0Grys": {
+        "id": "agency_link_qde0Grys",
+        "type": "Link",
+        "name": "Contact",
+        "parentId": "agency_box_usp5MfRn",
+        "children": [],
+        "props": {
+          "text": "Contact",
+          "href": "/contact"
+        },
+        "styleIds": [
+          "agency_st_J3_-FeiA"
+        ],
+        "origin": "template"
+      }
+    },
+    "styles": {
+      "agency_st_raLdthOj": {
+        "id": "agency_st_raLdthOj",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_1TLytsw4": {
+        "id": "agency_st_1TLytsw4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_mSF0E2L6": {
+        "id": "agency_st_mSF0E2L6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "agency_st_3dNRnsh6": {
+        "id": "agency_st_3dNRnsh6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_6_OkxL73": {
+        "id": "agency_st_6_OkxL73",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_8Z2qRDvE": {
+        "id": "agency_st_8Z2qRDvE",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_9Yh8UA5E": {
+        "id": "agency_st_9Yh8UA5E",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_c2HQlDwZ": {
+        "id": "agency_st_c2HQlDwZ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_bC49Lh6K": {
+        "id": "agency_st_bC49Lh6K",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 112
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 96
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          }
+        }
+      },
+      "agency_st_ZOX-vLwk": {
+        "id": "agency_st_ZOX-vLwk",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1100
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_ny1llCwk": {
+        "id": "agency_st_ny1llCwk",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 64
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "lineHeight": {
+                "keyword": "tight"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "letterSpacing": {
+                "unit": "px",
+                "value": -1
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          }
+        }
+      },
+      "agency_st_BRPPQtRD": {
+        "id": "agency_st_BRPPQtRD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "maxWidth": {
+                "unit": "px",
+                "value": 720
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_UTQZRTW8": {
+        "id": "agency_st_UTQZRTW8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_rWVxHlKl": {
+        "id": "agency_st_rWVxHlKl",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 28
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 28
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 14
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 14
+              },
+              "borderRadius": {
+                "token": "radius.full"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_rRBOy70z": {
+        "id": "agency_st_rRBOy70z",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 96
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_dtxRuf0n": {
+        "id": "agency_st_dtxRuf0n",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_hQOxlpIB": {
+        "id": "agency_st_hQOxlpIB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "agency_st_O9Q97DBK": {
+        "id": "agency_st_O9Q97DBK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(2, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_lpMHYgK-": {
+        "id": "agency_st_lpMHYgK-",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_NwnRbsD9": {
+        "id": "agency_st_NwnRbsD9",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 360
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_8MKzT6B-": {
+        "id": "agency_st_8MKzT6B-",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 13
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_6fhbvj0x": {
+        "id": "agency_st_6fhbvj0x",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 24
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_s2fzESqA": {
+        "id": "agency_st_s2fzESqA",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_jn4jrjjj": {
+        "id": "agency_st_jn4jrjjj",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 360
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_yBe0dpeX": {
+        "id": "agency_st_yBe0dpeX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 13
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_CW7Q6h_A": {
+        "id": "agency_st_CW7Q6h_A",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 24
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_opc-8R75": {
+        "id": "agency_st_opc-8R75",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_wEr1gb-f": {
+        "id": "agency_st_wEr1gb-f",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_pLzPmQXv": {
+        "id": "agency_st_pLzPmQXv",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "agency_st_C1VXfX2F": {
+        "id": "agency_st_C1VXfX2F",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_30Lr0I5a": {
+        "id": "agency_st_30Lr0I5a",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_44fWD9RW": {
+        "id": "agency_st_44fWD9RW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_SFqKSncH": {
+        "id": "agency_st_SFqKSncH",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_bHGnaJs6": {
+        "id": "agency_st_bHGnaJs6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_i1ZixdSH": {
+        "id": "agency_st_i1ZixdSH",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_TMlHBIpy": {
+        "id": "agency_st_TMlHBIpy",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_kJx5xhfg": {
+        "id": "agency_st_kJx5xhfg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_OitfeStY": {
+        "id": "agency_st_OitfeStY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_k6HKDUqX": {
+        "id": "agency_st_k6HKDUqX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "agency_st_4398JmMu": {
+        "id": "agency_st_4398JmMu",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_FuU34ZIv": {
+        "id": "agency_st_FuU34ZIv",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_JEGkc8HJ": {
+        "id": "agency_st_JEGkc8HJ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_NBJB24qr": {
+        "id": "agency_st_NBJB24qr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_5NJFemrP": {
+        "id": "agency_st_5NJFemrP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_o3ivjP6_": {
+        "id": "agency_st_o3ivjP6_",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          }
+        }
+      },
+      "agency_st_Jsd4MSSl": {
+        "id": "agency_st_Jsd4MSSl",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_3jVlZD1G": {
+        "id": "agency_st_3jVlZD1G",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 48
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_X-dnhoEt": {
+        "id": "agency_st_X-dnhoEt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "agency_st_BAhd8oFO": {
+        "id": "agency_st_BAhd8oFO",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(2, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_xULV7YGC": {
+        "id": "agency_st_xULV7YGC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_a57CUn_H": {
+        "id": "agency_st_a57CUn_H",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 320
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_5UVcZnNR": {
+        "id": "agency_st_5UVcZnNR",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 22
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_6Fbqyx3r": {
+        "id": "agency_st_6Fbqyx3r",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_MUnK1T2U": {
+        "id": "agency_st_MUnK1T2U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 320
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_njjNuYz8": {
+        "id": "agency_st_njjNuYz8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 22
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_C813gmM6": {
+        "id": "agency_st_C813gmM6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_Ol2tGD60": {
+        "id": "agency_st_Ol2tGD60",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_XYXtqJZw": {
+        "id": "agency_st_XYXtqJZw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "agency_st_mF29KyXC": {
+        "id": "agency_st_mF29KyXC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_UUIrPy8W": {
+        "id": "agency_st_UUIrPy8W",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_cxyuoR47": {
+        "id": "agency_st_cxyuoR47",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_6h4MEvRp": {
+        "id": "agency_st_6h4MEvRp",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_xpl3GsW4": {
+        "id": "agency_st_xpl3GsW4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_IQ8Pisv_": {
+        "id": "agency_st_IQ8Pisv_",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_JXhkhGu-": {
+        "id": "agency_st_JXhkhGu-",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_aME2zFp0": {
+        "id": "agency_st_aME2zFp0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_WaIjMKtb": {
+        "id": "agency_st_WaIjMKtb",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_Piu0ngLL": {
+        "id": "agency_st_Piu0ngLL",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "agency_st_Nhev6DvK": {
+        "id": "agency_st_Nhev6DvK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_bySK_MzO": {
+        "id": "agency_st_bySK_MzO",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_VBIhEQvh": {
+        "id": "agency_st_VBIhEQvh",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_J9xFDvvr": {
+        "id": "agency_st_J9xFDvvr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_NQaw5kx2": {
+        "id": "agency_st_NQaw5kx2",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_L632rtwC": {
+        "id": "agency_st_L632rtwC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          }
+        }
+      },
+      "agency_st_IXmztNlE": {
+        "id": "agency_st_IXmztNlE",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 800
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_M05CA66U": {
+        "id": "agency_st_M05CA66U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 48
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_tMXxyYU5": {
+        "id": "agency_st_tMXxyYU5",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          }
+        }
+      },
+      "agency_st_VyTX1sL6": {
+        "id": "agency_st_VyTX1sL6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 20
+              }
+            }
+          }
+        }
+      },
+      "agency_st_ofnRKSUY": {
+        "id": "agency_st_ofnRKSUY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "color": {
+                "token": "color.text"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_3t-u3eYy": {
+        "id": "agency_st_3t-u3eYy",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "color": {
+                "token": "color.text"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_IF4XLqGw": {
+        "id": "agency_st_IF4XLqGw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "color": {
+                "token": "color.text"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_wh9frv8f": {
+        "id": "agency_st_wh9frv8f",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "agency_st_WzVbX8oC": {
+        "id": "agency_st_WzVbX8oC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_wzVqmaZ1": {
+        "id": "agency_st_wzVqmaZ1",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_ZdL4qriU": {
+        "id": "agency_st_ZdL4qriU",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "agency_st_ieNNrRWZ": {
+        "id": "agency_st_ieNNrRWZ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_qI9HjdY5": {
+        "id": "agency_st_qI9HjdY5",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_vX7J1z70": {
+        "id": "agency_st_vX7J1z70",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_Xvf7_UoI": {
+        "id": "agency_st_Xvf7_UoI",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "agency_st_YKwS6HYp": {
+        "id": "agency_st_YKwS6HYp",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_5jdM5lnI": {
+        "id": "agency_st_5jdM5lnI",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "agency_st_J3_-FeiA": {
+        "id": "agency_st_J3_-FeiA",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {},
+    "assets": {}
+  }
+}

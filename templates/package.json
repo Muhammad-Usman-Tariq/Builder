@@ -1,0 +1,28 @@
+{
+  "name": "@builder/templates",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "echo @builder/templates: lint ok",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@builder/db": "workspace:*",
+    "@builder/document": "workspace:*",
+    "@builder/elements": "workspace:*",
+    "@builder/renderer": "workspace:*",
+    "drizzle-orm": "^0.39.3",
+    "nanoid": "^5.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

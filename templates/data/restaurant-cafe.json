@@ -1,0 +1,4446 @@
+{
+  "id": "tmpl_restaurant_cafe",
+  "slug": "restaurant-cafe",
+  "name": "L'Artisan Bistro & Cafe",
+  "category": "Restaurant",
+  "description": "Warm, artisanal culinary website for bistros, cafes, and fine dining with menu showcases and reservation booking.",
+  "tags": [
+    "restaurant",
+    "cafe",
+    "food",
+    "dining",
+    "menu",
+    "reservations"
+  ],
+  "preview": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80",
+  "pageCount": 3,
+  "style": "warm-artisan",
+  "document": {
+    "schemaVersion": 1,
+    "site": {
+      "name": "L'Artisan Bistro & Cafe",
+      "defaultLocale": "en",
+      "locales": [
+        "en"
+      ]
+    },
+    "breakpoints": [
+      {
+        "id": "desktop",
+        "name": "Desktop",
+        "minWidth": 1024,
+        "isBase": true
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "maxWidth": 1023,
+        "minWidth": 768
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "maxWidth": 767
+      }
+    ],
+    "tokens": {
+      "colors": {
+        "color.primary": "#b45309",
+        "color.primaryForeground": "#ffffff",
+        "color.secondary": "#fef3c7",
+        "color.secondaryForeground": "#78350f",
+        "color.accent": "#d97706",
+        "color.accentForeground": "#ffffff",
+        "color.background": "#fdfbf7",
+        "color.surface": "#ffffff",
+        "color.text": "#292524",
+        "color.textMuted": "#78716c",
+        "color.border": "#e7e5e4"
+      },
+      "fonts": {
+        "heading": "Georgia, 'Times New Roman', serif",
+        "body": "Inter, system-ui, sans-serif",
+        "mono": "monospace"
+      },
+      "spacing": {
+        "space.0": "0px",
+        "space.1": "4px",
+        "space.2": "8px",
+        "space.3": "12px",
+        "space.4": "16px",
+        "space.6": "24px",
+        "space.8": "32px",
+        "space.12": "48px",
+        "space.16": "64px",
+        "space.24": "96px"
+      },
+      "radius": {
+        "radius.none": "0px",
+        "radius.sm": "4px",
+        "radius.md": "8px",
+        "radius.lg": "16px",
+        "radius.full": "9999px"
+      },
+      "shadows": {
+        "shadow.sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "shadow.md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "shadow.lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      }
+    },
+    "pages": {
+      "dining_pg_GLQ-9UeR": {
+        "id": "dining_pg_GLQ-9UeR",
+        "name": "Home",
+        "slug": "/",
+        "rootId": "dining_body_bTlbyJS2",
+        "seo": {
+          "title": "L'Artisan Bistro & Cafe — Artisan Roasted, Farm-to-Table",
+          "description": "Experience handcrafted European pastries, specialty coffee, and seasonal farm-fresh entrees."
+        },
+        "status": "published"
+      },
+      "dining_pg_mdYlWXoF": {
+        "id": "dining_pg_mdYlWXoF",
+        "name": "Menu",
+        "slug": "/menu",
+        "rootId": "dining_body_GKchQ27Q",
+        "seo": {
+          "title": "Seasonal Menu — L'Artisan Bistro & Cafe",
+          "description": "Browse our farm-to-table lunch, dinner, and dessert selections."
+        },
+        "status": "published"
+      },
+      "dining_pg_bHK_AWiJ": {
+        "id": "dining_pg_bHK_AWiJ",
+        "name": "Reservations",
+        "slug": "/reservations",
+        "rootId": "dining_body_Rv6e8eLK",
+        "seo": {
+          "title": "Table Reservations — L'Artisan Bistro & Cafe",
+          "description": "Book your table online for lunch, weekend brunch, or dinner."
+        },
+        "status": "published"
+      }
+    },
+    "elements": {
+      "dining_body_bTlbyJS2": {
+        "id": "dining_body_bTlbyJS2",
+        "type": "Body",
+        "name": "Home Page Body",
+        "parentId": null,
+        "children": [
+          "dining_navbar_YlgXNqzm",
+          "dining_section_A0Bn39YA",
+          "dining_section_xgVkyjZ3",
+          "dining_section_9IycYSdY"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_IhAabZEF"
+        ],
+        "origin": "template"
+      },
+      "dining_navbar_YlgXNqzm": {
+        "id": "dining_navbar_YlgXNqzm",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "dining_body_bTlbyJS2",
+        "children": [
+          "dining_box_Q4xxlIPl",
+          "dining_box_ClBkmcL6",
+          "dining_button_fwNrY7pA"
+        ],
+        "props": {
+          "brandText": "L'Artisan Bistro"
+        },
+        "styleIds": [
+          "dining_st_nlYux3nW"
+        ],
+        "origin": "template"
+      },
+      "dining_box_Q4xxlIPl": {
+        "id": "dining_box_Q4xxlIPl",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "dining_navbar_YlgXNqzm",
+        "children": [
+          "dining_heading_v2I5aURq"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_KkD2Ik6P"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_v2I5aURq": {
+        "id": "dining_heading_v2I5aURq",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "dining_box_Q4xxlIPl",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_F3BamNGo"
+        ],
+        "origin": "template"
+      },
+      "dining_box_ClBkmcL6": {
+        "id": "dining_box_ClBkmcL6",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "dining_navbar_YlgXNqzm",
+        "children": [
+          "dining_link_xx8FRgJn",
+          "dining_link_G5RiSMMr"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_G2N7Vuhq"
+        ],
+        "origin": "template"
+      },
+      "dining_link_xx8FRgJn": {
+        "id": "dining_link_xx8FRgJn",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_ClBkmcL6",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_t5-Tz4RX"
+        ],
+        "origin": "template"
+      },
+      "dining_link_G5RiSMMr": {
+        "id": "dining_link_G5RiSMMr",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_ClBkmcL6",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_xOCldjpl"
+        ],
+        "origin": "template"
+      },
+      "dining_button_fwNrY7pA": {
+        "id": "dining_button_fwNrY7pA",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "dining_navbar_YlgXNqzm",
+        "children": [],
+        "props": {
+          "text": "Book Table",
+          "href": "/reservations",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "dining_st_HD1z4oMd"
+        ],
+        "origin": "template"
+      },
+      "dining_section_A0Bn39YA": {
+        "id": "dining_section_A0Bn39YA",
+        "type": "Section",
+        "name": "Hero Section",
+        "parentId": "dining_body_bTlbyJS2",
+        "children": [
+          "dining_container_TIMBAy8K"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_HTRpaCIt"
+        ],
+        "origin": "template"
+      },
+      "dining_container_TIMBAy8K": {
+        "id": "dining_container_TIMBAy8K",
+        "type": "Container",
+        "name": "Hero Container",
+        "parentId": "dining_section_A0Bn39YA",
+        "children": [
+          "dining_text_8fnpD8Uy",
+          "dining_heading_zbZh0GQc",
+          "dining_text_PDvzQFwF",
+          "dining_box_sAgiUAo2",
+          "dining_image_UTn2Q-X4"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_nbUWpWGU"
+        ],
+        "origin": "template"
+      },
+      "dining_text_8fnpD8Uy": {
+        "id": "dining_text_8fnpD8Uy",
+        "type": "Text",
+        "name": "Hero Tagline",
+        "parentId": "dining_container_TIMBAy8K",
+        "children": [],
+        "props": {
+          "text": "ESTABLISHED 2018 · SOHO, NEW YORK"
+        },
+        "styleIds": [
+          "dining_st_8VVwouq5"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_zbZh0GQc": {
+        "id": "dining_heading_zbZh0GQc",
+        "type": "Heading",
+        "name": "Hero Title",
+        "parentId": "dining_container_TIMBAy8K",
+        "children": [],
+        "props": {
+          "text": "Crafted with passion, gathered with love.",
+          "level": 1
+        },
+        "styleIds": [
+          "dining_st_gDEySr_2"
+        ],
+        "origin": "template"
+      },
+      "dining_text_PDvzQFwF": {
+        "id": "dining_text_PDvzQFwF",
+        "type": "Text",
+        "name": "Hero Description",
+        "parentId": "dining_container_TIMBAy8K",
+        "children": [],
+        "props": {
+          "text": "Artisan sourdough, rare micro-lot pour-overs, and seasonal wood-fired entrees crafted from ingredients gathered daily from local regenerative farms."
+        },
+        "styleIds": [
+          "dining_st_ezn67XtB"
+        ],
+        "origin": "template"
+      },
+      "dining_box_sAgiUAo2": {
+        "id": "dining_box_sAgiUAo2",
+        "type": "Box",
+        "name": "Hero Buttons",
+        "parentId": "dining_container_TIMBAy8K",
+        "children": [
+          "dining_button_1aG1bMNx",
+          "dining_button_g3VI-mJc"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_1PhBh-S8"
+        ],
+        "origin": "template"
+      },
+      "dining_button_1aG1bMNx": {
+        "id": "dining_button_1aG1bMNx",
+        "type": "Button",
+        "name": "Menu Button",
+        "parentId": "dining_box_sAgiUAo2",
+        "children": [],
+        "props": {
+          "text": "View Seasonal Menu",
+          "href": "/menu",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "dining_st_5bY52mww"
+        ],
+        "origin": "template"
+      },
+      "dining_button_g3VI-mJc": {
+        "id": "dining_button_g3VI-mJc",
+        "type": "Button",
+        "name": "Reserve Button",
+        "parentId": "dining_box_sAgiUAo2",
+        "children": [],
+        "props": {
+          "text": "Reserve a Table",
+          "href": "/reservations",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "dining_st__ocZppz1"
+        ],
+        "origin": "template"
+      },
+      "dining_image_UTn2Q-X4": {
+        "id": "dining_image_UTn2Q-X4",
+        "type": "Image",
+        "name": "Hero Atmosphere Photo",
+        "parentId": "dining_container_TIMBAy8K",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+          "alt": "Warm interior dining room of L'Artisan Bistro with rustic wooden tables"
+        },
+        "styleIds": [
+          "dining_st_gIXxqQjf"
+        ],
+        "origin": "template"
+      },
+      "dining_section_xgVkyjZ3": {
+        "id": "dining_section_xgVkyjZ3",
+        "type": "Section",
+        "name": "Specials Section",
+        "parentId": "dining_body_bTlbyJS2",
+        "children": [
+          "dining_container_gfFqu5nA"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_Il7aUYUw"
+        ],
+        "origin": "template"
+      },
+      "dining_container_gfFqu5nA": {
+        "id": "dining_container_gfFqu5nA",
+        "type": "Container",
+        "name": "Specials Container",
+        "parentId": "dining_section_xgVkyjZ3",
+        "children": [
+          "dining_heading_zYSkrvZC",
+          "dining_box_Jpo4SSAj"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_eUfSpVTV"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_zYSkrvZC": {
+        "id": "dining_heading_zYSkrvZC",
+        "type": "Heading",
+        "name": "Specials Title",
+        "parentId": "dining_container_gfFqu5nA",
+        "children": [],
+        "props": {
+          "text": "Today's Chef Highlights",
+          "level": 2
+        },
+        "styleIds": [
+          "dining_st_A-2R0Uwt"
+        ],
+        "origin": "template"
+      },
+      "dining_box_Jpo4SSAj": {
+        "id": "dining_box_Jpo4SSAj",
+        "type": "Box",
+        "name": "Specials Grid",
+        "parentId": "dining_container_gfFqu5nA",
+        "children": [
+          "dining_box_Lku-96za",
+          "dining_box_3PVe195v",
+          "dining_box_f-IutusH"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_m-qungKp"
+        ],
+        "origin": "template"
+      },
+      "dining_box_Lku-96za": {
+        "id": "dining_box_Lku-96za",
+        "type": "Box",
+        "name": "Dish Card",
+        "parentId": "dining_box_Jpo4SSAj",
+        "children": [
+          "dining_heading_y6-Lnj0y",
+          "dining_text_CXgorP4o",
+          "dining_text_VXA6UBQi"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_uCvUDmCr"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_y6-Lnj0y": {
+        "id": "dining_heading_y6-Lnj0y",
+        "type": "Heading",
+        "name": "Dish Name",
+        "parentId": "dining_box_Lku-96za",
+        "children": [],
+        "props": {
+          "text": "Black Truffle Tagliatelle",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_IiqkOv3y"
+        ],
+        "origin": "template"
+      },
+      "dining_text_CXgorP4o": {
+        "id": "dining_text_CXgorP4o",
+        "type": "Text",
+        "name": "Dish Price",
+        "parentId": "dining_box_Lku-96za",
+        "children": [],
+        "props": {
+          "text": "$32"
+        },
+        "styleIds": [
+          "dining_st_H_Jvqrm_"
+        ],
+        "origin": "template"
+      },
+      "dining_text_VXA6UBQi": {
+        "id": "dining_text_VXA6UBQi",
+        "type": "Text",
+        "name": "Dish Description",
+        "parentId": "dining_box_Lku-96za",
+        "children": [],
+        "props": {
+          "text": "Handmade egg pasta with cultured butter, parmigiano reggiano, and shaved Norcia black winter truffle."
+        },
+        "styleIds": [
+          "dining_st_ePLQWWy6"
+        ],
+        "origin": "template"
+      },
+      "dining_box_3PVe195v": {
+        "id": "dining_box_3PVe195v",
+        "type": "Box",
+        "name": "Dish Card",
+        "parentId": "dining_box_Jpo4SSAj",
+        "children": [
+          "dining_heading_wYr6gZLH",
+          "dining_text_Ekp0Okb0",
+          "dining_text_JwZxtr4g"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_zBI1SOCS"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_wYr6gZLH": {
+        "id": "dining_heading_wYr6gZLH",
+        "type": "Heading",
+        "name": "Dish Name",
+        "parentId": "dining_box_3PVe195v",
+        "children": [],
+        "props": {
+          "text": "Wood-Fired Branzino",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_UbfO527T"
+        ],
+        "origin": "template"
+      },
+      "dining_text_Ekp0Okb0": {
+        "id": "dining_text_Ekp0Okb0",
+        "type": "Text",
+        "name": "Dish Price",
+        "parentId": "dining_box_3PVe195v",
+        "children": [],
+        "props": {
+          "text": "$38"
+        },
+        "styleIds": [
+          "dining_st_FedlREAB"
+        ],
+        "origin": "template"
+      },
+      "dining_text_JwZxtr4g": {
+        "id": "dining_text_JwZxtr4g",
+        "type": "Text",
+        "name": "Dish Description",
+        "parentId": "dining_box_3PVe195v",
+        "children": [],
+        "props": {
+          "text": "Mediterranean sea bass with Meyer lemon confit, braised wild fennel, and cold-pressed olive oil."
+        },
+        "styleIds": [
+          "dining_st_uBvBzvBf"
+        ],
+        "origin": "template"
+      },
+      "dining_box_f-IutusH": {
+        "id": "dining_box_f-IutusH",
+        "type": "Box",
+        "name": "Dish Card",
+        "parentId": "dining_box_Jpo4SSAj",
+        "children": [
+          "dining_heading_grFNn1lM",
+          "dining_text_nlPyRN1T",
+          "dining_text_haQW7bPe"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_rYdf-qMM"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_grFNn1lM": {
+        "id": "dining_heading_grFNn1lM",
+        "type": "Heading",
+        "name": "Dish Name",
+        "parentId": "dining_box_f-IutusH",
+        "children": [],
+        "props": {
+          "text": "Valrhona Chocolate Tart",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_7SJiLzI4"
+        ],
+        "origin": "template"
+      },
+      "dining_text_nlPyRN1T": {
+        "id": "dining_text_nlPyRN1T",
+        "type": "Text",
+        "name": "Dish Price",
+        "parentId": "dining_box_f-IutusH",
+        "children": [],
+        "props": {
+          "text": "$16"
+        },
+        "styleIds": [
+          "dining_st_tkClv7na"
+        ],
+        "origin": "template"
+      },
+      "dining_text_haQW7bPe": {
+        "id": "dining_text_haQW7bPe",
+        "type": "Text",
+        "name": "Dish Description",
+        "parentId": "dining_box_f-IutusH",
+        "children": [],
+        "props": {
+          "text": "Smoked sea salt caramel, dark chocolate ganache, and Madagascar vanilla bean gelato."
+        },
+        "styleIds": [
+          "dining_st_xtZ2meA7"
+        ],
+        "origin": "template"
+      },
+      "dining_section_9IycYSdY": {
+        "id": "dining_section_9IycYSdY",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "dining_body_bTlbyJS2",
+        "children": [
+          "dining_container_J7Yht1bx"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_CXplFAbU"
+        ],
+        "origin": "template"
+      },
+      "dining_container_J7Yht1bx": {
+        "id": "dining_container_J7Yht1bx",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "dining_section_9IycYSdY",
+        "children": [
+          "dining_box_1ri1eloE",
+          "dining_box_P87iU2Oz"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_cLfNij-F"
+        ],
+        "origin": "template"
+      },
+      "dining_box_1ri1eloE": {
+        "id": "dining_box_1ri1eloE",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "dining_container_J7Yht1bx",
+        "children": [
+          "dining_heading_QRZnwgWO",
+          "dining_text_pRv-JIPY",
+          "dining_text_s7REiNPX"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_kFXAAWqT"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_QRZnwgWO": {
+        "id": "dining_heading_QRZnwgWO",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "dining_box_1ri1eloE",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro & Cafe",
+          "level": 4
+        },
+        "styleIds": [
+          "dining_st_tIjJ41S0"
+        ],
+        "origin": "template"
+      },
+      "dining_text_pRv-JIPY": {
+        "id": "dining_text_pRv-JIPY",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "dining_box_1ri1eloE",
+        "children": [],
+        "props": {
+          "text": "Artisan culinary craft in the heart of SoHo."
+        },
+        "styleIds": [
+          "dining_st_isQhdDzF"
+        ],
+        "origin": "template"
+      },
+      "dining_text_s7REiNPX": {
+        "id": "dining_text_s7REiNPX",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "dining_box_1ri1eloE",
+        "children": [],
+        "props": {
+          "text": "© 2026 L'Artisan Bistro & Cafe. All rights reserved."
+        },
+        "styleIds": [
+          "dining_st_nZ8R72eY"
+        ],
+        "origin": "template"
+      },
+      "dining_box_P87iU2Oz": {
+        "id": "dining_box_P87iU2Oz",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "dining_container_J7Yht1bx",
+        "children": [
+          "dining_link_Xa2kn0se",
+          "dining_link_FUbaH75G",
+          "dining_link_BrHqdkDl"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_TTqHkEjW"
+        ],
+        "origin": "template"
+      },
+      "dining_link_Xa2kn0se": {
+        "id": "dining_link_Xa2kn0se",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "dining_box_P87iU2Oz",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "dining_st_CuFPyhXt"
+        ],
+        "origin": "template"
+      },
+      "dining_link_FUbaH75G": {
+        "id": "dining_link_FUbaH75G",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_P87iU2Oz",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_EXulHyve"
+        ],
+        "origin": "template"
+      },
+      "dining_link_BrHqdkDl": {
+        "id": "dining_link_BrHqdkDl",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_P87iU2Oz",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_FfbcbOMT"
+        ],
+        "origin": "template"
+      },
+      "dining_body_GKchQ27Q": {
+        "id": "dining_body_GKchQ27Q",
+        "type": "Body",
+        "name": "Menu Page Body",
+        "parentId": null,
+        "children": [
+          "dining_navbar_xb2Bm_yE",
+          "dining_section_Bx_orgjS",
+          "dining_section_VHyze7bw"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_iSmsH-TU"
+        ],
+        "origin": "template"
+      },
+      "dining_navbar_xb2Bm_yE": {
+        "id": "dining_navbar_xb2Bm_yE",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "dining_body_GKchQ27Q",
+        "children": [
+          "dining_box_Rzg4Tmcj",
+          "dining_box_veNuVUf3",
+          "dining_button_rrIbIuZ3"
+        ],
+        "props": {
+          "brandText": "L'Artisan Bistro"
+        },
+        "styleIds": [
+          "dining_st_8mI0WN-d"
+        ],
+        "origin": "template"
+      },
+      "dining_box_Rzg4Tmcj": {
+        "id": "dining_box_Rzg4Tmcj",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "dining_navbar_xb2Bm_yE",
+        "children": [
+          "dining_heading_4snuc9F6"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_mu50rTKB"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_4snuc9F6": {
+        "id": "dining_heading_4snuc9F6",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "dining_box_Rzg4Tmcj",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_tdl7DAzT"
+        ],
+        "origin": "template"
+      },
+      "dining_box_veNuVUf3": {
+        "id": "dining_box_veNuVUf3",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "dining_navbar_xb2Bm_yE",
+        "children": [
+          "dining_link_ZVmPlrTe",
+          "dining_link_Z4nwb79j"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_dTejeDZx"
+        ],
+        "origin": "template"
+      },
+      "dining_link_ZVmPlrTe": {
+        "id": "dining_link_ZVmPlrTe",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_veNuVUf3",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_nfLig65t"
+        ],
+        "origin": "template"
+      },
+      "dining_link_Z4nwb79j": {
+        "id": "dining_link_Z4nwb79j",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_veNuVUf3",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_lqlHwuvD"
+        ],
+        "origin": "template"
+      },
+      "dining_button_rrIbIuZ3": {
+        "id": "dining_button_rrIbIuZ3",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "dining_navbar_xb2Bm_yE",
+        "children": [],
+        "props": {
+          "text": "Book Table",
+          "href": "/reservations",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "dining_st_6J3nrBwh"
+        ],
+        "origin": "template"
+      },
+      "dining_section_Bx_orgjS": {
+        "id": "dining_section_Bx_orgjS",
+        "type": "Section",
+        "name": "Menu Section",
+        "parentId": "dining_body_GKchQ27Q",
+        "children": [
+          "dining_container_8B_LJMcP"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_BEk9zHlS"
+        ],
+        "origin": "template"
+      },
+      "dining_container_8B_LJMcP": {
+        "id": "dining_container_8B_LJMcP",
+        "type": "Container",
+        "name": "Menu Container",
+        "parentId": "dining_section_Bx_orgjS",
+        "children": [
+          "dining_heading_Ow5hf5bQ",
+          "dining_text_0Egj_ee-",
+          "dining_box_W2dk2thh",
+          "dining_box_MDaq0WFi",
+          "dining_box_p7gsXJ8x"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_lr16etAN"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_Ow5hf5bQ": {
+        "id": "dining_heading_Ow5hf5bQ",
+        "type": "Heading",
+        "name": "Menu Title",
+        "parentId": "dining_container_8B_LJMcP",
+        "children": [],
+        "props": {
+          "text": "Seasonal Dining Menu",
+          "level": 1
+        },
+        "styleIds": [
+          "dining_st_a8sNgswc"
+        ],
+        "origin": "template"
+      },
+      "dining_text_0Egj_ee-": {
+        "id": "dining_text_0Egj_ee-",
+        "type": "Text",
+        "name": "Menu Subtitle",
+        "parentId": "dining_container_8B_LJMcP",
+        "children": [],
+        "props": {
+          "text": "Ingredients updated weekly according to local market harvests."
+        },
+        "styleIds": [
+          "dining_st_3FV5hZpg"
+        ],
+        "origin": "template"
+      },
+      "dining_box_W2dk2thh": {
+        "id": "dining_box_W2dk2thh",
+        "type": "Box",
+        "name": "Menu Item Row",
+        "parentId": "dining_container_8B_LJMcP",
+        "children": [
+          "dining_box_bAWuu_JP",
+          "dining_text_1nXvjBDe"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_FEw82JYs"
+        ],
+        "origin": "template"
+      },
+      "dining_box_bAWuu_JP": {
+        "id": "dining_box_bAWuu_JP",
+        "type": "Box",
+        "name": "Menu Item Info",
+        "parentId": "dining_box_W2dk2thh",
+        "children": [
+          "dining_heading_EPWYMzB3",
+          "dining_text_trBPFRhs"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_sXO79_Sn"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_EPWYMzB3": {
+        "id": "dining_heading_EPWYMzB3",
+        "type": "Heading",
+        "name": "Item Title",
+        "parentId": "dining_box_bAWuu_JP",
+        "children": [],
+        "props": {
+          "text": "Black Truffle Tagliatelle",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_TH2If2jv"
+        ],
+        "origin": "template"
+      },
+      "dining_text_trBPFRhs": {
+        "id": "dining_text_trBPFRhs",
+        "type": "Text",
+        "name": "Item Description",
+        "parentId": "dining_box_bAWuu_JP",
+        "children": [],
+        "props": {
+          "text": "Handmade egg pasta with cultured butter, parmigiano reggiano, and shaved Norcia black winter truffle."
+        },
+        "styleIds": [
+          "dining_st_K0VekmjV"
+        ],
+        "origin": "template"
+      },
+      "dining_text_1nXvjBDe": {
+        "id": "dining_text_1nXvjBDe",
+        "type": "Text",
+        "name": "Item Price",
+        "parentId": "dining_box_W2dk2thh",
+        "children": [],
+        "props": {
+          "text": "$32"
+        },
+        "styleIds": [
+          "dining_st_Zf_U0tgf"
+        ],
+        "origin": "template"
+      },
+      "dining_box_MDaq0WFi": {
+        "id": "dining_box_MDaq0WFi",
+        "type": "Box",
+        "name": "Menu Item Row",
+        "parentId": "dining_container_8B_LJMcP",
+        "children": [
+          "dining_box_bjqgbhfj",
+          "dining_text_QpNWgZK_"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_wdSAQGBw"
+        ],
+        "origin": "template"
+      },
+      "dining_box_bjqgbhfj": {
+        "id": "dining_box_bjqgbhfj",
+        "type": "Box",
+        "name": "Menu Item Info",
+        "parentId": "dining_box_MDaq0WFi",
+        "children": [
+          "dining_heading_unl91beG",
+          "dining_text_smj47BTk"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_b6r5BHYg"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_unl91beG": {
+        "id": "dining_heading_unl91beG",
+        "type": "Heading",
+        "name": "Item Title",
+        "parentId": "dining_box_bjqgbhfj",
+        "children": [],
+        "props": {
+          "text": "Wood-Fired Branzino",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_N3aSnwbX"
+        ],
+        "origin": "template"
+      },
+      "dining_text_smj47BTk": {
+        "id": "dining_text_smj47BTk",
+        "type": "Text",
+        "name": "Item Description",
+        "parentId": "dining_box_bjqgbhfj",
+        "children": [],
+        "props": {
+          "text": "Mediterranean sea bass with Meyer lemon confit, braised wild fennel, and cold-pressed olive oil."
+        },
+        "styleIds": [
+          "dining_st_GBatAzBX"
+        ],
+        "origin": "template"
+      },
+      "dining_text_QpNWgZK_": {
+        "id": "dining_text_QpNWgZK_",
+        "type": "Text",
+        "name": "Item Price",
+        "parentId": "dining_box_MDaq0WFi",
+        "children": [],
+        "props": {
+          "text": "$38"
+        },
+        "styleIds": [
+          "dining_st_bWbwUrgg"
+        ],
+        "origin": "template"
+      },
+      "dining_box_p7gsXJ8x": {
+        "id": "dining_box_p7gsXJ8x",
+        "type": "Box",
+        "name": "Menu Item Row",
+        "parentId": "dining_container_8B_LJMcP",
+        "children": [
+          "dining_box_-g1t5o32",
+          "dining_text_9dKXyDhn"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_4e7MiW-N"
+        ],
+        "origin": "template"
+      },
+      "dining_box_-g1t5o32": {
+        "id": "dining_box_-g1t5o32",
+        "type": "Box",
+        "name": "Menu Item Info",
+        "parentId": "dining_box_p7gsXJ8x",
+        "children": [
+          "dining_heading_XrVfM-p4",
+          "dining_text_Z_XZVgd3"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_9wxpNPLi"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_XrVfM-p4": {
+        "id": "dining_heading_XrVfM-p4",
+        "type": "Heading",
+        "name": "Item Title",
+        "parentId": "dining_box_-g1t5o32",
+        "children": [],
+        "props": {
+          "text": "Valrhona Chocolate Tart",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_SGJGwpBg"
+        ],
+        "origin": "template"
+      },
+      "dining_text_Z_XZVgd3": {
+        "id": "dining_text_Z_XZVgd3",
+        "type": "Text",
+        "name": "Item Description",
+        "parentId": "dining_box_-g1t5o32",
+        "children": [],
+        "props": {
+          "text": "Smoked sea salt caramel, dark chocolate ganache, and Madagascar vanilla bean gelato."
+        },
+        "styleIds": [
+          "dining_st_IaaeftEP"
+        ],
+        "origin": "template"
+      },
+      "dining_text_9dKXyDhn": {
+        "id": "dining_text_9dKXyDhn",
+        "type": "Text",
+        "name": "Item Price",
+        "parentId": "dining_box_p7gsXJ8x",
+        "children": [],
+        "props": {
+          "text": "$16"
+        },
+        "styleIds": [
+          "dining_st_PsoIx11f"
+        ],
+        "origin": "template"
+      },
+      "dining_section_VHyze7bw": {
+        "id": "dining_section_VHyze7bw",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "dining_body_GKchQ27Q",
+        "children": [
+          "dining_container_mMlugt4s"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_PukLjwVQ"
+        ],
+        "origin": "template"
+      },
+      "dining_container_mMlugt4s": {
+        "id": "dining_container_mMlugt4s",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "dining_section_VHyze7bw",
+        "children": [
+          "dining_box_DyolDnkB",
+          "dining_box_cVv-VZYo"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_NUs1eM3U"
+        ],
+        "origin": "template"
+      },
+      "dining_box_DyolDnkB": {
+        "id": "dining_box_DyolDnkB",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "dining_container_mMlugt4s",
+        "children": [
+          "dining_heading__UIPDzrD",
+          "dining_text_Om4fSoSW",
+          "dining_text_XvxojiNh"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_6T-AuNkj"
+        ],
+        "origin": "template"
+      },
+      "dining_heading__UIPDzrD": {
+        "id": "dining_heading__UIPDzrD",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "dining_box_DyolDnkB",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro & Cafe",
+          "level": 4
+        },
+        "styleIds": [
+          "dining_st_fh4UC_4q"
+        ],
+        "origin": "template"
+      },
+      "dining_text_Om4fSoSW": {
+        "id": "dining_text_Om4fSoSW",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "dining_box_DyolDnkB",
+        "children": [],
+        "props": {
+          "text": "Artisan culinary craft in the heart of SoHo."
+        },
+        "styleIds": [
+          "dining_st_ddCvxRRp"
+        ],
+        "origin": "template"
+      },
+      "dining_text_XvxojiNh": {
+        "id": "dining_text_XvxojiNh",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "dining_box_DyolDnkB",
+        "children": [],
+        "props": {
+          "text": "© 2026 L'Artisan Bistro & Cafe. All rights reserved."
+        },
+        "styleIds": [
+          "dining_st_AzoXog5r"
+        ],
+        "origin": "template"
+      },
+      "dining_box_cVv-VZYo": {
+        "id": "dining_box_cVv-VZYo",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "dining_container_mMlugt4s",
+        "children": [
+          "dining_link_QLASPF9p",
+          "dining_link_1LTJC4ae",
+          "dining_link_6818PLfN"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_i0EfGjD8"
+        ],
+        "origin": "template"
+      },
+      "dining_link_QLASPF9p": {
+        "id": "dining_link_QLASPF9p",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "dining_box_cVv-VZYo",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "dining_st_vgas5pht"
+        ],
+        "origin": "template"
+      },
+      "dining_link_1LTJC4ae": {
+        "id": "dining_link_1LTJC4ae",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_cVv-VZYo",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_--pwxhIf"
+        ],
+        "origin": "template"
+      },
+      "dining_link_6818PLfN": {
+        "id": "dining_link_6818PLfN",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_cVv-VZYo",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_nbwxOeM3"
+        ],
+        "origin": "template"
+      },
+      "dining_body_Rv6e8eLK": {
+        "id": "dining_body_Rv6e8eLK",
+        "type": "Body",
+        "name": "Reservations Page Body",
+        "parentId": null,
+        "children": [
+          "dining_navbar_5rsrIMHW",
+          "dining_section_5Egfe26B",
+          "dining_section_TMQBhEaw"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_P9mmBBU8"
+        ],
+        "origin": "template"
+      },
+      "dining_navbar_5rsrIMHW": {
+        "id": "dining_navbar_5rsrIMHW",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "dining_body_Rv6e8eLK",
+        "children": [
+          "dining_box_IZ31fQUR",
+          "dining_box_VQt1V7EG",
+          "dining_button_OdgubhQm"
+        ],
+        "props": {
+          "brandText": "L'Artisan Bistro"
+        },
+        "styleIds": [
+          "dining_st_Jiijn1Gg"
+        ],
+        "origin": "template"
+      },
+      "dining_box_IZ31fQUR": {
+        "id": "dining_box_IZ31fQUR",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "dining_navbar_5rsrIMHW",
+        "children": [
+          "dining_heading_0KwQHOh7"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_K1o9YSCJ"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_0KwQHOh7": {
+        "id": "dining_heading_0KwQHOh7",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "dining_box_IZ31fQUR",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro",
+          "level": 3
+        },
+        "styleIds": [
+          "dining_st_p6_8A4dq"
+        ],
+        "origin": "template"
+      },
+      "dining_box_VQt1V7EG": {
+        "id": "dining_box_VQt1V7EG",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "dining_navbar_5rsrIMHW",
+        "children": [
+          "dining_link_quDSmcp_",
+          "dining_link_wX1-0iDF"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_KNzhLkkW"
+        ],
+        "origin": "template"
+      },
+      "dining_link_quDSmcp_": {
+        "id": "dining_link_quDSmcp_",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_VQt1V7EG",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_cbEoXfzw"
+        ],
+        "origin": "template"
+      },
+      "dining_link_wX1-0iDF": {
+        "id": "dining_link_wX1-0iDF",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_VQt1V7EG",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_hnfN3D5_"
+        ],
+        "origin": "template"
+      },
+      "dining_button_OdgubhQm": {
+        "id": "dining_button_OdgubhQm",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "dining_navbar_5rsrIMHW",
+        "children": [],
+        "props": {
+          "text": "Book Table",
+          "href": "/reservations",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "dining_st_b2_WQoaW"
+        ],
+        "origin": "template"
+      },
+      "dining_section_5Egfe26B": {
+        "id": "dining_section_5Egfe26B",
+        "type": "Section",
+        "name": "Reservation Section",
+        "parentId": "dining_body_Rv6e8eLK",
+        "children": [
+          "dining_container_7cdbcwq8"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_TToADkiD"
+        ],
+        "origin": "template"
+      },
+      "dining_container_7cdbcwq8": {
+        "id": "dining_container_7cdbcwq8",
+        "type": "Container",
+        "name": "Reservation Container",
+        "parentId": "dining_section_5Egfe26B",
+        "children": [
+          "dining_heading_vRJCS8Fc",
+          "dining_text_G1YQMNGN",
+          "dining_form_JnQsd7_9"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_K9hPVwN1"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_vRJCS8Fc": {
+        "id": "dining_heading_vRJCS8Fc",
+        "type": "Heading",
+        "name": "Reservation Heading",
+        "parentId": "dining_container_7cdbcwq8",
+        "children": [],
+        "props": {
+          "text": "Reserve a Table",
+          "level": 1
+        },
+        "styleIds": [
+          "dining_st_6k4B4igN"
+        ],
+        "origin": "template"
+      },
+      "dining_text_G1YQMNGN": {
+        "id": "dining_text_G1YQMNGN",
+        "type": "Text",
+        "name": "Reservation Subtitle",
+        "parentId": "dining_container_7cdbcwq8",
+        "children": [],
+        "props": {
+          "text": "For parties larger than 6 guests, please contact our events coordinator directly."
+        },
+        "styleIds": [
+          "dining_st_dK99MHFd"
+        ],
+        "origin": "template"
+      },
+      "dining_form_JnQsd7_9": {
+        "id": "dining_form_JnQsd7_9",
+        "type": "Form",
+        "name": "Dining Reservation Form",
+        "parentId": "dining_container_7cdbcwq8",
+        "children": [
+          "dining_input_vd4zhCPs",
+          "dining_input_Fs4AgSJ5",
+          "dining_input_nFT0AYsO",
+          "dining_textarea_YuyvZynb",
+          "dining_submit_KKWA3dsi"
+        ],
+        "props": {
+          "name": "Table Booking",
+          "method": "POST"
+        },
+        "styleIds": [
+          "dining_st_E88dP4f4"
+        ],
+        "origin": "template"
+      },
+      "dining_input_vd4zhCPs": {
+        "id": "dining_input_vd4zhCPs",
+        "type": "Input",
+        "name": "Name Input",
+        "parentId": "dining_form_JnQsd7_9",
+        "children": [],
+        "props": {
+          "name": "name",
+          "placeholder": "Primary Guest Name",
+          "type": "text",
+          "required": true
+        },
+        "styleIds": [
+          "dining_st_LmsknIr-"
+        ],
+        "origin": "template"
+      },
+      "dining_input_Fs4AgSJ5": {
+        "id": "dining_input_Fs4AgSJ5",
+        "type": "Input",
+        "name": "Email Input",
+        "parentId": "dining_form_JnQsd7_9",
+        "children": [],
+        "props": {
+          "name": "email",
+          "placeholder": "Confirmation Email",
+          "type": "email",
+          "required": true
+        },
+        "styleIds": [
+          "dining_st_ttF0aHDw"
+        ],
+        "origin": "template"
+      },
+      "dining_input_nFT0AYsO": {
+        "id": "dining_input_nFT0AYsO",
+        "type": "Input",
+        "name": "Party Size",
+        "parentId": "dining_form_JnQsd7_9",
+        "children": [],
+        "props": {
+          "name": "partySize",
+          "placeholder": "Party Size (e.g. 2 guests)",
+          "type": "text",
+          "required": true
+        },
+        "styleIds": [
+          "dining_st_MyevSAny"
+        ],
+        "origin": "template"
+      },
+      "dining_textarea_YuyvZynb": {
+        "id": "dining_textarea_YuyvZynb",
+        "type": "Textarea",
+        "name": "Dietary Notes",
+        "parentId": "dining_form_JnQsd7_9",
+        "children": [],
+        "props": {
+          "name": "notes",
+          "placeholder": "Special occasions, seating preference, or dietary allergies...",
+          "rows": 4
+        },
+        "styleIds": [
+          "dining_st_bWYK1puc"
+        ],
+        "origin": "template"
+      },
+      "dining_submit_KKWA3dsi": {
+        "id": "dining_submit_KKWA3dsi",
+        "type": "Submit",
+        "name": "Submit Reservation",
+        "parentId": "dining_form_JnQsd7_9",
+        "children": [],
+        "props": {
+          "text": "Confirm Reservation Request"
+        },
+        "styleIds": [
+          "dining_st_SC--kcY0"
+        ],
+        "origin": "template"
+      },
+      "dining_section_TMQBhEaw": {
+        "id": "dining_section_TMQBhEaw",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "dining_body_Rv6e8eLK",
+        "children": [
+          "dining_container_QQszmQKz"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_FvqPe83m"
+        ],
+        "origin": "template"
+      },
+      "dining_container_QQszmQKz": {
+        "id": "dining_container_QQszmQKz",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "dining_section_TMQBhEaw",
+        "children": [
+          "dining_box_PS0CTRgU",
+          "dining_box_UDitpwYw"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_M3pURSha"
+        ],
+        "origin": "template"
+      },
+      "dining_box_PS0CTRgU": {
+        "id": "dining_box_PS0CTRgU",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "dining_container_QQszmQKz",
+        "children": [
+          "dining_heading_a_hDLhcg",
+          "dining_text_IzOpxBtJ",
+          "dining_text_1dDBk1DE"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_cHve0W93"
+        ],
+        "origin": "template"
+      },
+      "dining_heading_a_hDLhcg": {
+        "id": "dining_heading_a_hDLhcg",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "dining_box_PS0CTRgU",
+        "children": [],
+        "props": {
+          "text": "L'Artisan Bistro & Cafe",
+          "level": 4
+        },
+        "styleIds": [
+          "dining_st_T5267fWm"
+        ],
+        "origin": "template"
+      },
+      "dining_text_IzOpxBtJ": {
+        "id": "dining_text_IzOpxBtJ",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "dining_box_PS0CTRgU",
+        "children": [],
+        "props": {
+          "text": "Artisan culinary craft in the heart of SoHo."
+        },
+        "styleIds": [
+          "dining_st_jGuNY14U"
+        ],
+        "origin": "template"
+      },
+      "dining_text_1dDBk1DE": {
+        "id": "dining_text_1dDBk1DE",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "dining_box_PS0CTRgU",
+        "children": [],
+        "props": {
+          "text": "© 2026 L'Artisan Bistro & Cafe. All rights reserved."
+        },
+        "styleIds": [
+          "dining_st_-rf_A89o"
+        ],
+        "origin": "template"
+      },
+      "dining_box_UDitpwYw": {
+        "id": "dining_box_UDitpwYw",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "dining_container_QQszmQKz",
+        "children": [
+          "dining_link_PDVjSXBb",
+          "dining_link_fdrrjcqL",
+          "dining_link_msVnUkAV"
+        ],
+        "props": {},
+        "styleIds": [
+          "dining_st_F2cI1EnY"
+        ],
+        "origin": "template"
+      },
+      "dining_link_PDVjSXBb": {
+        "id": "dining_link_PDVjSXBb",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "dining_box_UDitpwYw",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "dining_st_ah4jiXTI"
+        ],
+        "origin": "template"
+      },
+      "dining_link_fdrrjcqL": {
+        "id": "dining_link_fdrrjcqL",
+        "type": "Link",
+        "name": "Menu",
+        "parentId": "dining_box_UDitpwYw",
+        "children": [],
+        "props": {
+          "text": "Menu",
+          "href": "/menu"
+        },
+        "styleIds": [
+          "dining_st_AHj7-8xj"
+        ],
+        "origin": "template"
+      },
+      "dining_link_msVnUkAV": {
+        "id": "dining_link_msVnUkAV",
+        "type": "Link",
+        "name": "Reservations",
+        "parentId": "dining_box_UDitpwYw",
+        "children": [],
+        "props": {
+          "text": "Reservations",
+          "href": "/reservations"
+        },
+        "styleIds": [
+          "dining_st_x-rIkJYC"
+        ],
+        "origin": "template"
+      }
+    },
+    "styles": {
+      "dining_st_IhAabZEF": {
+        "id": "dining_st_IhAabZEF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_nlYux3nW": {
+        "id": "dining_st_nlYux3nW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_KkD2Ik6P": {
+        "id": "dining_st_KkD2Ik6P",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "dining_st_F3BamNGo": {
+        "id": "dining_st_F3BamNGo",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_G2N7Vuhq": {
+        "id": "dining_st_G2N7Vuhq",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_t5-Tz4RX": {
+        "id": "dining_st_t5-Tz4RX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_xOCldjpl": {
+        "id": "dining_st_xOCldjpl",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_HD1z4oMd": {
+        "id": "dining_st_HD1z4oMd",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_HTRpaCIt": {
+        "id": "dining_st_HTRpaCIt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 96
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "textAlign": {
+                "keyword": "center"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_nbUWpWGU": {
+        "id": "dining_st_nbUWpWGU",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 800
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 20
+              }
+            }
+          }
+        }
+      },
+      "dining_st_8VVwouq5": {
+        "id": "dining_st_8VVwouq5",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 13
+              },
+              "letterSpacing": {
+                "unit": "px",
+                "value": 2
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_gDEySr_2": {
+        "id": "dining_st_gDEySr_2",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 54
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.text"
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              }
+            }
+          }
+        }
+      },
+      "dining_st_ezn67XtB": {
+        "id": "dining_st_ezn67XtB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_1PhBh-S8": {
+        "id": "dining_st_1PhBh-S8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "dining_st_5bY52mww": {
+        "id": "dining_st_5bY52mww",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st__ocZppz1": {
+        "id": "dining_st__ocZppz1",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_gIXxqQjf": {
+        "id": "dining_st_gIXxqQjf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 420
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_Il7aUYUw": {
+        "id": "dining_st_Il7aUYUw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_eUfSpVTV": {
+        "id": "dining_st_eUfSpVTV",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1100
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_A-2R0Uwt": {
+        "id": "dining_st_A-2R0Uwt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "dining_st_m-qungKp": {
+        "id": "dining_st_m-qungKp",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(3, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_uCvUDmCr": {
+        "id": "dining_st_uCvUDmCr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 28
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_IiqkOv3y": {
+        "id": "dining_st_IiqkOv3y",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_H_Jvqrm_": {
+        "id": "dining_st_H_Jvqrm_",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_ePLQWWy6": {
+        "id": "dining_st_ePLQWWy6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_zBI1SOCS": {
+        "id": "dining_st_zBI1SOCS",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 28
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_UbfO527T": {
+        "id": "dining_st_UbfO527T",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_FedlREAB": {
+        "id": "dining_st_FedlREAB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_uBvBzvBf": {
+        "id": "dining_st_uBvBzvBf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_rYdf-qMM": {
+        "id": "dining_st_rYdf-qMM",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 28
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_7SJiLzI4": {
+        "id": "dining_st_7SJiLzI4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_tkClv7na": {
+        "id": "dining_st_tkClv7na",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_xtZ2meA7": {
+        "id": "dining_st_xtZ2meA7",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_CXplFAbU": {
+        "id": "dining_st_CXplFAbU",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_cLfNij-F": {
+        "id": "dining_st_cLfNij-F",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_kFXAAWqT": {
+        "id": "dining_st_kFXAAWqT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_tIjJ41S0": {
+        "id": "dining_st_tIjJ41S0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_isQhdDzF": {
+        "id": "dining_st_isQhdDzF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_nZ8R72eY": {
+        "id": "dining_st_nZ8R72eY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_TTqHkEjW": {
+        "id": "dining_st_TTqHkEjW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_CuFPyhXt": {
+        "id": "dining_st_CuFPyhXt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_EXulHyve": {
+        "id": "dining_st_EXulHyve",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_FfbcbOMT": {
+        "id": "dining_st_FfbcbOMT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_iSmsH-TU": {
+        "id": "dining_st_iSmsH-TU",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_8mI0WN-d": {
+        "id": "dining_st_8mI0WN-d",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_mu50rTKB": {
+        "id": "dining_st_mu50rTKB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "dining_st_tdl7DAzT": {
+        "id": "dining_st_tdl7DAzT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_dTejeDZx": {
+        "id": "dining_st_dTejeDZx",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_nfLig65t": {
+        "id": "dining_st_nfLig65t",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_lqlHwuvD": {
+        "id": "dining_st_lqlHwuvD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_6J3nrBwh": {
+        "id": "dining_st_6J3nrBwh",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_BEk9zHlS": {
+        "id": "dining_st_BEk9zHlS",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_lr16etAN": {
+        "id": "dining_st_lr16etAN",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 800
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_a8sNgswc": {
+        "id": "dining_st_a8sNgswc",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 48
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "dining_st_3FV5hZpg": {
+        "id": "dining_st_3FV5hZpg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "dining_st_FEw82JYs": {
+        "id": "dining_st_FEw82JYs",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_sXO79_Sn": {
+        "id": "dining_st_sXO79_Sn",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 4
+              }
+            }
+          }
+        }
+      },
+      "dining_st_TH2If2jv": {
+        "id": "dining_st_TH2If2jv",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_K0VekmjV": {
+        "id": "dining_st_K0VekmjV",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_Zf_U0tgf": {
+        "id": "dining_st_Zf_U0tgf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_wdSAQGBw": {
+        "id": "dining_st_wdSAQGBw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_b6r5BHYg": {
+        "id": "dining_st_b6r5BHYg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 4
+              }
+            }
+          }
+        }
+      },
+      "dining_st_N3aSnwbX": {
+        "id": "dining_st_N3aSnwbX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_GBatAzBX": {
+        "id": "dining_st_GBatAzBX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_bWbwUrgg": {
+        "id": "dining_st_bWbwUrgg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_4e7MiW-N": {
+        "id": "dining_st_4e7MiW-N",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 24
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_9wxpNPLi": {
+        "id": "dining_st_9wxpNPLi",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 4
+              }
+            }
+          }
+        }
+      },
+      "dining_st_SGJGwpBg": {
+        "id": "dining_st_SGJGwpBg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_IaaeftEP": {
+        "id": "dining_st_IaaeftEP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_PsoIx11f": {
+        "id": "dining_st_PsoIx11f",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_PukLjwVQ": {
+        "id": "dining_st_PukLjwVQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_NUs1eM3U": {
+        "id": "dining_st_NUs1eM3U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_6T-AuNkj": {
+        "id": "dining_st_6T-AuNkj",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_fh4UC_4q": {
+        "id": "dining_st_fh4UC_4q",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_ddCvxRRp": {
+        "id": "dining_st_ddCvxRRp",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_AzoXog5r": {
+        "id": "dining_st_AzoXog5r",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_i0EfGjD8": {
+        "id": "dining_st_i0EfGjD8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_vgas5pht": {
+        "id": "dining_st_vgas5pht",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_--pwxhIf": {
+        "id": "dining_st_--pwxhIf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_nbwxOeM3": {
+        "id": "dining_st_nbwxOeM3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_P9mmBBU8": {
+        "id": "dining_st_P9mmBBU8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_Jiijn1Gg": {
+        "id": "dining_st_Jiijn1Gg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_K1o9YSCJ": {
+        "id": "dining_st_K1o9YSCJ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "dining_st_p6_8A4dq": {
+        "id": "dining_st_p6_8A4dq",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_KNzhLkkW": {
+        "id": "dining_st_KNzhLkkW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_cbEoXfzw": {
+        "id": "dining_st_cbEoXfzw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_hnfN3D5_": {
+        "id": "dining_st_hnfN3D5_",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_b2_WQoaW": {
+        "id": "dining_st_b2_WQoaW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_TToADkiD": {
+        "id": "dining_st_TToADkiD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_K9hPVwN1": {
+        "id": "dining_st_K9hPVwN1",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 680
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_6k4B4igN": {
+        "id": "dining_st_6k4B4igN",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 44
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "dining_st_dK99MHFd": {
+        "id": "dining_st_dK99MHFd",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          }
+        }
+      },
+      "dining_st_E88dP4f4": {
+        "id": "dining_st_E88dP4f4",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 20
+              }
+            }
+          }
+        }
+      },
+      "dining_st_LmsknIr-": {
+        "id": "dining_st_LmsknIr-",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_ttF0aHDw": {
+        "id": "dining_st_ttF0aHDw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_MyevSAny": {
+        "id": "dining_st_MyevSAny",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_bWYK1puc": {
+        "id": "dining_st_bWYK1puc",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 14
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_SC--kcY0": {
+        "id": "dining_st_SC--kcY0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "dining_st_FvqPe83m": {
+        "id": "dining_st_FvqPe83m",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_M3pURSha": {
+        "id": "dining_st_M3pURSha",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_cHve0W93": {
+        "id": "dining_st_cHve0W93",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "dining_st_T5267fWm": {
+        "id": "dining_st_T5267fWm",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_jGuNY14U": {
+        "id": "dining_st_jGuNY14U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_-rf_A89o": {
+        "id": "dining_st_-rf_A89o",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_F2cI1EnY": {
+        "id": "dining_st_F2cI1EnY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "dining_st_ah4jiXTI": {
+        "id": "dining_st_ah4jiXTI",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_AHj7-8xj": {
+        "id": "dining_st_AHj7-8xj",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "dining_st_x-rIkJYC": {
+        "id": "dining_st_x-rIkJYC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {},
+    "assets": {}
+  }
+}

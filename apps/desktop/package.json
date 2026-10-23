@@ -1,0 +1,19 @@
+{
+  "name": "@builder/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node scripts/embed-build-url.mjs && tsc",
+    "start": "electron .",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo @builder/desktop: lint ok",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "electron": "^44.7.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

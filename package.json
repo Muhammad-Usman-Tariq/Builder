@@ -1,0 +1,26 @@
+{
+  "name": "builder",
+  "private": true,
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:local": "node scripts/dev-local.mjs",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "check": "turbo run lint typecheck test && node scripts/smoke-dev.mjs",
+    "smoke": "node scripts/smoke-dev.mjs",
+    "certify:templates": "tsx templates/src/certify-cli.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "gen:secrets": "node scripts/gen-secrets.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

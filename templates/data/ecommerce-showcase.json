@@ -1,0 +1,4704 @@
+{
+  "id": "tmpl_ecommerce_showcase",
+  "slug": "ecommerce-showcase",
+  "name": "Lumina Goods",
+  "category": "E-Commerce",
+  "description": "Minimalist direct-to-consumer lifestyle brand storefront with curated product catalog and newsletter capture.",
+  "tags": [
+    "ecommerce",
+    "store",
+    "shop",
+    "lifestyle",
+    "products",
+    "minimal"
+  ],
+  "preview": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+  "pageCount": 3,
+  "style": "clean-commerce",
+  "document": {
+    "schemaVersion": 1,
+    "site": {
+      "name": "Lumina Goods",
+      "defaultLocale": "en",
+      "locales": [
+        "en"
+      ]
+    },
+    "breakpoints": [
+      {
+        "id": "desktop",
+        "name": "Desktop",
+        "minWidth": 1024,
+        "isBase": true
+      },
+      {
+        "id": "tablet",
+        "name": "Tablet",
+        "maxWidth": 1023,
+        "minWidth": 768
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "maxWidth": 767
+      }
+    ],
+    "tokens": {
+      "colors": {
+        "color.primary": "#059669",
+        "color.primaryForeground": "#ffffff",
+        "color.secondary": "#f4f4f5",
+        "color.secondaryForeground": "#18181b",
+        "color.accent": "#10b981",
+        "color.accentForeground": "#ffffff",
+        "color.background": "#ffffff",
+        "color.surface": "#fafafa",
+        "color.text": "#18181b",
+        "color.textMuted": "#71717a",
+        "color.border": "#e4e4e7"
+      },
+      "fonts": {
+        "heading": "Inter, system-ui, sans-serif",
+        "body": "Inter, system-ui, sans-serif",
+        "mono": "monospace"
+      },
+      "spacing": {
+        "space.0": "0px",
+        "space.1": "4px",
+        "space.2": "8px",
+        "space.3": "12px",
+        "space.4": "16px",
+        "space.6": "24px",
+        "space.8": "32px",
+        "space.12": "48px",
+        "space.16": "64px",
+        "space.24": "96px"
+      },
+      "radius": {
+        "radius.none": "0px",
+        "radius.sm": "4px",
+        "radius.md": "8px",
+        "radius.lg": "16px",
+        "radius.full": "9999px"
+      },
+      "shadows": {
+        "shadow.sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "shadow.md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "shadow.lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)"
+      }
+    },
+    "pages": {
+      "shop_pg_gJ60ou5F": {
+        "id": "shop_pg_gJ60ou5F",
+        "name": "Home",
+        "slug": "/",
+        "rootId": "shop_body_mrpcsuxo",
+        "seo": {
+          "title": "Lumina Goods — Thoughtfully Designed Everyday Essentials",
+          "description": "Discover handcrafted home goods, accessories, and travel gear crafted from sustainable materials."
+        },
+        "status": "published"
+      },
+      "shop_pg_IepMrFhx": {
+        "id": "shop_pg_IepMrFhx",
+        "name": "Shop",
+        "slug": "/shop",
+        "rootId": "shop_body_9Fd5L0pa",
+        "seo": {
+          "title": "Catalog & New Releases — Lumina Goods",
+          "description": "Browse the complete collection of minimalist homewares, bags, and tools."
+        },
+        "status": "published"
+      },
+      "shop_pg_Qq6EhaFr": {
+        "id": "shop_pg_Qq6EhaFr",
+        "name": "About",
+        "slug": "/about",
+        "rootId": "shop_body_4TPjmbBX",
+        "seo": {
+          "title": "Our Story & Craftsmanship — Lumina Goods",
+          "description": "Learn about our founding philosophy, ethical manufacturing, and material standards."
+        },
+        "status": "published"
+      }
+    },
+    "elements": {
+      "shop_body_mrpcsuxo": {
+        "id": "shop_body_mrpcsuxo",
+        "type": "Body",
+        "name": "Home Page Body",
+        "parentId": null,
+        "children": [
+          "shop_navbar_1BakxqpQ",
+          "shop_section_okP8Fg1n",
+          "shop_section_2X58jDq5",
+          "shop_section_578G2cW4",
+          "shop_section_DB25bZN8"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_1ymLklQz"
+        ],
+        "origin": "template"
+      },
+      "shop_navbar_1BakxqpQ": {
+        "id": "shop_navbar_1BakxqpQ",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "shop_body_mrpcsuxo",
+        "children": [
+          "shop_box_6ed84tFH",
+          "shop_box_aAuTwQy6",
+          "shop_button_m_EOrtCf"
+        ],
+        "props": {
+          "brandText": "Lumina Goods"
+        },
+        "styleIds": [
+          "shop_st_bo9E-sws"
+        ],
+        "origin": "template"
+      },
+      "shop_box_6ed84tFH": {
+        "id": "shop_box_6ed84tFH",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "shop_navbar_1BakxqpQ",
+        "children": [
+          "shop_heading_yiKU5y4U"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_rYJYeh7g"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_yiKU5y4U": {
+        "id": "shop_heading_yiKU5y4U",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "shop_box_6ed84tFH",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_r5NxPXfB"
+        ],
+        "origin": "template"
+      },
+      "shop_box_aAuTwQy6": {
+        "id": "shop_box_aAuTwQy6",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "shop_navbar_1BakxqpQ",
+        "children": [
+          "shop_link_BXyg4wr1",
+          "shop_link_zZeQfWg1"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_2A35Zsqt"
+        ],
+        "origin": "template"
+      },
+      "shop_link_BXyg4wr1": {
+        "id": "shop_link_BXyg4wr1",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_aAuTwQy6",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_qr5Kclm8"
+        ],
+        "origin": "template"
+      },
+      "shop_link_zZeQfWg1": {
+        "id": "shop_link_zZeQfWg1",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_aAuTwQy6",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_kUrGHdRk"
+        ],
+        "origin": "template"
+      },
+      "shop_button_m_EOrtCf": {
+        "id": "shop_button_m_EOrtCf",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "shop_navbar_1BakxqpQ",
+        "children": [],
+        "props": {
+          "text": "Cart (0)",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_ULbXhEPM"
+        ],
+        "origin": "template"
+      },
+      "shop_section_okP8Fg1n": {
+        "id": "shop_section_okP8Fg1n",
+        "type": "Section",
+        "name": "Hero Section",
+        "parentId": "shop_body_mrpcsuxo",
+        "children": [
+          "shop_container_z4zNY7Qc"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_ytjylaBN"
+        ],
+        "origin": "template"
+      },
+      "shop_container_z4zNY7Qc": {
+        "id": "shop_container_z4zNY7Qc",
+        "type": "Container",
+        "name": "Hero Container",
+        "parentId": "shop_section_okP8Fg1n",
+        "children": [
+          "shop_box_ThAS6jx_",
+          "shop_image_JhM-9bwT"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_xW3a6ZTx"
+        ],
+        "origin": "template"
+      },
+      "shop_box_ThAS6jx_": {
+        "id": "shop_box_ThAS6jx_",
+        "type": "Box",
+        "name": "Hero Text Column",
+        "parentId": "shop_container_z4zNY7Qc",
+        "children": [
+          "shop_text_vNAwFFJT",
+          "shop_heading_o0BAEqCL",
+          "shop_text_yWnmcFOg",
+          "shop_box_YnqygMlM"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_8jMwD8dJ"
+        ],
+        "origin": "template"
+      },
+      "shop_text_vNAwFFJT": {
+        "id": "shop_text_vNAwFFJT",
+        "type": "Text",
+        "name": "Hero Tagline",
+        "parentId": "shop_box_ThAS6jx_",
+        "children": [],
+        "props": {
+          "text": "AUTUMN / WINTER 2026 COLLECTION"
+        },
+        "styleIds": [
+          "shop_st_0aIdQjIx"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_o0BAEqCL": {
+        "id": "shop_heading_o0BAEqCL",
+        "type": "Heading",
+        "name": "Hero Title",
+        "parentId": "shop_box_ThAS6jx_",
+        "children": [],
+        "props": {
+          "text": "Thoughtfully designed objects for everyday life.",
+          "level": 1
+        },
+        "styleIds": [
+          "shop_st_w-PQn3YO"
+        ],
+        "origin": "template"
+      },
+      "shop_text_yWnmcFOg": {
+        "id": "shop_text_yWnmcFOg",
+        "type": "Text",
+        "name": "Hero Subtitle",
+        "parentId": "shop_box_ThAS6jx_",
+        "children": [],
+        "props": {
+          "text": "Minimalist travel essentials, ceramic tablewares, and desk tools engineered for enduring durability and quiet beauty."
+        },
+        "styleIds": [
+          "shop_st_hEBGqgdb"
+        ],
+        "origin": "template"
+      },
+      "shop_box_YnqygMlM": {
+        "id": "shop_box_YnqygMlM",
+        "type": "Box",
+        "name": "Hero Buttons",
+        "parentId": "shop_box_ThAS6jx_",
+        "children": [
+          "shop_button_Q6RDcY4b"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_rzuJbppc"
+        ],
+        "origin": "template"
+      },
+      "shop_button_Q6RDcY4b": {
+        "id": "shop_button_Q6RDcY4b",
+        "type": "Button",
+        "name": "Shop CTA",
+        "parentId": "shop_box_YnqygMlM",
+        "children": [],
+        "props": {
+          "text": "Shop New Arrivals",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_iJ9qQk4d"
+        ],
+        "origin": "template"
+      },
+      "shop_image_JhM-9bwT": {
+        "id": "shop_image_JhM-9bwT",
+        "type": "Image",
+        "name": "Hero Showcase Image",
+        "parentId": "shop_container_z4zNY7Qc",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+          "alt": "Minimalist ceramic vase and notebooks arranged on clean surface"
+        },
+        "styleIds": [
+          "shop_st_zl2d4So0"
+        ],
+        "origin": "template"
+      },
+      "shop_section_2X58jDq5": {
+        "id": "shop_section_2X58jDq5",
+        "type": "Section",
+        "name": "Best Sellers Section",
+        "parentId": "shop_body_mrpcsuxo",
+        "children": [
+          "shop_container_JEp0rsV1"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_gWUHrxK9"
+        ],
+        "origin": "template"
+      },
+      "shop_container_JEp0rsV1": {
+        "id": "shop_container_JEp0rsV1",
+        "type": "Container",
+        "name": "Products Container",
+        "parentId": "shop_section_2X58jDq5",
+        "children": [
+          "shop_heading_ezL4sWUE",
+          "shop_box_D0Rtl3xG"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_NrwrX0lv"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_ezL4sWUE": {
+        "id": "shop_heading_ezL4sWUE",
+        "type": "Heading",
+        "name": "Best Sellers Title",
+        "parentId": "shop_container_JEp0rsV1",
+        "children": [],
+        "props": {
+          "text": "Best Sellers",
+          "level": 2
+        },
+        "styleIds": [
+          "shop_st_GAcpng2G"
+        ],
+        "origin": "template"
+      },
+      "shop_box_D0Rtl3xG": {
+        "id": "shop_box_D0Rtl3xG",
+        "type": "Box",
+        "name": "Products Grid",
+        "parentId": "shop_container_JEp0rsV1",
+        "children": [
+          "shop_box__X3Kse4S",
+          "shop_box_--NUS_O0",
+          "shop_box_BSi8Wa9a"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_0s0LA8Qq"
+        ],
+        "origin": "template"
+      },
+      "shop_box__X3Kse4S": {
+        "id": "shop_box__X3Kse4S",
+        "type": "Box",
+        "name": "Product Card",
+        "parentId": "shop_box_D0Rtl3xG",
+        "children": [
+          "shop_image_Ip4-BI9u",
+          "shop_heading_HOB4dd9d",
+          "shop_text_B8cvKSgw",
+          "shop_button_MS3SytDf"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_364Yn39q"
+        ],
+        "origin": "template"
+      },
+      "shop_image_Ip4-BI9u": {
+        "id": "shop_image_Ip4-BI9u",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box__X3Kse4S",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+          "alt": "Ceramic Pour-Over Dripper product photo"
+        },
+        "styleIds": [
+          "shop_st_IiywpY2C"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_HOB4dd9d": {
+        "id": "shop_heading_HOB4dd9d",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box__X3Kse4S",
+        "children": [],
+        "props": {
+          "text": "Ceramic Pour-Over Dripper",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_akqDBi8x"
+        ],
+        "origin": "template"
+      },
+      "shop_text_B8cvKSgw": {
+        "id": "shop_text_B8cvKSgw",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box__X3Kse4S",
+        "children": [],
+        "props": {
+          "text": "$48.00"
+        },
+        "styleIds": [
+          "shop_st_Ycf4ZMj_"
+        ],
+        "origin": "template"
+      },
+      "shop_button_MS3SytDf": {
+        "id": "shop_button_MS3SytDf",
+        "type": "Button",
+        "name": "Add to Cart",
+        "parentId": "shop_box__X3Kse4S",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "shop_st_PWkBeV3D"
+        ],
+        "origin": "template"
+      },
+      "shop_box_--NUS_O0": {
+        "id": "shop_box_--NUS_O0",
+        "type": "Box",
+        "name": "Product Card",
+        "parentId": "shop_box_D0Rtl3xG",
+        "children": [
+          "shop_image_7NVPuZc3",
+          "shop_heading_rcdTHc2q",
+          "shop_text_8bYnF6wZ",
+          "shop_button_L4jWbt9D"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_oyuxHER3"
+        ],
+        "origin": "template"
+      },
+      "shop_image_7NVPuZc3": {
+        "id": "shop_image_7NVPuZc3",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box_--NUS_O0",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+          "alt": "Waxed Canvas Weekender product photo"
+        },
+        "styleIds": [
+          "shop_st__uf_LFSw"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_rcdTHc2q": {
+        "id": "shop_heading_rcdTHc2q",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box_--NUS_O0",
+        "children": [],
+        "props": {
+          "text": "Waxed Canvas Weekender",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_rDnSCxDf"
+        ],
+        "origin": "template"
+      },
+      "shop_text_8bYnF6wZ": {
+        "id": "shop_text_8bYnF6wZ",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box_--NUS_O0",
+        "children": [],
+        "props": {
+          "text": "$145.00"
+        },
+        "styleIds": [
+          "shop_st_S4zjQJjF"
+        ],
+        "origin": "template"
+      },
+      "shop_button_L4jWbt9D": {
+        "id": "shop_button_L4jWbt9D",
+        "type": "Button",
+        "name": "Add to Cart",
+        "parentId": "shop_box_--NUS_O0",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "shop_st_QZl3F9Ka"
+        ],
+        "origin": "template"
+      },
+      "shop_box_BSi8Wa9a": {
+        "id": "shop_box_BSi8Wa9a",
+        "type": "Box",
+        "name": "Product Card",
+        "parentId": "shop_box_D0Rtl3xG",
+        "children": [
+          "shop_image_qWKWj7O6",
+          "shop_heading_WLBoBugo",
+          "shop_text_M1LptnKH",
+          "shop_button_mnZxDIhR"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_ZuVHKviA"
+        ],
+        "origin": "template"
+      },
+      "shop_image_qWKWj7O6": {
+        "id": "shop_image_qWKWj7O6",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box_BSi8Wa9a",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=600&q=80",
+          "alt": "Machined Brass Desk Pen product photo"
+        },
+        "styleIds": [
+          "shop_st_4fVUyUCL"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_WLBoBugo": {
+        "id": "shop_heading_WLBoBugo",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box_BSi8Wa9a",
+        "children": [],
+        "props": {
+          "text": "Machined Brass Desk Pen",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_TaWfX9CY"
+        ],
+        "origin": "template"
+      },
+      "shop_text_M1LptnKH": {
+        "id": "shop_text_M1LptnKH",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box_BSi8Wa9a",
+        "children": [],
+        "props": {
+          "text": "$65.00"
+        },
+        "styleIds": [
+          "shop_st_S4-BTXJi"
+        ],
+        "origin": "template"
+      },
+      "shop_button_mnZxDIhR": {
+        "id": "shop_button_mnZxDIhR",
+        "type": "Button",
+        "name": "Add to Cart",
+        "parentId": "shop_box_BSi8Wa9a",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "secondary"
+        },
+        "styleIds": [
+          "shop_st_E_HmEYx5"
+        ],
+        "origin": "template"
+      },
+      "shop_section_578G2cW4": {
+        "id": "shop_section_578G2cW4",
+        "type": "Section",
+        "name": "Newsletter Section",
+        "parentId": "shop_body_mrpcsuxo",
+        "children": [
+          "shop_container_HJBS1KnD"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_t_3OWFNP"
+        ],
+        "origin": "template"
+      },
+      "shop_container_HJBS1KnD": {
+        "id": "shop_container_HJBS1KnD",
+        "type": "Container",
+        "name": "Newsletter Container",
+        "parentId": "shop_section_578G2cW4",
+        "children": [
+          "shop_heading_gsHO7ugJ",
+          "shop_text_5sX8TnDM",
+          "shop_form_V4Ho-_99"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_6Vo8-rPi"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_gsHO7ugJ": {
+        "id": "shop_heading_gsHO7ugJ",
+        "type": "Heading",
+        "name": "Newsletter Heading",
+        "parentId": "shop_container_HJBS1KnD",
+        "children": [],
+        "props": {
+          "text": "Join the Lumina Collective",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_q9EWZlEB"
+        ],
+        "origin": "template"
+      },
+      "shop_text_5sX8TnDM": {
+        "id": "shop_text_5sX8TnDM",
+        "type": "Text",
+        "name": "Newsletter Desc",
+        "parentId": "shop_container_HJBS1KnD",
+        "children": [],
+        "props": {
+          "text": "Receive preview access to limited seasonal runs and 15% off your first purchase."
+        },
+        "styleIds": [
+          "shop_st_-_5qtGi3"
+        ],
+        "origin": "template"
+      },
+      "shop_form_V4Ho-_99": {
+        "id": "shop_form_V4Ho-_99",
+        "type": "Form",
+        "name": "Newsletter Form",
+        "parentId": "shop_container_HJBS1KnD",
+        "children": [
+          "shop_input_N8_7Deze",
+          "shop_submit_0qG-ELx0"
+        ],
+        "props": {
+          "name": "Newsletter",
+          "method": "POST"
+        },
+        "styleIds": [
+          "shop_st_8nabX8yE"
+        ],
+        "origin": "template"
+      },
+      "shop_input_N8_7Deze": {
+        "id": "shop_input_N8_7Deze",
+        "type": "Input",
+        "name": "Newsletter Email",
+        "parentId": "shop_form_V4Ho-_99",
+        "children": [],
+        "props": {
+          "name": "email",
+          "placeholder": "Enter your email address",
+          "type": "email",
+          "required": true
+        },
+        "styleIds": [
+          "shop_st_60jwl-M9"
+        ],
+        "origin": "template"
+      },
+      "shop_submit_0qG-ELx0": {
+        "id": "shop_submit_0qG-ELx0",
+        "type": "Submit",
+        "name": "Subscribe Button",
+        "parentId": "shop_form_V4Ho-_99",
+        "children": [],
+        "props": {
+          "text": "Subscribe"
+        },
+        "styleIds": [
+          "shop_st_cgC0AKTF"
+        ],
+        "origin": "template"
+      },
+      "shop_section_DB25bZN8": {
+        "id": "shop_section_DB25bZN8",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "shop_body_mrpcsuxo",
+        "children": [
+          "shop_container_c7bEEFKs"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_ntlCPe7t"
+        ],
+        "origin": "template"
+      },
+      "shop_container_c7bEEFKs": {
+        "id": "shop_container_c7bEEFKs",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "shop_section_DB25bZN8",
+        "children": [
+          "shop_box_PO2R7q6k",
+          "shop_box_HtnFcNPo"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_eRPg_M3a"
+        ],
+        "origin": "template"
+      },
+      "shop_box_PO2R7q6k": {
+        "id": "shop_box_PO2R7q6k",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "shop_container_c7bEEFKs",
+        "children": [
+          "shop_heading_fXAnQ-5b",
+          "shop_text_GT_Gytxp",
+          "shop_text_9V-upFUo"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_tx3wdkmX"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_fXAnQ-5b": {
+        "id": "shop_heading_fXAnQ-5b",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "shop_box_PO2R7q6k",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 4
+        },
+        "styleIds": [
+          "shop_st_tQKBIPjr"
+        ],
+        "origin": "template"
+      },
+      "shop_text_GT_Gytxp": {
+        "id": "shop_text_GT_Gytxp",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "shop_box_PO2R7q6k",
+        "children": [],
+        "props": {
+          "text": "Everyday objects crafted for enduring life."
+        },
+        "styleIds": [
+          "shop_st_ZwpJ_yor"
+        ],
+        "origin": "template"
+      },
+      "shop_text_9V-upFUo": {
+        "id": "shop_text_9V-upFUo",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "shop_box_PO2R7q6k",
+        "children": [],
+        "props": {
+          "text": "© 2026 Lumina Goods. All rights reserved."
+        },
+        "styleIds": [
+          "shop_st_tDFPh6zK"
+        ],
+        "origin": "template"
+      },
+      "shop_box_HtnFcNPo": {
+        "id": "shop_box_HtnFcNPo",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "shop_container_c7bEEFKs",
+        "children": [
+          "shop_link_-CBGREYl",
+          "shop_link_H_YfO9Z6",
+          "shop_link_iAnJ2SN9"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_AZZ-GbVJ"
+        ],
+        "origin": "template"
+      },
+      "shop_link_-CBGREYl": {
+        "id": "shop_link_-CBGREYl",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "shop_box_HtnFcNPo",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "shop_st_i-Yi9ZvI"
+        ],
+        "origin": "template"
+      },
+      "shop_link_H_YfO9Z6": {
+        "id": "shop_link_H_YfO9Z6",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_HtnFcNPo",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_Dtj8COen"
+        ],
+        "origin": "template"
+      },
+      "shop_link_iAnJ2SN9": {
+        "id": "shop_link_iAnJ2SN9",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_HtnFcNPo",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_vnWrnSsR"
+        ],
+        "origin": "template"
+      },
+      "shop_body_9Fd5L0pa": {
+        "id": "shop_body_9Fd5L0pa",
+        "type": "Body",
+        "name": "Shop Page Body",
+        "parentId": null,
+        "children": [
+          "shop_navbar_5PlXKy_f",
+          "shop_section_2X7H7lW8",
+          "shop_section_v7_cPb-b"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_h09ovJt6"
+        ],
+        "origin": "template"
+      },
+      "shop_navbar_5PlXKy_f": {
+        "id": "shop_navbar_5PlXKy_f",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "shop_body_9Fd5L0pa",
+        "children": [
+          "shop_box_Gw-ZCcqH",
+          "shop_box_dMoZZIYE",
+          "shop_button_WOcO9DxQ"
+        ],
+        "props": {
+          "brandText": "Lumina Goods"
+        },
+        "styleIds": [
+          "shop_st_p_z0HmsY"
+        ],
+        "origin": "template"
+      },
+      "shop_box_Gw-ZCcqH": {
+        "id": "shop_box_Gw-ZCcqH",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "shop_navbar_5PlXKy_f",
+        "children": [
+          "shop_heading_Jk2eaIx0"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_8LJif_BL"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_Jk2eaIx0": {
+        "id": "shop_heading_Jk2eaIx0",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "shop_box_Gw-ZCcqH",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_q0FILR0S"
+        ],
+        "origin": "template"
+      },
+      "shop_box_dMoZZIYE": {
+        "id": "shop_box_dMoZZIYE",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "shop_navbar_5PlXKy_f",
+        "children": [
+          "shop_link_G0Jtc2KI",
+          "shop_link_8glPnLoQ"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_Uu6JagCF"
+        ],
+        "origin": "template"
+      },
+      "shop_link_G0Jtc2KI": {
+        "id": "shop_link_G0Jtc2KI",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_dMoZZIYE",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_pdWbXC75"
+        ],
+        "origin": "template"
+      },
+      "shop_link_8glPnLoQ": {
+        "id": "shop_link_8glPnLoQ",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_dMoZZIYE",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_YIK53ksC"
+        ],
+        "origin": "template"
+      },
+      "shop_button_WOcO9DxQ": {
+        "id": "shop_button_WOcO9DxQ",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "shop_navbar_5PlXKy_f",
+        "children": [],
+        "props": {
+          "text": "Cart (0)",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_ri80KR-Y"
+        ],
+        "origin": "template"
+      },
+      "shop_section_2X7H7lW8": {
+        "id": "shop_section_2X7H7lW8",
+        "type": "Section",
+        "name": "Shop Section",
+        "parentId": "shop_body_9Fd5L0pa",
+        "children": [
+          "shop_container_OFM9uGjl"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_gd5uKLxD"
+        ],
+        "origin": "template"
+      },
+      "shop_container_OFM9uGjl": {
+        "id": "shop_container_OFM9uGjl",
+        "type": "Container",
+        "name": "Shop Container",
+        "parentId": "shop_section_2X7H7lW8",
+        "children": [
+          "shop_heading_EVBl3ZsE",
+          "shop_text_pJUW4U6c",
+          "shop_box_6BBdIIJS"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st__qfkR9kg"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_EVBl3ZsE": {
+        "id": "shop_heading_EVBl3ZsE",
+        "type": "Heading",
+        "name": "Shop Heading",
+        "parentId": "shop_container_OFM9uGjl",
+        "children": [],
+        "props": {
+          "text": "The Complete Collection",
+          "level": 1
+        },
+        "styleIds": [
+          "shop_st_KHQYPF_X"
+        ],
+        "origin": "template"
+      },
+      "shop_text_pJUW4U6c": {
+        "id": "shop_text_pJUW4U6c",
+        "type": "Text",
+        "name": "Shop Subtitle",
+        "parentId": "shop_container_OFM9uGjl",
+        "children": [],
+        "props": {
+          "text": "Handcrafted in small batches with full traceability of all raw materials."
+        },
+        "styleIds": [
+          "shop_st_zzFtiCOW"
+        ],
+        "origin": "template"
+      },
+      "shop_box_6BBdIIJS": {
+        "id": "shop_box_6BBdIIJS",
+        "type": "Box",
+        "name": "Shop Grid",
+        "parentId": "shop_container_OFM9uGjl",
+        "children": [
+          "shop_box_onYBKEYT",
+          "shop_box_v1XxNcqh",
+          "shop_box_qzb9LW4Q"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_FA0aIBsH"
+        ],
+        "origin": "template"
+      },
+      "shop_box_onYBKEYT": {
+        "id": "shop_box_onYBKEYT",
+        "type": "Box",
+        "name": "Shop Item Card",
+        "parentId": "shop_box_6BBdIIJS",
+        "children": [
+          "shop_image_kkJkNkbS",
+          "shop_heading_yxaVbPwQ",
+          "shop_text_8Nb8X4Zr",
+          "shop_button_6mITr52B"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_ZG9yio4E"
+        ],
+        "origin": "template"
+      },
+      "shop_image_kkJkNkbS": {
+        "id": "shop_image_kkJkNkbS",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box_onYBKEYT",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+          "alt": "Ceramic Pour-Over Dripper shop catalog photo"
+        },
+        "styleIds": [
+          "shop_st_UrMbGo87"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_yxaVbPwQ": {
+        "id": "shop_heading_yxaVbPwQ",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box_onYBKEYT",
+        "children": [],
+        "props": {
+          "text": "Ceramic Pour-Over Dripper",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_88506bGF"
+        ],
+        "origin": "template"
+      },
+      "shop_text_8Nb8X4Zr": {
+        "id": "shop_text_8Nb8X4Zr",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box_onYBKEYT",
+        "children": [],
+        "props": {
+          "text": "$48.00"
+        },
+        "styleIds": [
+          "shop_st_5G2uDOv3"
+        ],
+        "origin": "template"
+      },
+      "shop_button_6mITr52B": {
+        "id": "shop_button_6mITr52B",
+        "type": "Button",
+        "name": "Add to Bag",
+        "parentId": "shop_box_onYBKEYT",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_6NyG1fOP"
+        ],
+        "origin": "template"
+      },
+      "shop_box_v1XxNcqh": {
+        "id": "shop_box_v1XxNcqh",
+        "type": "Box",
+        "name": "Shop Item Card",
+        "parentId": "shop_box_6BBdIIJS",
+        "children": [
+          "shop_image_GytFGQsg",
+          "shop_heading_I9UHZg3g",
+          "shop_text_oR6jC9P9",
+          "shop_button_dNwDhxGW"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_dpf_v3qQ"
+        ],
+        "origin": "template"
+      },
+      "shop_image_GytFGQsg": {
+        "id": "shop_image_GytFGQsg",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box_v1XxNcqh",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+          "alt": "Waxed Canvas Weekender shop catalog photo"
+        },
+        "styleIds": [
+          "shop_st_xB6qg_9M"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_I9UHZg3g": {
+        "id": "shop_heading_I9UHZg3g",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box_v1XxNcqh",
+        "children": [],
+        "props": {
+          "text": "Waxed Canvas Weekender",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_ro3GYV-w"
+        ],
+        "origin": "template"
+      },
+      "shop_text_oR6jC9P9": {
+        "id": "shop_text_oR6jC9P9",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box_v1XxNcqh",
+        "children": [],
+        "props": {
+          "text": "$145.00"
+        },
+        "styleIds": [
+          "shop_st_ENmewfQm"
+        ],
+        "origin": "template"
+      },
+      "shop_button_dNwDhxGW": {
+        "id": "shop_button_dNwDhxGW",
+        "type": "Button",
+        "name": "Add to Bag",
+        "parentId": "shop_box_v1XxNcqh",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_0lQCNknR"
+        ],
+        "origin": "template"
+      },
+      "shop_box_qzb9LW4Q": {
+        "id": "shop_box_qzb9LW4Q",
+        "type": "Box",
+        "name": "Shop Item Card",
+        "parentId": "shop_box_6BBdIIJS",
+        "children": [
+          "shop_image_uKtRHC1S",
+          "shop_heading_bFrrUR8g",
+          "shop_text_IBqniTx0",
+          "shop_button_UEK9jvkY"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_qdDurxrf"
+        ],
+        "origin": "template"
+      },
+      "shop_image_uKtRHC1S": {
+        "id": "shop_image_uKtRHC1S",
+        "type": "Image",
+        "name": "Product Image",
+        "parentId": "shop_box_qzb9LW4Q",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=600&q=80",
+          "alt": "Machined Brass Desk Pen shop catalog photo"
+        },
+        "styleIds": [
+          "shop_st_uvbw4VE8"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_bFrrUR8g": {
+        "id": "shop_heading_bFrrUR8g",
+        "type": "Heading",
+        "name": "Product Title",
+        "parentId": "shop_box_qzb9LW4Q",
+        "children": [],
+        "props": {
+          "text": "Machined Brass Desk Pen",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_uduzlF2f"
+        ],
+        "origin": "template"
+      },
+      "shop_text_IBqniTx0": {
+        "id": "shop_text_IBqniTx0",
+        "type": "Text",
+        "name": "Product Price",
+        "parentId": "shop_box_qzb9LW4Q",
+        "children": [],
+        "props": {
+          "text": "$65.00"
+        },
+        "styleIds": [
+          "shop_st_Y6Fh_R9F"
+        ],
+        "origin": "template"
+      },
+      "shop_button_UEK9jvkY": {
+        "id": "shop_button_UEK9jvkY",
+        "type": "Button",
+        "name": "Add to Bag",
+        "parentId": "shop_box_qzb9LW4Q",
+        "children": [],
+        "props": {
+          "text": "Add to Bag",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_-2A_wgOm"
+        ],
+        "origin": "template"
+      },
+      "shop_section_v7_cPb-b": {
+        "id": "shop_section_v7_cPb-b",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "shop_body_9Fd5L0pa",
+        "children": [
+          "shop_container_ZUDJFo8o"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_ECC8wLFS"
+        ],
+        "origin": "template"
+      },
+      "shop_container_ZUDJFo8o": {
+        "id": "shop_container_ZUDJFo8o",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "shop_section_v7_cPb-b",
+        "children": [
+          "shop_box_baUhulAG",
+          "shop_box_6bU56P1m"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_6Kymos8v"
+        ],
+        "origin": "template"
+      },
+      "shop_box_baUhulAG": {
+        "id": "shop_box_baUhulAG",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "shop_container_ZUDJFo8o",
+        "children": [
+          "shop_heading_CEctQzge",
+          "shop_text_msUJCmVw",
+          "shop_text_kiwHnUz1"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_sUVyY93U"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_CEctQzge": {
+        "id": "shop_heading_CEctQzge",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "shop_box_baUhulAG",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 4
+        },
+        "styleIds": [
+          "shop_st_12O7tju8"
+        ],
+        "origin": "template"
+      },
+      "shop_text_msUJCmVw": {
+        "id": "shop_text_msUJCmVw",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "shop_box_baUhulAG",
+        "children": [],
+        "props": {
+          "text": "Everyday objects crafted for enduring life."
+        },
+        "styleIds": [
+          "shop_st_Rr81a7x0"
+        ],
+        "origin": "template"
+      },
+      "shop_text_kiwHnUz1": {
+        "id": "shop_text_kiwHnUz1",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "shop_box_baUhulAG",
+        "children": [],
+        "props": {
+          "text": "© 2026 Lumina Goods. All rights reserved."
+        },
+        "styleIds": [
+          "shop_st_O9BZeBgQ"
+        ],
+        "origin": "template"
+      },
+      "shop_box_6bU56P1m": {
+        "id": "shop_box_6bU56P1m",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "shop_container_ZUDJFo8o",
+        "children": [
+          "shop_link_hCl8eV2e",
+          "shop_link_4aNVbICA",
+          "shop_link_FAI-UyHO"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_9pMeFVmi"
+        ],
+        "origin": "template"
+      },
+      "shop_link_hCl8eV2e": {
+        "id": "shop_link_hCl8eV2e",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "shop_box_6bU56P1m",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "shop_st_br4ZSvIw"
+        ],
+        "origin": "template"
+      },
+      "shop_link_4aNVbICA": {
+        "id": "shop_link_4aNVbICA",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_6bU56P1m",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_za9c_8IG"
+        ],
+        "origin": "template"
+      },
+      "shop_link_FAI-UyHO": {
+        "id": "shop_link_FAI-UyHO",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_6bU56P1m",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_kb1Qmuoa"
+        ],
+        "origin": "template"
+      },
+      "shop_body_4TPjmbBX": {
+        "id": "shop_body_4TPjmbBX",
+        "type": "Body",
+        "name": "About Page Body",
+        "parentId": null,
+        "children": [
+          "shop_navbar_UgyNaPpA",
+          "shop_section_c_tgKtu0",
+          "shop_section_5_BJQW3o"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_RSRHCB-F"
+        ],
+        "origin": "template"
+      },
+      "shop_navbar_UgyNaPpA": {
+        "id": "shop_navbar_UgyNaPpA",
+        "type": "Navbar",
+        "name": "Site Navigation",
+        "parentId": "shop_body_4TPjmbBX",
+        "children": [
+          "shop_box_fLByQZfD",
+          "shop_box_iKG8rub2",
+          "shop_button_OO98GGUB"
+        ],
+        "props": {
+          "brandText": "Lumina Goods"
+        },
+        "styleIds": [
+          "shop_st_VerWQvBT"
+        ],
+        "origin": "template"
+      },
+      "shop_box_fLByQZfD": {
+        "id": "shop_box_fLByQZfD",
+        "type": "Box",
+        "name": "Brand Container",
+        "parentId": "shop_navbar_UgyNaPpA",
+        "children": [
+          "shop_heading_YoqilvvP"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_h9hv_Td0"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_YoqilvvP": {
+        "id": "shop_heading_YoqilvvP",
+        "type": "Heading",
+        "name": "Brand Title",
+        "parentId": "shop_box_fLByQZfD",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 3
+        },
+        "styleIds": [
+          "shop_st_hjQ_J6Cs"
+        ],
+        "origin": "template"
+      },
+      "shop_box_iKG8rub2": {
+        "id": "shop_box_iKG8rub2",
+        "type": "Box",
+        "name": "Nav Links",
+        "parentId": "shop_navbar_UgyNaPpA",
+        "children": [
+          "shop_link_WY8Chwul",
+          "shop_link_wBJPmdwn"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_9T2h117n"
+        ],
+        "origin": "template"
+      },
+      "shop_link_WY8Chwul": {
+        "id": "shop_link_WY8Chwul",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_iKG8rub2",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_0KHqruO8"
+        ],
+        "origin": "template"
+      },
+      "shop_link_wBJPmdwn": {
+        "id": "shop_link_wBJPmdwn",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_iKG8rub2",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_ckbgaXWP"
+        ],
+        "origin": "template"
+      },
+      "shop_button_OO98GGUB": {
+        "id": "shop_button_OO98GGUB",
+        "type": "Button",
+        "name": "Nav CTA",
+        "parentId": "shop_navbar_UgyNaPpA",
+        "children": [],
+        "props": {
+          "text": "Cart (0)",
+          "href": "/shop",
+          "variant": "primary"
+        },
+        "styleIds": [
+          "shop_st_mk-oeiom"
+        ],
+        "origin": "template"
+      },
+      "shop_section_c_tgKtu0": {
+        "id": "shop_section_c_tgKtu0",
+        "type": "Section",
+        "name": "About Story Section",
+        "parentId": "shop_body_4TPjmbBX",
+        "children": [
+          "shop_container_aizcGBCZ"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st__QXBTFYY"
+        ],
+        "origin": "template"
+      },
+      "shop_container_aizcGBCZ": {
+        "id": "shop_container_aizcGBCZ",
+        "type": "Container",
+        "name": "About Container",
+        "parentId": "shop_section_c_tgKtu0",
+        "children": [
+          "shop_heading_5aOjhpdm",
+          "shop_text_-5K9vhRe",
+          "shop_image_jW9YZZ38"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_hLnAuKxQ"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_5aOjhpdm": {
+        "id": "shop_heading_5aOjhpdm",
+        "type": "Heading",
+        "name": "About Title",
+        "parentId": "shop_container_aizcGBCZ",
+        "children": [],
+        "props": {
+          "text": "Built to Outlast Trends",
+          "level": 1
+        },
+        "styleIds": [
+          "shop_st_3ypQQUBK"
+        ],
+        "origin": "template"
+      },
+      "shop_text_-5K9vhRe": {
+        "id": "shop_text_-5K9vhRe",
+        "type": "Text",
+        "name": "About Story",
+        "parentId": "shop_container_aizcGBCZ",
+        "children": [],
+        "props": {
+          "text": "Founded in 2021, Lumina was born from frustration with disposable design. We partner with legacy manufacturers who take pride in their trade, using non-toxic glazes, vegetable-tanned leathers, and recycled solid brass that develops rich character over decades of use."
+        },
+        "styleIds": [
+          "shop_st_o1SPeZgr"
+        ],
+        "origin": "template"
+      },
+      "shop_image_jW9YZZ38": {
+        "id": "shop_image_jW9YZZ38",
+        "type": "Image",
+        "name": "Atelier Image",
+        "parentId": "shop_container_aizcGBCZ",
+        "children": [],
+        "props": {
+          "src": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1000&q=80",
+          "alt": "Artisan wood and leather workshop crafting goods by hand"
+        },
+        "styleIds": [
+          "shop_st_dCL-WsNt"
+        ],
+        "origin": "template"
+      },
+      "shop_section_5_BJQW3o": {
+        "id": "shop_section_5_BJQW3o",
+        "type": "Section",
+        "name": "Footer Section",
+        "parentId": "shop_body_4TPjmbBX",
+        "children": [
+          "shop_container_Qm-iSGqe"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_JnxuTSsA"
+        ],
+        "origin": "template"
+      },
+      "shop_container_Qm-iSGqe": {
+        "id": "shop_container_Qm-iSGqe",
+        "type": "Container",
+        "name": "Footer Container",
+        "parentId": "shop_section_5_BJQW3o",
+        "children": [
+          "shop_box_adhscZSt",
+          "shop_box_XodrqM-s"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_UuJjs270"
+        ],
+        "origin": "template"
+      },
+      "shop_box_adhscZSt": {
+        "id": "shop_box_adhscZSt",
+        "type": "Box",
+        "name": "Footer Brand Info",
+        "parentId": "shop_container_Qm-iSGqe",
+        "children": [
+          "shop_heading_HpCfQmyw",
+          "shop_text_QwRvh122",
+          "shop_text_Ew6QX5hF"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_5rF4vCPy"
+        ],
+        "origin": "template"
+      },
+      "shop_heading_HpCfQmyw": {
+        "id": "shop_heading_HpCfQmyw",
+        "type": "Heading",
+        "name": "Footer Brand",
+        "parentId": "shop_box_adhscZSt",
+        "children": [],
+        "props": {
+          "text": "Lumina Goods",
+          "level": 4
+        },
+        "styleIds": [
+          "shop_st_4b17D2y9"
+        ],
+        "origin": "template"
+      },
+      "shop_text_QwRvh122": {
+        "id": "shop_text_QwRvh122",
+        "type": "Text",
+        "name": "Footer Tagline",
+        "parentId": "shop_box_adhscZSt",
+        "children": [],
+        "props": {
+          "text": "Everyday objects crafted for enduring life."
+        },
+        "styleIds": [
+          "shop_st_juHZAjX6"
+        ],
+        "origin": "template"
+      },
+      "shop_text_Ew6QX5hF": {
+        "id": "shop_text_Ew6QX5hF",
+        "type": "Text",
+        "name": "Footer Copyright",
+        "parentId": "shop_box_adhscZSt",
+        "children": [],
+        "props": {
+          "text": "© 2026 Lumina Goods. All rights reserved."
+        },
+        "styleIds": [
+          "shop_st_FgGaJs7Y"
+        ],
+        "origin": "template"
+      },
+      "shop_box_XodrqM-s": {
+        "id": "shop_box_XodrqM-s",
+        "type": "Box",
+        "name": "Footer Links",
+        "parentId": "shop_container_Qm-iSGqe",
+        "children": [
+          "shop_link_Qe71H58v",
+          "shop_link_f9oayHOj",
+          "shop_link_zwQgSy5b"
+        ],
+        "props": {},
+        "styleIds": [
+          "shop_st_AJv37E7D"
+        ],
+        "origin": "template"
+      },
+      "shop_link_Qe71H58v": {
+        "id": "shop_link_Qe71H58v",
+        "type": "Link",
+        "name": "Home",
+        "parentId": "shop_box_XodrqM-s",
+        "children": [],
+        "props": {
+          "text": "Home",
+          "href": "/"
+        },
+        "styleIds": [
+          "shop_st_Bfw0xOiu"
+        ],
+        "origin": "template"
+      },
+      "shop_link_f9oayHOj": {
+        "id": "shop_link_f9oayHOj",
+        "type": "Link",
+        "name": "Shop",
+        "parentId": "shop_box_XodrqM-s",
+        "children": [],
+        "props": {
+          "text": "Shop",
+          "href": "/shop"
+        },
+        "styleIds": [
+          "shop_st_PPYgapss"
+        ],
+        "origin": "template"
+      },
+      "shop_link_zwQgSy5b": {
+        "id": "shop_link_zwQgSy5b",
+        "type": "Link",
+        "name": "About",
+        "parentId": "shop_box_XodrqM-s",
+        "children": [],
+        "props": {
+          "text": "About",
+          "href": "/about"
+        },
+        "styleIds": [
+          "shop_st_LYMAsFOK"
+        ],
+        "origin": "template"
+      }
+    },
+    "styles": {
+      "shop_st_1ymLklQz": {
+        "id": "shop_st_1ymLklQz",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_bo9E-sws": {
+        "id": "shop_st_bo9E-sws",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_rYJYeh7g": {
+        "id": "shop_st_rYJYeh7g",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "shop_st_r5NxPXfB": {
+        "id": "shop_st_r5NxPXfB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_2A35Zsqt": {
+        "id": "shop_st_2A35Zsqt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_qr5Kclm8": {
+        "id": "shop_st_qr5Kclm8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_kUrGHdRk": {
+        "id": "shop_st_kUrGHdRk",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ULbXhEPM": {
+        "id": "shop_st_ULbXhEPM",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ytjylaBN": {
+        "id": "shop_st_ytjylaBN",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_xW3a6ZTx": {
+        "id": "shop_st_xW3a6ZTx",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "1.2fr 1fr"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_8jMwD8dJ": {
+        "id": "shop_st_8jMwD8dJ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 20
+              }
+            }
+          }
+        }
+      },
+      "shop_st_0aIdQjIx": {
+        "id": "shop_st_0aIdQjIx",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "letterSpacing": {
+                "unit": "px",
+                "value": 2
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_w-PQn3YO": {
+        "id": "shop_st_w-PQn3YO",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 52
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "lineHeight": {
+                "keyword": "tight"
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 36
+              }
+            }
+          }
+        }
+      },
+      "shop_st_hEBGqgdb": {
+        "id": "shop_st_hEBGqgdb",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_rzuJbppc": {
+        "id": "shop_st_rzuJbppc",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 16
+              },
+              "marginTop": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "shop_st_iJ9qQk4d": {
+        "id": "shop_st_iJ9qQk4d",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 12
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_zl2d4So0": {
+        "id": "shop_st_zl2d4So0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 460
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_gWUHrxK9": {
+        "id": "shop_st_gWUHrxK9",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_NrwrX0lv": {
+        "id": "shop_st_NrwrX0lv",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_GAcpng2G": {
+        "id": "shop_st_GAcpng2G",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 32
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 40
+              }
+            }
+          }
+        }
+      },
+      "shop_st_0s0LA8Qq": {
+        "id": "shop_st_0s0LA8Qq",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(3, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_364Yn39q": {
+        "id": "shop_st_364Yn39q",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_IiywpY2C": {
+        "id": "shop_st_IiywpY2C",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_akqDBi8x": {
+        "id": "shop_st_akqDBi8x",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Ycf4ZMj_": {
+        "id": "shop_st_Ycf4ZMj_",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_PWkBeV3D": {
+        "id": "shop_st_PWkBeV3D",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_oyuxHER3": {
+        "id": "shop_st_oyuxHER3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st__uf_LFSw": {
+        "id": "shop_st__uf_LFSw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_rDnSCxDf": {
+        "id": "shop_st_rDnSCxDf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_S4zjQJjF": {
+        "id": "shop_st_S4zjQJjF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_QZl3F9Ka": {
+        "id": "shop_st_QZl3F9Ka",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ZuVHKviA": {
+        "id": "shop_st_ZuVHKviA",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_4fVUyUCL": {
+        "id": "shop_st_4fVUyUCL",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_TaWfX9CY": {
+        "id": "shop_st_TaWfX9CY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_S4-BTXJi": {
+        "id": "shop_st_S4-BTXJi",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_E_HmEYx5": {
+        "id": "shop_st_E_HmEYx5",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.secondary"
+              },
+              "color": {
+                "token": "color.secondaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_t_3OWFNP": {
+        "id": "shop_st_t_3OWFNP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_6Vo8-rPi": {
+        "id": "shop_st_6Vo8-rPi",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 600
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "textAlign": {
+                "keyword": "center"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_q9EWZlEB": {
+        "id": "shop_st_q9EWZlEB",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 26
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "shop_st_-_5qtGi3": {
+        "id": "shop_st_-_5qtGi3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 15
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_8nabX8yE": {
+        "id": "shop_st_8nabX8yE",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "justifyContent": {
+                "keyword": "center"
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_60jwl-M9": {
+        "id": "shop_st_60jwl-M9",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 12
+              },
+              "width": {
+                "unit": "px",
+                "value": 300
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "borderColor": {
+                "token": "color.border"
+              },
+              "borderWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderStyle": {
+                "keyword": "solid"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_cgC0AKTF": {
+        "id": "shop_st_cgC0AKTF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "padding": {
+                "unit": "px",
+                "value": 12
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 20
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 20
+              },
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ntlCPe7t": {
+        "id": "shop_st_ntlCPe7t",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_eRPg_M3a": {
+        "id": "shop_st_eRPg_M3a",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_tx3wdkmX": {
+        "id": "shop_st_tx3wdkmX",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "shop_st_tQKBIPjr": {
+        "id": "shop_st_tQKBIPjr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ZwpJ_yor": {
+        "id": "shop_st_ZwpJ_yor",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_tDFPh6zK": {
+        "id": "shop_st_tDFPh6zK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_AZZ-GbVJ": {
+        "id": "shop_st_AZZ-GbVJ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_i-Yi9ZvI": {
+        "id": "shop_st_i-Yi9ZvI",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Dtj8COen": {
+        "id": "shop_st_Dtj8COen",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_vnWrnSsR": {
+        "id": "shop_st_vnWrnSsR",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_h09ovJt6": {
+        "id": "shop_st_h09ovJt6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_p_z0HmsY": {
+        "id": "shop_st_p_z0HmsY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_8LJif_BL": {
+        "id": "shop_st_8LJif_BL",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "shop_st_q0FILR0S": {
+        "id": "shop_st_q0FILR0S",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Uu6JagCF": {
+        "id": "shop_st_Uu6JagCF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_pdWbXC75": {
+        "id": "shop_st_pdWbXC75",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_YIK53ksC": {
+        "id": "shop_st_YIK53ksC",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ri80KR-Y": {
+        "id": "shop_st_ri80KR-Y",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_gd5uKLxD": {
+        "id": "shop_st_gd5uKLxD",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st__qfkR9kg": {
+        "id": "shop_st__qfkR9kg",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_KHQYPF_X": {
+        "id": "shop_st_KHQYPF_X",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 44
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 16
+              }
+            }
+          }
+        }
+      },
+      "shop_st_zzFtiCOW": {
+        "id": "shop_st_zzFtiCOW",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "marginBottom": {
+                "unit": "px",
+                "value": 48
+              }
+            }
+          }
+        }
+      },
+      "shop_st_FA0aIBsH": {
+        "id": "shop_st_FA0aIBsH",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "grid"
+              },
+              "gridTemplateColumns": {
+                "keyword": "repeat(3, 1fr)"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 32
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "gridTemplateColumns": {
+                "keyword": "1fr"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ZG9yio4E": {
+        "id": "shop_st_ZG9yio4E",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_UrMbGo87": {
+        "id": "shop_st_UrMbGo87",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_88506bGF": {
+        "id": "shop_st_88506bGF",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_5G2uDOv3": {
+        "id": "shop_st_5G2uDOv3",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_6NyG1fOP": {
+        "id": "shop_st_6NyG1fOP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_dpf_v3qQ": {
+        "id": "shop_st_dpf_v3qQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_xB6qg_9M": {
+        "id": "shop_st_xB6qg_9M",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ro3GYV-w": {
+        "id": "shop_st_ro3GYV-w",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ENmewfQm": {
+        "id": "shop_st_ENmewfQm",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_0lQCNknR": {
+        "id": "shop_st_0lQCNknR",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_qdDurxrf": {
+        "id": "shop_st_qdDurxrf",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 16
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_uvbw4VE8": {
+        "id": "shop_st_uvbw4VE8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 280
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_uduzlF2f": {
+        "id": "shop_st_uduzlF2f",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Y6Fh_R9F": {
+        "id": "shop_st_Y6Fh_R9F",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 16
+              },
+              "color": {
+                "token": "color.primary"
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_-2A_wgOm": {
+        "id": "shop_st_-2A_wgOm",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "padding": {
+                "unit": "px",
+                "value": 10
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "textAlign": {
+                "keyword": "center"
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ECC8wLFS": {
+        "id": "shop_st_ECC8wLFS",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_6Kymos8v": {
+        "id": "shop_st_6Kymos8v",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_sUVyY93U": {
+        "id": "shop_st_sUVyY93U",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "shop_st_12O7tju8": {
+        "id": "shop_st_12O7tju8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Rr81a7x0": {
+        "id": "shop_st_Rr81a7x0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_O9BZeBgQ": {
+        "id": "shop_st_O9BZeBgQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_9pMeFVmi": {
+        "id": "shop_st_9pMeFVmi",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_br4ZSvIw": {
+        "id": "shop_st_br4ZSvIw",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_za9c_8IG": {
+        "id": "shop_st_za9c_8IG",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_kb1Qmuoa": {
+        "id": "shop_st_kb1Qmuoa",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_RSRHCB-F": {
+        "id": "shop_st_RSRHCB-F",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "minHeight": {
+                "unit": "vh",
+                "value": 100
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              },
+              "color": {
+                "token": "color.text"
+              },
+              "fontFamily": {
+                "token": "fonts.body"
+              },
+              "margin": {
+                "unit": "px",
+                "value": 0
+              },
+              "padding": {
+                "unit": "px",
+                "value": 0
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_VerWQvBT": {
+        "id": "shop_st_VerWQvBT",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 16
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderBottomWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderBottomStyle": {
+                "keyword": "solid"
+              },
+              "borderBottomColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.background"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_h9hv_Td0": {
+        "id": "shop_st_h9hv_Td0",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 12
+              }
+            }
+          }
+        }
+      },
+      "shop_st_hjQ_J6Cs": {
+        "id": "shop_st_hjQ_J6Cs",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 20
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_9T2h117n": {
+        "id": "shop_st_9T2h117n",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          },
+          "mobile": {
+            "default": {
+              "display": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_0KHqruO8": {
+        "id": "shop_st_0KHqruO8",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_ckbgaXWP": {
+        "id": "shop_st_ckbgaXWP",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              },
+              "textDecoration": {
+                "keyword": "none"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_mk-oeiom": {
+        "id": "shop_st_mk-oeiom",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "backgroundColor": {
+                "token": "color.primary"
+              },
+              "color": {
+                "token": "color.primaryForeground"
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 18
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 8
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 8
+              },
+              "borderRadius": {
+                "token": "radius.md"
+              },
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "fontWeight": {
+                "keyword": "medium"
+              }
+            }
+          }
+        }
+      },
+      "shop_st__QXBTFYY": {
+        "id": "shop_st__QXBTFYY",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "paddingTop": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 80
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 24
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_hLnAuKxQ": {
+        "id": "shop_st_hLnAuKxQ",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 800
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_3ypQQUBK": {
+        "id": "shop_st_3ypQQUBK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 48
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_o1SPeZgr": {
+        "id": "shop_st_o1SPeZgr",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "lineHeight": {
+                "keyword": "relaxed"
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_dCL-WsNt": {
+        "id": "shop_st_dCL-WsNt",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "width": {
+                "unit": "%",
+                "value": 100
+              },
+              "height": {
+                "unit": "px",
+                "value": 400
+              },
+              "objectFit": {
+                "keyword": "cover"
+              },
+              "borderRadius": {
+                "token": "radius.lg"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_JnxuTSsA": {
+        "id": "shop_st_JnxuTSsA",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "marginTop": {
+                "keyword": "auto"
+              },
+              "paddingTop": {
+                "unit": "px",
+                "value": 64
+              },
+              "paddingBottom": {
+                "unit": "px",
+                "value": 48
+              },
+              "paddingLeft": {
+                "unit": "px",
+                "value": 32
+              },
+              "paddingRight": {
+                "unit": "px",
+                "value": 32
+              },
+              "borderTopWidth": {
+                "unit": "px",
+                "value": 1
+              },
+              "borderTopStyle": {
+                "keyword": "solid"
+              },
+              "borderTopColor": {
+                "token": "color.border"
+              },
+              "backgroundColor": {
+                "token": "color.surface"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_UuJjs270": {
+        "id": "shop_st_UuJjs270",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "maxWidth": {
+                "unit": "px",
+                "value": 1200
+              },
+              "marginLeft": {
+                "keyword": "auto"
+              },
+              "marginRight": {
+                "keyword": "auto"
+              },
+              "display": {
+                "keyword": "flex"
+              },
+              "justifyContent": {
+                "keyword": "space-between"
+              },
+              "alignItems": {
+                "keyword": "center"
+              },
+              "flexWrap": {
+                "keyword": "wrap"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_5rF4vCPy": {
+        "id": "shop_st_5rF4vCPy",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "flexDirection": {
+                "keyword": "column"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 8
+              }
+            }
+          }
+        }
+      },
+      "shop_st_4b17D2y9": {
+        "id": "shop_st_4b17D2y9",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 18
+              },
+              "fontWeight": {
+                "keyword": "bold"
+              },
+              "color": {
+                "token": "color.primary"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_juHZAjX6": {
+        "id": "shop_st_juHZAjX6",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_FgGaJs7Y": {
+        "id": "shop_st_FgGaJs7Y",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 12
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_AJv37E7D": {
+        "id": "shop_st_AJv37E7D",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "display": {
+                "keyword": "flex"
+              },
+              "gap": {
+                "unit": "px",
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      "shop_st_Bfw0xOiu": {
+        "id": "shop_st_Bfw0xOiu",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_PPYgapss": {
+        "id": "shop_st_PPYgapss",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      },
+      "shop_st_LYMAsFOK": {
+        "id": "shop_st_LYMAsFOK",
+        "kind": "local",
+        "values": {
+          "desktop": {
+            "default": {
+              "fontSize": {
+                "unit": "px",
+                "value": 14
+              },
+              "color": {
+                "token": "color.textMuted"
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {},
+    "assets": {}
+  }
+}
