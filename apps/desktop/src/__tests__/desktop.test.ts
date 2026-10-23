@@ -182,13 +182,11 @@ describe("Desktop App URL Resolution & Fallback", () => {
 
   it("loads APP_URL from root .env in development when env is not set", async () => {
     const { resolveAppUrl } = await import("../url-resolver");
-    // Pass empty env and startDir in this repo
     const result = resolveAppUrl({
       env: {},
-      startDir: process.cwd(),
+      readEnvFile: () => 'APP_URL="http://localhost:3000"\n',
       isPackaged: false,
     });
-    // The root .env in this workspace contains APP_URL="http://localhost:3000"
     expect(result.appUrl).toBe("http://localhost:3000");
     expect(result.error).toBeUndefined();
   });
@@ -196,8 +194,9 @@ describe("Desktop App URL Resolution & Fallback", () => {
   it("returns configured error message when URL is missing completely", async () => {
     const { resolveAppUrl } = await import("../url-resolver");
     const result = resolveAppUrl({
-      env: {},
-      startDir: "C:/non-existent-dir-without-env",
+      env: { APP_URL: undefined, BUILDER_APP_URL: undefined },
+      startDir: null,
+      readEnvFile: () => null,
       isPackaged: false,
     });
     expect(result.appUrl).toBeNull();

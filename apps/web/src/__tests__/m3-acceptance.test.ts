@@ -25,9 +25,15 @@ if (!process.env["DATABASE_URL_TEST"] && fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+import { isConfiguredDatabaseUrl } from "./test-helpers.js";
 
-describe.skipIf(!testDbUrl)("Milestone M3 Acceptance Test: Auth, Workspaces, Sites & Isolation", () => {
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping M3 acceptance tests.");
+}
+
+describe.skipIf(!isDbConfigured)("Milestone M3 Acceptance Test: Auth, Workspaces, Sites & Isolation", () => {
   let dbClient: ReturnType<typeof getDb>;
   let testAuth: ReturnType<typeof createAuth>;
 

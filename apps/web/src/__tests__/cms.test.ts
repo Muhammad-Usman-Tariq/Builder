@@ -25,9 +25,15 @@ if (!process.env["DATABASE_URL_TEST"] && fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+import { isConfiguredDatabaseUrl } from "./test-helpers.js";
 
-describe.skipIf(!testDbUrl)("Batch E2: Small CMS Router Integration Tests", () => {
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping CMS router integration tests.");
+}
+
+describe.skipIf(!isDbConfigured)("Batch E2: Small CMS Router Integration Tests", () => {
   let dbClient: ReturnType<typeof getDb>;
   let testAuth: ReturnType<typeof createAuth>;
   let testUser: any;

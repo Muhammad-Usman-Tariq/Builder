@@ -34,10 +34,16 @@ if (fs.existsSync(envFile)) {
   }
 }
 
+import { isConfiguredDatabaseUrl, isConfiguredRedisUrl } from "./test-helpers.js";
+
 const testDbUrl = process.env["DATABASE_URL_TEST"];
 const redisUrl = process.env["REDIS_URL"];
+const isConfigured = isConfiguredDatabaseUrl(testDbUrl) && isConfiguredRedisUrl(redisUrl);
+if (!isConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST or REDIS_URL is not configured or is a placeholder. Skipping ai-worker tests.");
+}
 
-describe.skipIf(!testDbUrl || !redisUrl)(
+describe.skipIf(!isConfigured)(
   "Integration: AI Generation Worker Runtime with Simulated Problem AI Output (Batch A)",
   () => {
     let dbClient: ReturnType<typeof getDb>;
@@ -47,7 +53,15 @@ describe.skipIf(!testDbUrl || !redisUrl)(
     let testWsId: string;
     let testUserId: string;
 
+    const origChain = process.env["AI_MODEL_CHAIN"];
+    const origType = process.env["AI_PROVIDER_TESTSIM_TYPE"];
+    const origBase = process.env["AI_PROVIDER_TESTSIM_BASE_URL"];
+
     beforeAll(async () => {
+      process.env["AI_MODEL_CHAIN"] = "testsim:test-model";
+      process.env["AI_PROVIDER_TESTSIM_TYPE"] = "openai-compatible";
+      process.env["AI_PROVIDER_TESTSIM_BASE_URL"] = "http://localhost:11434/v1";
+
       dbClient = getDb({ connectionUrl: testDbUrl });
       await runMigrations(dbClient.sql);
 
@@ -73,6 +87,13 @@ describe.skipIf(!testDbUrl || !redisUrl)(
     });
 
     afterAll(async () => {
+      if (origChain !== undefined) process.env["AI_MODEL_CHAIN"] = origChain;
+      else delete process.env["AI_MODEL_CHAIN"];
+      if (origType !== undefined) process.env["AI_PROVIDER_TESTSIM_TYPE"] = origType;
+      else delete process.env["AI_PROVIDER_TESTSIM_TYPE"];
+      if (origBase !== undefined) process.env["AI_PROVIDER_TESTSIM_BASE_URL"] = origBase;
+      else delete process.env["AI_PROVIDER_TESTSIM_BASE_URL"];
+
       await worker?.close();
       await subscriber?.quit();
       await redisCmd?.quit();

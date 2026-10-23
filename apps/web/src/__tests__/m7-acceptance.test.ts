@@ -25,9 +25,15 @@ if (fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+import { isConfiguredDatabaseUrl } from "./test-helpers.js";
 
-describe.skipIf(!testDbUrl)(
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping M7 acceptance tests.");
+}
+
+describe.skipIf(!isDbConfigured)(
   "Milestone M7 Acceptance Test: AI Site Generation Pipeline, Quota, and Text Rewrite",
   () => {
     let dbClient: ReturnType<typeof getDb>;

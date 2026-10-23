@@ -32,10 +32,16 @@ if (fs.existsSync(envFile)) {
   }
 }
 
+import { isConfiguredDatabaseUrl, isConfiguredRedisUrl } from "./test-helpers.js";
+
 const testDbUrl = process.env["DATABASE_URL_TEST"];
 const redisUrl = process.env["REDIS_URL"];
+const isConfigured = isConfiguredDatabaseUrl(testDbUrl) && isConfiguredRedisUrl(redisUrl);
+if (!isConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST or REDIS_URL is not configured or is a placeholder. Skipping jobs tests.");
+}
 
-describe.skipIf(!testDbUrl || !redisUrl)(
+describe.skipIf(!isConfigured)(
   "Milestone M4: BullMQ Worker, Jobs, Redis Pub/Sub Progress",
   () => {
     let dbClient: ReturnType<typeof getDb>;

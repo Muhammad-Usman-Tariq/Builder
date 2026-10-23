@@ -28,9 +28,15 @@ if (fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+import { isConfiguredDatabaseUrl } from "./test-helpers.js";
 
-describe.skipIf(!testDbUrl)(
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping M9 acceptance tests.");
+}
+
+describe.skipIf(!isDbConfigured)(
   "Milestone M9 Acceptance Test: Publishing, Vercel Deployments, Rollback, and Form Submissions",
   () => {
     let dbClient: ReturnType<typeof getDb>;

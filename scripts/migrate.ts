@@ -1,7 +1,12 @@
+if (process.argv.includes("--test")) {
+  process.env["NODE_ENV"] = "test";
+}
+
 import { getDb, runMigrations, closeAllDbConnections } from "@builder/db";
 
 async function main() {
-  console.log("Applying database migrations...");
+  const isTest = process.env["NODE_ENV"] === "test";
+  console.log(`Applying database migrations${isTest ? " (TEST database)" : ""}...`);
   const { sql } = getDb();
   await runMigrations(sql);
   await closeAllDbConnections();

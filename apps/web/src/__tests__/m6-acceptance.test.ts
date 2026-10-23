@@ -24,9 +24,15 @@ if (fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+import { isConfiguredDatabaseUrl } from "./test-helpers.js";
 
-describe.skipIf(!testDbUrl)(
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping M6 acceptance tests.");
+}
+
+describe.skipIf(!isDbConfigured)(
   "Milestone M6 Acceptance Test: Media Library, Presigned S3 Upload, Confirmation, and Unsplash",
   () => {
     let dbClient: ReturnType<typeof getDb>;

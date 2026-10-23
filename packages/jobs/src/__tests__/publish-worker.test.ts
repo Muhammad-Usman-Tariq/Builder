@@ -33,10 +33,16 @@ if (fs.existsSync(envFile)) {
   }
 }
 
+import { isConfiguredDatabaseUrl, isConfiguredRedisUrl } from "./test-helpers.js";
+
 const testDbUrl = process.env["DATABASE_URL_TEST"];
 const redisUrl = process.env["REDIS_URL"];
+const isConfigured = isConfiguredDatabaseUrl(testDbUrl) && isConfiguredRedisUrl(redisUrl);
+if (!isConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST or REDIS_URL is not configured or is a placeholder. Skipping publish-worker tests.");
+}
 
-describe.skipIf(!testDbUrl || !redisUrl)(
+describe.skipIf(!isConfigured)(
   "Integration: Full Publish Job via Worker Handler (Section A.4)",
   () => {
     let dbClient: ReturnType<typeof getDb>;

@@ -4,9 +4,10 @@ import { EMBEDDED_APP_URL } from "./embedded-config";
 
 export interface ResolveAppUrlOptions {
   env?: Record<string, string | undefined>;
-  startDir?: string;
+  startDir?: string | null;
   isPackaged?: boolean;
   embeddedUrl?: string;
+  readEnvFile?: ((filePath: string) => string | null) | null;
 }
 
 export interface ResolveAppUrlResult {
@@ -32,7 +33,13 @@ export function parseEnvFileContent(content: string): Record<string, string> {
   return result;
 }
 
-export function findRootEnvPath(startDir: string): string | null {
+export function findRootEnvPath(startDir?: string | null): string | null {
+  if (!startDir) return null;
+  try {
+    if (!fs.existsSync(startDir)) return null;
+  } catch {
+    return null;
+  }
   let current = path.resolve(startDir);
   for (let i = 0; i < 6; i++) {
     const candidate = path.join(current, ".env");
@@ -76,17 +83,24 @@ export function resolveAppUrl(options?: ResolveAppUrlOptions): ResolveAppUrlResu
   }
 
   // 3. In development / unpackaged, look for root .env
-  if (!candidate && !isPackaged) {
+  if (!candidate && !isPackaged && options?.startDir !== null) {
     try {
       const startDir = options?.startDir ?? process.cwd();
       const envPath = findRootEnvPath(startDir);
       if (envPath) {
-        const raw = fs.readFileSync(envPath, "utf-8");
-        const parsed = parseEnvFileContent(raw);
-        candidate = parsed.BUILDER_APP_URL || parsed.APP_URL;
-        if (candidate && !env.APP_URL) {
-          // Expose to env so subsequent consumers find APP_URL
-          env.APP_URL = candidate;
+        const raw =
+          typeof options?.readEnvFile === "function"
+            ? options.readEnvFile(envPath)
+            : options?.readEnvFile === null
+            ? null
+            : fs.readFileSync(envPath, "utf-8");
+        if (raw) {
+          const parsed = parseEnvFileContent(raw);
+          candidate = parsed.BUILDER_APP_URL || parsed.APP_URL;
+          if (candidate && !env.APP_URL) {
+            // Expose to env so subsequent consumers find APP_URL
+            env.APP_URL = candidate;
+          }
         }
       }
     } catch {

@@ -23,9 +23,38 @@ if (!process.env["DATABASE_URL_TEST"] && fs.existsSync(envFile)) {
   }
 }
 
-const testDbUrl = process.env["DATABASE_URL_TEST"];
+function isConfiguredDatabaseUrl(url?: string): boolean {
+  if (!url || typeof url !== "string") return false;
+  const trimmed = url.trim();
+  if (
+    !trimmed ||
+    trimmed.includes("USER:PASSWORD") ||
+    trimmed.includes("HOST:PORT") ||
+    trimmed.includes("DBNAME") ||
+    trimmed.includes("strong_password_here") ||
+    trimmed.includes("your-") ||
+    trimmed.includes("<")
+  ) {
+    return false;
+  }
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol !== "postgres:" && parsed.protocol !== "postgresql:") return false;
+    if (!parsed.hostname || parsed.hostname === "HOST") return false;
+    if (parsed.username === "USER") return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
 
-describe.skipIf(!testDbUrl)("Better Auth Real Integration Tests (builder_test)", () => {
+const testDbUrl = process.env["DATABASE_URL_TEST"];
+const isDbConfigured = isConfiguredDatabaseUrl(testDbUrl);
+if (!isDbConfigured) {
+  console.info("SKIP: DATABASE_URL_TEST is not configured or is a placeholder. Skipping Auth integration tests.");
+}
+
+describe.skipIf(!isDbConfigured)("Better Auth Real Integration Tests (builder_test)", () => {
   let dbClient: ReturnType<typeof getDb>;
   let testAuth: ReturnType<typeof createAuth>;
 

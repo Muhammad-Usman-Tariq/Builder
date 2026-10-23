@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@builder/db':
+        specifier: workspace:*
+        version: link:packages/db
+      tsx:
+        specifier: ^4.19.3
+        version: 4.23.15
       turbo:
         specifier: ^2.4.4
         version: 2.11.7
